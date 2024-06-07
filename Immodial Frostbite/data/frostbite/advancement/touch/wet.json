@@ -1,0 +1,38 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "step_water": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "#frostbite:water"
+            }
+          }
+        }
+      }
+    },
+    "in_water": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "blocks": "#frostbite:water"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "step_water",
+      "in_water"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:touch/water"
+  }
+}

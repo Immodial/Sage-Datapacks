@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        {"item": "minecraft:copper_ingot"},
+        {"item": "minecraft:gunpowder"},
+        {"item": "minecraft:iron_ingot"}
+    ],
+    "result": {
+        "id": "minecraft:iron_nugget",
+        "count": 5,
+        "components": {
+            "item_name": "[{translate:'item.iguns.buckshot_shell'}]",
+            "custom_model_data": 201,
+            "custom_data": {
+                "IGGunAmmo":"shell",
+                "IGAmmoBonus":"buckshot"
+            }
+
+        }
+    }
+}

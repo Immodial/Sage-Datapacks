@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "nBI",
+        "  #"
+    ],
+    "key": {
+        "n": {
+            "item": "minecraft:iron_ingot"
+        },
+        "B": {
+            "item": "minecraft:iron_block"
+        },
+        "I": {
+            "item": "minecraft:stick"
+        },
+        "#": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "id": "minecraft:rotten_flesh",
+        "count": 1,
+        "components": {
+            "item_name": "[{translate:'item.iguns.revolver'}]",
+            "custom_model_data": 10000,
+            "max_damage":100,
+            "!max_stack_size":{},
+            "food": {
+                "saturation":0, "nutrition":0,
+                "can_always_eat": true,
+                "eat_seconds": 100000
+            },
+            "custom_data": {
+                "IGWeapon":true,
+                "IGGunID":1,
+                "IGMaxAmmo":3,
+                "IGLoaded":false,
+                "IGAmmoType":"bullet",
+                "IGAmmo":[],
+                "IGLoadTime":20
+            },
+            "lore": [
+                "{text:'0/4',color:'dark_green',italic:false}",
+                "{translate:'description.iguns.use_bullets',color:'dark_green',italic:false}"
+            ]
+
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "values": [
+      "#minecraft:fire",
+      "#minecraft:campfires",
+      "minecraft:furnace",
+      "minecraft:smoker",
+      "minecraft:blast_furnace"
+  ]
+}

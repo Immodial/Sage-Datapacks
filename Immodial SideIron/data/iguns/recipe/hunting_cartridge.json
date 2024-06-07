@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        {"item": "minecraft:diamond"},
+        {"item": "minecraft:gunpowder"},
+        {"item": "minecraft:iron_ingot"}
+    ],
+    "result": {
+        "id": "minecraft:iron_nugget",
+        "count": 4,
+        "components": {
+            "item_name": "[{translate:'item.iguns.hunting_cartridge'}]",
+            "custom_model_data": 303,
+            "custom_data": {
+                "IGGunAmmo":"cartridge",
+                "IGAmmoBonus":"hunting"
+            }
+
+        }
+    }
+}

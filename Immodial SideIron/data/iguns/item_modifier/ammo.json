@@ -1,0 +1,28 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        [
+          {
+            "score": {
+              "name": "AmmoCount",
+              "objective": "IGGlobals"
+            },
+            "color": "dark_green",
+            "italic": false
+          },
+          {
+            "text": "/"
+          },
+          {
+            "score": {
+              "name": "AmmoMax",
+              "objective": "IGGlobals"
+            }
+          }
+        ]
+      ],
+      "mode": "insert",
+      "entity": "this"
+    }
+]

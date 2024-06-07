@@ -1,0 +1,21 @@
+{
+    "item.minecraft.bow": "Marksman's tool",
+    "item.iguns.revolver": "Flintlock",
+    "item.iguns.shotgun": "Blunderbuss",
+    "item.iguns.bolt_rifle": "Musket o' Bolts",
+    "item.iguns.lever_rifle": "Musket o' Clicking",
+    "item.iguns.thompson": "Flintlock o' the Mob",
+    "item.iguns.bullet": "Roundball",
+    "item.iguns.magnum_bullet": "Roundball o' Heft",
+    "item.iguns.buckshot_shell": "Scattershot o' Deer",
+    "item.iguns.slug_shell": "Scattershot o' Blasting",
+    "item.iguns.breach_shell": "Scattershot o' Cracking",
+    "item.iguns.piercing_cartridge": "Musket Ball o' Piercing",
+    "item.iguns.magnum_cartridge": "Musket Ball o' Heft",
+    "item.iguns.hunting_cartridge": "Musket Ball o' Hunting",
+    "description.iguns.use_bullets": "Shoot yer Roundballs!",
+    "description.iguns.use_shells": "Shoot yer Scattershot!",
+    "description.iguns.use_cartridges": "Shoot yer Musket Balls!",
+    "death.attack.bullet": "%1$s lost 'er duel o' piracy",
+    "death.attack.bullet.player": "%1$s lost 'er duel o' piracy while tryin' t' flee from %2$s"
+}

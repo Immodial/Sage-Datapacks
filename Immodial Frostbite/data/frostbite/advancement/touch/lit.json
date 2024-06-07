@@ -1,0 +1,28 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "in_light": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "light": {
+              "light": {
+                "min": 10,
+                "max": 15
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_light"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:touch/light"
+  }
+}

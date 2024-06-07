@@ -1,0 +1,23 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "tropical_biome": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "#frostbite:tropical"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tropical_biome"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:biome/tropical"
+  }
+}

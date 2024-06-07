@@ -1,0 +1,38 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "step_warm": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "#frostbite:warm"
+            }
+          }
+        }
+      }
+    },
+    "in_warm": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "blocks": "#frostbite:warm"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "step_warm",
+      "in_warm"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:touch/warm"
+  }
+}

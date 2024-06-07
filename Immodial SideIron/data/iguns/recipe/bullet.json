@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        {"item": "minecraft:gold_nugget"},
+        {"item": "minecraft:gunpowder"},
+        {"item": "minecraft:iron_nugget"}
+    ],
+    "result": {
+        "id": "minecraft:iron_nugget",
+        "count": 3,
+        "components": {
+            "item_name": "[{translate:'item.iguns.bullet'}]",
+            "custom_model_data": 101,
+            "custom_data": {
+                "IGGunAmmo":"bullet",
+                "IGAmmoBonus":"basic"
+            }
+
+        }
+    }
+}

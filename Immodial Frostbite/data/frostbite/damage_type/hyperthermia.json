@@ -1,0 +1,6 @@
+{
+  "message_id": "onFire",
+  "exhaustion": 1.5,
+  "scaling": "always",
+  "effects": "burning"
+}

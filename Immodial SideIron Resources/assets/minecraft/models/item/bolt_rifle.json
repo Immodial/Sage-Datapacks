@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/bolt_rifle",
+		"particle": "item/bolt_rifle"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-100, 0, 0],
+			"translation": [0, 4, 3.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -1.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-100, 0, 5],
+			"translation": [0, 1.5, -0.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-20, 0, -5],
+			"translation": [1.25, 3, 2.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"translation": [0, 4, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-90, 45, 90],
+			"translation": [3, -1.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [-0.5, -3.5, -2],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+}

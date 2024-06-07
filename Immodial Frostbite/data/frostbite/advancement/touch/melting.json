@@ -1,0 +1,38 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "step_molten": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "#frostbite:molten"
+            }
+          }
+        }
+      }
+    },
+    "in_molten": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "blocks": "#frostbite:molten"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "step_molten",
+      "in_molten"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:touch/molten"
+  }
+}

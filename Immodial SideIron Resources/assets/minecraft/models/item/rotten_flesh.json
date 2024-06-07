@@ -1,0 +1,25 @@
+{
+	"format": "GUN-STATE-AMMO, as in 41012 would be Gun ID 4, loaded (state 1), and have 12 ammo.",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/rotten_flesh"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":10000}, "model": "item/revolver_standby"},
+		{"predicate": {"custom_model_data":10001}, "model": "item/revolver_loading_1"},
+		{"predicate": {"custom_model_data":10002}, "model": "item/revolver_loading_2"},
+		{"predicate": {"custom_model_data":10003}, "model": "item/revolver_loading_3"},
+		{"predicate": {"custom_model_data":10004}, "model": "item/revolver_loading_4"},
+		{"predicate": {"custom_model_data":11001}, "model": "item/revolver_loaded_1"},
+		{"predicate": {"custom_model_data":11002}, "model": "item/revolver_loaded_2"},
+		{"predicate": {"custom_model_data":11003}, "model": "item/revolver_loaded_3"},
+		{"predicate": {"custom_model_data":11004}, "model": "item/revolver_loaded_4"},
+		{"predicate": {"custom_model_data":20000}, "model": "item/shotgun_standby"},
+		{"predicate": {"custom_model_data":20001}, "model": "item/shotgun_loading_1"},
+		{"predicate": {"custom_model_data":20002}, "model": "item/shotgun_loading_2"},
+		{"predicate": {"custom_model_data":21000}, "model": "item/shotgun_loaded"},
+		{"predicate": {"custom_model_data":30000}, "model": "item/bolt_rifle_standby"},
+		{"predicate": {"custom_model_data":31001}, "model": "item/bolt_rifle_loaded"}
+	]
+}

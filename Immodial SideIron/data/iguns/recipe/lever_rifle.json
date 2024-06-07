@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "Bnn",
+        "nnI"
+    ],
+    "key": {
+        "n": {
+            "item": "minecraft:iron_ingot"
+        },
+        "B": {
+            "item": "minecraft:iron_block"
+        },
+        "I": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "id": "minecraft:rotten_flesh",
+        "count": 1,
+        "components": {
+            "item_name": "[{translate:'item.iguns.lever_rifle'}]",
+            "custom_model_data": 40000,
+            "max_damage":100,
+            "!max_stack_size":{},
+            "food": {
+                "saturation":0, "nutrition":0,
+                "can_always_eat": true,
+                "eat_seconds": 100000
+            },
+            "custom_data": {
+                "IGWeapon":true,
+                "IGGunID":4,
+                "IGMaxAmmo":7,
+                "IGLoaded":false,
+                "IGAmmoType":"cartridge",
+                "IGAmmo":[],
+                "IGLoadTime":30
+            },
+            "lore": [
+                "{text:'0/8',color:'dark_green',italic:false}",
+                "{translate:'description.iguns.use_cartridges',color:'dark_green',italic:false}"
+            ]
+
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "move_item": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "move_item"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:reinsulate"
+  }
+}

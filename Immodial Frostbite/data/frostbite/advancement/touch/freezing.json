@@ -1,0 +1,38 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "step_frozen": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "#frostbite:frozen"
+            }
+          }
+        }
+      }
+    },
+    "in_frozen": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "blocks": "#frostbite:frozen"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "step_frozen",
+      "in_frozen"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:touch/frozen"
+  }
+}

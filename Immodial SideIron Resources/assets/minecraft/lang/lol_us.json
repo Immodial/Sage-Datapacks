@@ -1,0 +1,20 @@
+{
+    "item.iguns.revolver": "Pew Pew",
+    "item.iguns.shotgun": "LAWD BANG STICK",
+    "item.iguns.bolt_rifle": "Lawng bang stick with thingy",
+    "item.iguns.lever_rifle": "Lawng many bang stick",
+    "item.iguns.thompson": "lil tommy",
+    "item.iguns.bullet": "shiny pellet",
+    "item.iguns.magnum_bullet": "Maggy the pellet",
+    "item.iguns.buckshot_shell": "Deer taker outer!",
+    "item.iguns.slug_shell": "big shineee pellet",
+    "item.iguns.breach_shell": "BUST DA WALL",
+    "item.iguns.piercing_cartridge": "looong shiny pellet",
+    "item.iguns.magnum_cartridge": "Lawng Gun Popper",
+    "item.iguns.hunting_cartridge": "awesome gun popper",
+    "description.iguns.use_bullets": "GOT DA LIL ONES",
+    "description.iguns.use_shells": "GOT DOSE BIG ONES",
+    "description.iguns.use_cartridges": "GOT DOSE LOONG THINGIES",
+    "death.attack.bullet": "%1$s gat metal in their face hole",
+    "death.attack.bullet.player": "%1$s yummd some metal whil tryin 2 escaep %2$s"
+}

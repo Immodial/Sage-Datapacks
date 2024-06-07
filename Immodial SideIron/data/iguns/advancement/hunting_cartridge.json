@@ -1,0 +1,30 @@
+{
+  "parent": "worldpilot:recipe",
+  "criteria": {
+    "has_gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:gunpowder"}
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "iguns:hunting_cartridge"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gunpowder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "iguns:hunting_cartridge"
+    ]
+  }
+}

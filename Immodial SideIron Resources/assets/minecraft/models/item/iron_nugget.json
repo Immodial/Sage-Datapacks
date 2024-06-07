@@ -1,0 +1,17 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/iron_nugget"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":101}, "model": "item/bullet"},
+		{"predicate": {"custom_model_data":102}, "model": "item/magnum_bullet"},
+		{"predicate": {"custom_model_data":201}, "model": "item/buckshot_shell"},
+		{"predicate": {"custom_model_data":202}, "model": "item/slug_shell"},
+		{"predicate": {"custom_model_data":203}, "model": "item/breach_shell"},
+		{"predicate": {"custom_model_data":301}, "model": "item/piercing_cartridge"},
+		{"predicate": {"custom_model_data":302}, "model": "item/magnum_cartridge"},
+		{"predicate": {"custom_model_data":303}, "model": "item/hunting_cartridge"}
+	]
+}

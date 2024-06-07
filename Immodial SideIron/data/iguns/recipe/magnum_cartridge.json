@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        {"item": "minecraft:lightning_rod"},
+        {"item": "minecraft:gunpowder"},
+        {"item": "minecraft:iron_ingot"}
+    ],
+    "result": {
+        "id": "minecraft:iron_nugget",
+        "count": 4,
+        "components": {
+            "item_name": "[{translate:'item.iguns.magnum_cartridge'}]",
+            "custom_model_data": 302,
+            "custom_data": {
+                "IGGunAmmo":"cartridge",
+                "IGAmmoBonus":"magnum"
+            }
+
+        }
+    }
+}
