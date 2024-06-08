@@ -14,8 +14,9 @@ execute if score @s FBEatPie matches 1.. run scoreboard players add @s FBTempera
 execute if score @s FBEatPotato matches 1.. run scoreboard players add @s FBTemperature 200
 execute if score @s FBEatMushStew matches 1.. run scoreboard players add @s FBTemperature 200
 execute if score @s FBEatSusStew matches 1.. run scoreboard players add @s FBTemperature 200
-# Show wetness and add from storm
+# Show wetness and modify based on weather/nether
 execute if predicate frostbite:raining if score @s FBWetness matches ..50 run scoreboard players set @s FBWetness 50
+execute if dimension the_nether run scoreboard players set @s FBWetness 0
 execute if score @s FBWetness matches 1.. anchored eyes run particle falling_water ^ ^ ^ 0.2 0.05 0.2 0 1
 # Cause breath loop
 scoreboard players add @a FBBreath 1
