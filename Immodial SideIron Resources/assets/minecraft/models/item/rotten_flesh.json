@@ -20,6 +20,6 @@
 		{"predicate": {"custom_model_data":20002}, "model": "item/shotgun_loading_2"},
 		{"predicate": {"custom_model_data":21000}, "model": "item/shotgun_loaded"},
 		{"predicate": {"custom_model_data":30000}, "model": "item/bolt_rifle_standby"},
-		{"predicate": {"custom_model_data":31001}, "model": "item/bolt_rifle_loaded"}
+		{"predicate": {"custom_model_data":31000}, "model": "item/bolt_rifle_loaded"}
 	]
 }
