@@ -7,6 +7,5 @@ summon marker ~ ~ ~ {Tags:["APOCZombieSpawner"]}
 spreadplayers ~ ~ 0 40 false @e[tag=APOCZombieSpawner]
 execute at @e[tag=APOCZombieSpawner] as @e[type=#apoco:zombie,distance=..80] run scoreboard players add _SpawnDensity APOCGlobals 1
 execute at @e[tag=APOCZombieSpawner] unless entity @e[type=#apoco:avoided,distance=..20] unless entity @e[type=#apoco:zombie,scores={APOCZombieDensity=12..},distance=..100] unless score _SpawnDensity APOCGlobals matches 40.. run summon zombie ~ ~ ~
-execute if score _SpawnDensity APOCGlobals matches 40.. run say OVER
 kill @e[tag=APOCZombieSpawner]
 scoreboard players reset _SpawnDensity APOCGlobals
