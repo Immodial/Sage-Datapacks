@@ -1,6 +1,6 @@
-## >> From: frostbite:chilling (advancement)
-## >> At: Player standing on something slightly cold
-## >> As: Player standing on something slightly cold
+## >> From: frostbite:melting (advancement)
+## >> At: Player standing on something very hot
+## >> As: Player standing on something very hot
 ## >> Does: Update player temperature
 ## >> Input: None
 execute unless score @s FBWetness matches 1.. run scoreboard players add @s FBTemperature 3
