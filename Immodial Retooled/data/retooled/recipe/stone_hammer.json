@@ -21,8 +21,13 @@
             "minecraft:item_name": "'Stone Hammer'",
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:custom_model_data": 22,
-            "max_damage":262,
-            "!tool":{},
+            "max_damage":131,
+            "tool": {
+                "rules": [
+                    {"blocks": "#retooled:mineable/hammer", "speed": 6, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_stone_tool", "correct_for_drops": false}
+                ]
+            },
             "minecraft:lore": [
                 "{'text': ''}",
                 "{
@@ -41,7 +46,7 @@
                     'italic': false
                 }",
                 "{
-                    'text': ' Long Length',
+                    'text': ' Medium Length',
                     'color': 'dark_green',
                     'italic': false
                 }",
