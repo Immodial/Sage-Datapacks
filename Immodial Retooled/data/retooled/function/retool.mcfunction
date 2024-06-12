@@ -5,6 +5,8 @@
 ## >> Input: None
 execute if items entity @s weapon.mainhand stone_sword[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/stone_sword
 execute if items entity @s weapon.offhand stone_sword[!custom_data] run item modify entity @s weapon.offhand retooled:retool/stone_sword
+execute if items entity @s weapon.mainhand stone_axe[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/stone_axe
+execute if items entity @s weapon.offhand stone_axe[!custom_data] run item modify entity @s weapon.offhand retooled:retool/stone_axe
 execute if items entity @s weapon.mainhand stone_pickaxe[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/stone_pickaxe
 execute if items entity @s weapon.offhand stone_pickaxe[!custom_data] run item modify entity @s weapon.offhand retooled:retool/stone_pickaxe
 execute if items entity @s weapon.mainhand mace[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/mace
