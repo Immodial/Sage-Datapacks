@@ -1,0 +1,21 @@
+{
+    "values": [
+      "minecraft:cobblestone",
+      "minecraft:cobblestone_stairs",
+      "minecraft:cobblestone_slab",
+      "minecraft:cobblestone_wall",
+      "minecraft:infested_cobblestone",
+      "minecraft:mossy_cobblestone",
+      "minecraft:mossy_cobblestone_stairs",
+      "minecraft:mossy_cobblestone_slab",
+      "minecraft:mossy_cobblestone_wall",
+      "minecraft:cobbled_deepslate",
+      "minecraft:cobbled_deepslate_stairs",
+      "minecraft:cobbled_deepslate_slab",
+      "minecraft:cobbled_deepslate_wall",
+      "minecraft:prismarine",
+      "minecraft:prismarine_stairs",
+      "minecraft:prismarine_slab",
+      "minecraft:prismarine_wall"
+    ]
+}  

@@ -1,0 +1,19 @@
+{
+    "values": [
+      "#minecraft:planks",
+      "#minecraft:wooden_slabs",
+      "#minecraft:wooden_stairs",
+      "#minecraft:wooden_fences",
+      "#minecraft:fence_gates",
+      "minecraft:bamboo_mosaic",
+      "#minecraft:buttons",
+      "#minecraft:pressure_plates",
+      "#minecraft:doors",
+      "#minecraft:trapdoors",
+      "#retooled:polished_blocks",
+      "#retooled:cobbled_blocks",
+      "#retooled:bricks",
+      "#retooled:copper_blocks",
+      "#retooled:appliance"
+    ]
+}  
