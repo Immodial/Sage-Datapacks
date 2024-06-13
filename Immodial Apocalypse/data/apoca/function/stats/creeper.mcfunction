@@ -1,7 +1,7 @@
-## >> From: apoca:tick
+## >> From: apoca:loop/creeper
 ## >> At: Any creeper
 ## >> As: Any creeper
-## >> Does: Run creeper modifiers
+## >> Does: Give creeper special stats
 ## >> Input: None
 # Reduce health and increase speed
 attribute @s generic.max_health base set 8

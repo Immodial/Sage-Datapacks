@@ -1,7 +1,7 @@
-## >> From: apoca:tick
-## >> At: Any zombie
-## >> As: Any zombie
-## >> Does: Run zombie modifiers
+## >> From: apoca:loop/skeleton
+## >> At: Any skeleton
+## >> As: Any skeleton
+## >> Does: Give skeleton special stats
 ## >> Input: None
 # Give base armor, and increased follow range
 attribute @s generic.armor base set 10

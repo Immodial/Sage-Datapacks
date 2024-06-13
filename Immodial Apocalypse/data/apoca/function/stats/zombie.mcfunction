@@ -1,7 +1,7 @@
-## >> From: apoca:tick
+## >> From: apoca:loop/zombie
 ## >> At: Any zombie
 ## >> As: Any zombie
-## >> Does: Run zombie modifiers
+## >> Does: Give zombie special stats
 ## >> Input: None
 # Give immunity to fire, super spawn rates, base armor, and increased follow range
 attribute @s generic.burning_time base set 0

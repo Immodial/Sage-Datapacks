@@ -1,7 +1,7 @@
-## >> From: apoca:tick
-## >> At: Any zombie
-## >> As: Any zombie
-## >> Does: Run zombie modifiers
+## >> From: apoca:loop/spider
+## >> At: Any spider
+## >> As: Any spider
+## >> Does: Give spider special stats
 ## >> Input: None
 # Give base armor, low max health, and high speed + jump
 attribute @s generic.armor base set 4
