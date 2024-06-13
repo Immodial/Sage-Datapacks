@@ -11,3 +11,9 @@ data modify entity @s ExplosionRadius set value 2b
 data modify entity @s Fuse set value 20s
 # Mark as given stats
 tag @s add APOCModified
+# Be baby, so smaller and faster and smaller radius with even shorter fuse
+execute if function apoca:random/8 run return fail
+attribute @s generic.scale base set 0.4
+attribute @s generic.movement_speed base set 0.45
+data modify entity @s ExplosionRadius set value 1b
+data modify entity @s Fuse set value 15s
