@@ -11,7 +11,7 @@ attribute @s generic.jump_strength base set 0.65
 # Mark as given stats
 tag @s add APOCModified
 # Apply weaving or make more spiders
-execute if function apoca:random/5 run return run effect give @s weaving infinite 0
-execute if function apoca:random/5 run summon spider
-execute if function apoca:random/5 run summon spider
-execute if function apoca:random/5 run summon spider
+execute unless function apoca:random/5 run return run effect give @s weaving infinite 0
+execute unless function apoca:random/5 run summon spider
+execute unless function apoca:random/5 run summon spider
+execute unless function apoca:random/5 run summon spider
