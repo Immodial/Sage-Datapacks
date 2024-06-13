@@ -1,4 +1,4 @@
-## >> From: apoco:tick
+## >> From: apoca:tick
 ## >> At: Any zombie
 ## >> As: Any zombie
 ## >> Does: Run zombie modifiers
