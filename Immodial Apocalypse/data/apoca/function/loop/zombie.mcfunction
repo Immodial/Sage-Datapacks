@@ -4,7 +4,7 @@
 ## >> Does: Run zombie modifiers
 ## >> Input: None
 # Apply stats
-execute if entity @s[tag=!APOCModified] run function apoca:zombiestats
+execute if entity @s[tag=!APOCModified] run function apoca:stats/zombie
 # Apply bonuses if in a crowd
 execute if score @s APOCZombieDensity matches 3.. run attribute @s generic.armor modifier add apoca:small_crowd_armor 4 add_value
 execute if score @s APOCZombieDensity matches 6.. run attribute @s generic.armor modifier add apoca:medium_crowd_armor 2 add_value
