@@ -4,8 +4,8 @@
 ## >> Does: Give creeper special stats
 ## >> Input: None
 # Reduce health and increase speed
-attribute @s generic.max_health base set 8
-attribute @s generic.movement_speed base set 0.35
+attribute @s generic.max_health base set 12
+attribute @s generic.movement_speed base set 0.3
 # Reduce explosion radius and timer
 data modify entity @s ExplosionRadius set value 2b
 data modify entity @s Fuse set value 20s
