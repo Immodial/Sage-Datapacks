@@ -21,7 +21,7 @@
             "minecraft:item_name": "'Stone Spear'",
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:custom_model_data": 21,
-            "max_damage":262,
+            "max_damage": 262,
             "!tool":{},
             "minecraft:lore": [
                 "{\"text\": \"\"}",
@@ -31,7 +31,7 @@
                     \"italic\": false
                 }",
                 "{
-                    \"text\": \" 7 Attack Damage\",
+                    \"text\": \" 6 Attack Damage\",
                     \"color\": \"dark_green\",
                     \"italic\": false
                 }",
@@ -51,7 +51,7 @@
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:generic.attack_damage",
-                    "amount": 6,
+                    "amount": 5,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },

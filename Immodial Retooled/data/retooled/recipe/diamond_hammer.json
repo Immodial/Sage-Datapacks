@@ -11,21 +11,21 @@
             "item": "minecraft:stick"
         },
         "X": {
-            "tag": "minecraft:stone_tool_materials"
+            "item": "minecraft:diamond"
         }
     },
     "result": {
         "id": "minecraft:stone_pickaxe",
         "count": 1,
         "components": {
-            "minecraft:item_name": "'Stone Hammer'",
+            "minecraft:item_name": "'Diamond Hammer'",
             "minecraft:custom_data": {"RTModified":true},
-            "minecraft:custom_model_data": 22,
-            "max_damage": 131,
+            "minecraft:custom_model_data": 52,
+            "max_damage": 1561,
             "tool": {
                 "rules": [
-                    {"blocks": "#retooled:mineable/hammer", "speed": 6, "correct_for_drops": true},
-                    {"blocks": "#minecraft:incorrect_for_stone_tool", "correct_for_drops": false}
+                    {"blocks": "#retooled:mineable/hammer", "speed": 10, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_diamond_tool", "correct_for_drops": false}
                 ]
             },
             "minecraft:lore": [
@@ -36,12 +36,12 @@
                     'italic': false
                 }",
                 "{
-                    'text': ' 7 Attack Damage',
+                    'text': ' 9 Attack Damage',
                     'color': 'dark_green',
                     'italic': false
                 }",
                 "{
-                    'text': ' 0.7 Attack Speed',
+                    'text': ' 0.8 Attack Speed',
                     'color': 'dark_green',
                     'italic': false
                 }",
@@ -61,7 +61,7 @@
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:generic.attack_damage",
-                    "amount": 6,
+                    "amount": 8,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
@@ -75,7 +75,7 @@
                 {
                     "id": "retooled:weapon_speed",
                     "type": "minecraft:generic.attack_speed",
-                    "amount": -3.3,
+                    "amount": -3.2,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },

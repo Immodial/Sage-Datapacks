@@ -11,11 +11,11 @@
             "item": "minecraft:stick"
         },
         "X": {
-            "tag": "minecraft:stone_tool_materials"
+            "item": "minecraft:diamond"
         }
     },
     "result": {
-        "id": "minecraft:stone_pickaxe",
+        "id": "minecraft:diamond_axe",
         "count": 1,
         "components": {
             "minecraft:custom_data": {"RTModified":true},
@@ -27,12 +27,12 @@
                     \"italic\": false
                 }",
                 "{
-                    \"text\": \" 3 Attack Damage\",
+                    \"text\": \" 10 Attack Damage\",
                     \"color\": \"dark_green\",
                     \"italic\": false
                 }",
                 "{
-                    \"text\": \" 1.2 Attack Speed\",
+                    \"text\": \" 0.7 Attack Speed\",
                     \"color\": \"dark_green\",
                     \"italic\": false
                 }",
@@ -47,7 +47,7 @@
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:generic.attack_damage",
-                    "amount": 2,
+                    "amount": 8,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
@@ -61,7 +61,7 @@
                 {
                     "id": "retooled:weapon_speed",
                     "type": "minecraft:generic.attack_speed",
-                    "amount": -2.8,
+                    "amount": -3.1,
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
