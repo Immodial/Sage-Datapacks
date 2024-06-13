@@ -3,11 +3,10 @@
 ## >> As: Any spider
 ## >> Does: Give spider special stats
 ## >> Input: None
-# Give base armor, low max health + size, and high speed + jump
-attribute @s generic.armor base set 4
-attribute @s generic.max_health base set 6
-attribute @s generic.scale base set 0.3
-attribute @s generic.movement_speed base set 0.4
+# Give 
+attribute @s generic.scale base set 0.5
+attribute @s generic.max_health base set 8
+attribute @s generic.movement_speed base set 0.2
 attribute @s generic.jump_strength base set 0.65
 # Mark as given stats
 tag @s add APOCModified
