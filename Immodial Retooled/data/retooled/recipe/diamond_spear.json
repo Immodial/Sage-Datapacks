@@ -31,7 +31,7 @@
                     \"italic\": false
                 }",
                 "{
-                    \"text\": \" 8 Attack Damage\",
+                    \"text\": \" 7 Attack Damage\",
                     \"color\": \"dark_green\",
                     \"italic\": false
                 }",
@@ -51,7 +51,7 @@
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:generic.attack_damage",
-                    "amount": 7,
+                    "amount": 6,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
