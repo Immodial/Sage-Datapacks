@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "bludgeon_overrided": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "WDOverride": true,
+                    "WDBludgeoning": true
+                  }
+                }
+              }
+            }
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "wounded:wound_overriding",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bludgeon_overrided"
+    ]
+  ],
+  "rewards": {
+    "function": "wounded:hurt/bludgeon"
+  }
+}
