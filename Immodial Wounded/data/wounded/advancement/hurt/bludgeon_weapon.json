@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "bludgeoning_weapon": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "items": "#wounded:bludgeoning"
+              }
+            }
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "wounded:wound_overriding",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bludgeoning_weapon"
+    ]
+  ],
+  "rewards": {
+    "function": "wounded:hurt/bludgeon"
+  }
+}

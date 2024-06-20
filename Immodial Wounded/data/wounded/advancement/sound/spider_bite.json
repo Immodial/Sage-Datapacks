@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "biting_zombie": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "#wounded:spider",
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:air"
+              }
+            }
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "wounded:wound_overriding",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "biting_zombie"
+    ]
+  ],
+  "rewards": {
+    "function": "wounded:attacksound/spider"
+  }
+}

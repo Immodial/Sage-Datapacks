@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "fall_type": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "tags": [
+              {
+                "id": "wounded:falling",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fall_type"
+    ]
+  ],
+  "rewards": {
+    "function": "wounded:hurt/fall"
+  }
+}

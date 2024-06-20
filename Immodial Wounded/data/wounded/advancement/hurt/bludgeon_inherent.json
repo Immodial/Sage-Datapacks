@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "bludgeon_type": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "tags": [
+              {
+                "id": "wounded:always_bludgeoning",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bludgeon_type"
+    ]
+  ],
+  "rewards": {
+    "function": "wounded:hurt/bludgeon"
+  }
+}

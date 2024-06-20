@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "pierce_type": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "tags": [
+              {
+                "id": "wounded:always_piercing",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pierce_type"
+    ]
+  ],
+  "rewards": {
+    "function": "wounded:hurt/pierce"
+  }
+}
