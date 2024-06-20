@@ -1,6 +1,8 @@
 {
     "values": [
       "#wounded:always_piercing",
-      "#wounded:always_bludgeoning"
+      "#wounded:always_bludgeoning",
+      "#wounded:explosion",
+      "#wounded:falling"
     ]
 }
