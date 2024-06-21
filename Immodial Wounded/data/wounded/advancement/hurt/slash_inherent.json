@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "slash_type": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "tags": [
+              {
+                "id": "wounded:always_slashing",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "slash_type"
+    ]
+  ],
+  "rewards": {
+    "function": "wounded:hurt/slash"
+  }
+}

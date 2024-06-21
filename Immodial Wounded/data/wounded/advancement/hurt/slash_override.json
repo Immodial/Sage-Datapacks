@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "slash_overrided": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "WDOverride": true,
+                    "WDSlashing": true
+                  }
+                }
+              }
+            }
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "wounded:wound_overriding",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "slash_overrided"
+    ]
+  ],
+  "rewards": {
+    "function": "wounded:hurt/slash"
+  }
+}

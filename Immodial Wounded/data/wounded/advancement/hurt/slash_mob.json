@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "slashing_mob": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "type": "#wounded:base_attack_slashes",
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:air"
+              }
+            }
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "wounded:wound_overriding",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "slashing_mob"
+    ]
+  ],
+  "rewards": {
+    "function": "wounded:hurt/slash"
+  }
+}
