@@ -1,4 +1,4 @@
-## >> From: wounded:hurt/bludgeon (advancement)
+## >> From:  wounded:hurt/bludgeon_inherent (advancement), wounded:hurt/bludgeon_weapon (advancement), wounded:hurt/bludgeon_override (advancement), wounded:hurt/bludgeon_mob (advancement)
 ## >> At: Player who was hurt by something bludgeoning
 ## >> As: Player who was hurt by something bludgeoning
 ## >> Does: Apply possible bludgeon wounds

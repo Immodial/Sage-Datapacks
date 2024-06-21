@@ -1,4 +1,4 @@
-## >> From: wounded:hurt/bludgeon (advancement)
+## >> From: wounded:hurt/explode (advancement)
 ## >> At: Player who was hurt by something explosive
 ## >> As: Player who was hurt by something explosive
 ## >> Does: Apply possible explosion wounds

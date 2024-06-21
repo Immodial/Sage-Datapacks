@@ -1,4 +1,4 @@
-## >> From: wounded:hurt/slash (advancement)
+## >> From: wounded:hurt/slash_inherent (advancement), wounded:hurt/slash_weapon (advancement), wounded:hurt/slash_override (advancement), wounded:hurt/slash_mob (advancement) (advancement)
 ## >> At: Player who was hurt by something slashing
 ## >> As: Player who was hurt by something slashing
 ## >> Does: Apply possible slash wounds

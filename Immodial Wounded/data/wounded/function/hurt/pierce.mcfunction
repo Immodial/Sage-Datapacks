@@ -1,4 +1,4 @@
-## >> From: wounded:hurt/pierce (advancement)
+## >> From: wounded:hurt/pierce_inherent (advancement), wounded:hurt/pierce_weapon (advancement), wounded:hurt/pierce_override (advancement), wounded:hurt/pierce_mob (advancement)
 ## >> At: Player who was hurt by something piercing
 ## >> As: Player who was hurt by something piercing
 ## >> Does: Apply possible pierce wounds
