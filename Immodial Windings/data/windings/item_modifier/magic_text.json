@@ -1,0 +1,195 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Sage is AWESOME",
+        "color": "gray",
+        "font": "minecraft:alt",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Gerbil in the Microwave",
+        "color": "gray",
+        "font": "minecraft:alt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "yo mama so balls",
+        "color": "gray",
+        "font": "minecraft:alt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Immodial Best Datapack Dev",
+        "color": "gray",
+        "font": "minecraft:alt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "sigma balls",
+        "color": "gray",
+        "font": "minecraft:alt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Better than Trials",
+        "color": "gray",
+        "font": "minecraft:alt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Big magic boom",
+        "color": "gray",
+        "font": "minecraft:alt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Beware the Oppencreeper",
+        "color": "gray",
+        "font": "minecraft:alt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Say please",
+        "color": "gray",
+        "font": "minecraft:alt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "I cast gun",
+        "color": "gray",
+        "font": "minecraft:alt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  }
+]

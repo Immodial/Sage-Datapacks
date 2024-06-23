@@ -1,0 +1,195 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Greed",
+        "color": "gray",
+        "font": "minecraft:illageralt",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Dead",
+        "color": "gray",
+        "font": "minecraft:illageralt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Whispers",
+        "color": "gray",
+        "font": "minecraft:illageralt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Cease",
+        "color": "gray",
+        "font": "minecraft:illageralt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Behold",
+        "color": "gray",
+        "font": "minecraft:illageralt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Gamble",
+        "color": "gray",
+        "font": "minecraft:illageralt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Grasp",
+        "color": "gray",
+        "font": "minecraft:illageralt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Steal",
+        "color": "gray",
+        "font": "minecraft:illageralt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Destroy",
+        "color": "gray",
+        "font": "minecraft:illageralt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Blaze",
+        "color": "gray",
+        "font": "minecraft:illageralt",
+        "italic": false
+      }
+    ],
+    "mode": "replace_section",
+    "size": 1,
+    "conditions": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    ]
+  }
+]
