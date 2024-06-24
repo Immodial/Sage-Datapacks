@@ -15,10 +15,13 @@
         }
     },
     "result": {
-        "id": "minecraft:paper",
+        "id": "minecraft:stone_pickaxe",
         "count": 1,
         "components": {
             "minecraft:item_name": "'Cleaver'",
+            "minecraft:custom_data": {"RTModified":true},
+            "max_damage": 500,
+            "!tool":{},
             "minecraft:lore": [
                 "{\"text\": \"\"}",
                 "{
