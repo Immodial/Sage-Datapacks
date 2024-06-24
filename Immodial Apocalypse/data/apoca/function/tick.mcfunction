@@ -13,7 +13,7 @@ execute as @e[type=#apoca:skeleton] at @s run function apoca:loop/skeleton
 # Run spider effects
 execute as @e[type=#apoca:spider] at @s run function apoca:loop/spider
 # Run creeper effects
-execute as @e[type=creeper] at @s run function apoca:loop/creeper
+execute as @e[type=creeper,nbt=!{Fuse:0s},nbt=!{ignited:true}] at @s run function apoca:loop/creeper
 # Set hard difficulty
 difficulty hard
 # Loop
