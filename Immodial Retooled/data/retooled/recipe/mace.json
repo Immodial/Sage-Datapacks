@@ -1,0 +1,90 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "X",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:breeze_rod"
+        },
+        "X": {
+            "item": "minecraft:heavy_core"
+        }
+    },
+    "result": {
+        "id": "minecraft:stone_hoe",
+        "count": 1,
+        "components": {
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:lore": [
+                "{\"text\": \"\"}",
+                "{
+                    \"text\": \"When in Main Hand:\",
+                    \"color\": \"gray\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" 6 Attack Damage\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" 0.6 Attack Speed\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" Medium Length\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" Hefty\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" Smashing\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:generic.attack_damage",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_length",
+                    "type": "minecraft:player.entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:generic.attack_speed",
+                    "amount": -3.4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_knockback",
+                    "type": "minecraft:generic.attack_knockback",
+                    "amount": 1.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+    }
+}
+  
