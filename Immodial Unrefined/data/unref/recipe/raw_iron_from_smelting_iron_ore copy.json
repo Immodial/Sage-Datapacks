@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "group": "raw_iron",
+    "ingredient": {
+      "item": "minecraft:iron_ore"
+    },
+    "result": {
+      "id": "minecraft:raw_iron",
+      "components": {
+        "minecraft:custom_data": {"URUnsmelted":true}
+      }
+    },
+    "experience": 0.7,
+    "cookingtime": 400
+}  
