@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_flint": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:flint"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "retooled:flint_and_steel"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_flint"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "retooled:flint_and_steel"
+        ]
+    }
+}
