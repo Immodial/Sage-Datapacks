@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " G",
+        "#F",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_ingot"
+        },
+        "F": {
+            "item": "minecraft:flint_and_steel"
+        },
+        "G": {
+            "item": "minecraft:glowstone_dust"
+        }
+    },
+    "result": {
+        "id": "minecraft:flint_and_steel",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": "'Lighter'",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:custom_model_data": 2,
+            "max_damage": 96
+        }
+    }
+}
+  
