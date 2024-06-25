@@ -25,5 +25,7 @@ execute if items entity @s weapon.mainhand diamond_pickaxe[!custom_data] run ite
 execute if items entity @s weapon.offhand diamond_pickaxe[!custom_data] run item modify entity @s weapon.offhand retooled:retool/diamond_pickaxe
 execute if items entity @s weapon.mainhand diamond_hoe[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/diamond_hoe
 execute if items entity @s weapon.offhand diamond_hoe[!custom_data] run item modify entity @s weapon.offhand retooled:retool/diamond_hoe
+execute if items entity @s weapon.mainhand flint_and_steel[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/flint_and_steel
+execute if items entity @s weapon.offhand flint_and_steel[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/flint_and_steel
 execute if items entity @s weapon.mainhand mace[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/mace
 execute if items entity @s weapon.offhand mace[!custom_data] run item modify entity @s weapon.offhand retooled:retool/mace
