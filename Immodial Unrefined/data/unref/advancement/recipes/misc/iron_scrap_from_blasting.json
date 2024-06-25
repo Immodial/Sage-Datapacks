@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_raw_iron": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:raw_iron"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "unref:iron_scrap_from_blasting"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_raw_iron"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "unref:iron_scrap_from_blasting"
+      ]
+    }
+}  

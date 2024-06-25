@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:blasting",
+    "category": "misc",
+    "ingredient": {
+      "item": "minecraft:iron_nugget"
+    },
+    "result": {
+      "id": "minecraft:iron_nugget",
+      "components": {
+        "minecraft:item_name": "'Molten Iron Nugget'",
+        "minecraft:custom_data": {"URMolten":true},
+        "minecraft:custom_model_data": 1,
+        "minecraft:max_stack_size": 16
+      }
+    },
+    "experience": 0.7,
+    "cookingtime": 50
+}  

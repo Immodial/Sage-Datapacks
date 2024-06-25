@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_iron_ore": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:iron_ore"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "unref:iron_ore_from_smelting_iron_ore"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_iron_ore"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "unref:iron_ore_from_smelting_iron_ore"
+      ]
+    }
+}  
