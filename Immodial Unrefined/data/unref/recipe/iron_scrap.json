@@ -7,7 +7,7 @@
     "result": {
       "id": "minecraft:raw_iron",
       "components": {
-        "minecraft:item_name": "'Iron Scrap'",
+        "minecraft:item_name": "{translate:'item.unrefined.iron_scrap'}",
         "minecraft:custom_data": {"URScrap":true},
         "minecraft:custom_model_data": 1,
         "!minecraft:max_stack_size": {}
