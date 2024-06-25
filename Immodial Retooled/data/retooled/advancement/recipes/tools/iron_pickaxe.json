@@ -1,12 +1,12 @@
 {
     "parent": "minecraft:recipes/root",
     "criteria": {
-        "has_diamond": {
+        "has_iron_ingot": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:diamond"
+                        "items": "minecraft:iron_ingot"
                     }
                 ]
             }
@@ -14,19 +14,19 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "retooled:diamond_axe"
+                "recipe": "retooled:iron_pickaxe"
             }
         }
     },
     "requirements": [
         [
             "has_the_recipe",
-            "has_diamond"
+            "has_iron_ingot"
         ]
     ],
     "rewards": {
         "recipes": [
-            "retooled:diamond_axe"
+            "retooled:iron_pickaxe"
         ]
     }
 }
