@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        {
+            "item": "minecraft:ink_sac"
+        },
+        {
+            "item": "minecraft:feather"
+        }
+    ],
+    "result": {
+        "id": "minecraft:feather",
+        "count": 1,
+        "components": {
+            "item_name": "'Signing Quill'",
+            "custom_model_data": 1,
+            "food": {
+                "saturation":0, "nutrition":0,
+                "can_always_eat": true,
+                "eat_seconds": 100000
+            },
+            "custom_data": {
+                "LMSignQuill":true
+            },
+            "!max_stack_size": {}
+        }
+    }
+}
