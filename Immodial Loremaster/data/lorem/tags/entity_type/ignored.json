@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:item",
+    "minecraft:marker",
+    "minecraft:item_display",
+    "minecraft:text_display",
+    "minecraft:block_display",
+    "minecraft:minecart",
+    "minecraft:minecart",
+    "minecraft:tnt_minecart",
+    "minecraft:furnace_minecart",
+    "minecraft:hopper_minecart",
+    "minecraft:chest_minecart",
+    "minecraft:spawner_minecart",
+    "minecraft:command_block_minecart",
+    "minecraft:boat",
+    "minecraft:chest_boat"
+  ]
+}
