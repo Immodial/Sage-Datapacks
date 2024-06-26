@@ -1,0 +1,17 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": ""
+        },
+        {
+          "text": "(Waxed)",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "mode": "append"
+    }
+]
