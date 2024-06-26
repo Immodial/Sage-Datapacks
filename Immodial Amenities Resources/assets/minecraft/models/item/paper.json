@@ -1,0 +1,12 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/paper"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/lore_tag"},
+		{"predicate": {"custom_model_data":2}, "model": "item/date_stamp"},
+		{"predicate": {"custom_model_data":3}, "model": "item/item_polish"}
+	]
+}
