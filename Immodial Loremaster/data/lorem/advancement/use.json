@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "use_gun": {
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "requirements": [
+    [
+      "use_gun"
+    ]
+  ],
+  "rewards": {
+    "function": "lorem:use"
+  }
+}
