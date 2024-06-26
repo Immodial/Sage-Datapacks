@@ -1,0 +1,95 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "XXX",
+        "X#X",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stick"
+        },
+        "X": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "id": "minecraft:stone_pickaxe",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": "'Wooden Hammer'",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:custom_model_data": 12,
+            "max_damage": 59,
+            "tool": {
+                "rules": [
+                    {"blocks": "#retooled:mineable/hammer", "speed": 3, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_wooden_tool", "correct_for_drops": false}
+                ]
+            },
+            "minecraft:lore": [
+                "{'text': ''}",
+                "{
+                    'text': 'When in Main Hand:',
+                    'color': 'gray',
+                    'italic': false
+                }",
+                "{
+                    'text': ' 4 Attack Damage',
+                    'color': 'dark_green',
+                    'italic': false
+                }",
+                "{
+                    'text': ' 0.8 Attack Speed',
+                    'color': 'dark_green',
+                    'italic': false
+                }",
+                "{
+                    'text': ' Medium Length',
+                    'color': 'dark_green',
+                    'italic': false
+                }",
+                "{
+                    'text': ' Hefty',
+                    'color': 'dark_green',
+                    'italic': false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:generic.attack_damage",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_length",
+                    "type": "minecraft:player.entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:generic.attack_speed",
+                    "amount": -3.2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_knockback",
+                    "type": "minecraft:generic.attack_knockback",
+                    "amount": 1.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+    }
+}
+  
