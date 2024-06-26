@@ -1,0 +1,22 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": ""
+        },
+        {
+          "text": "- ",
+          "underlined": true,
+          "extra": [
+            {
+              "selector": "@a[tag=LMLoreAdding,limit=1]",
+              "underlined": true
+            }
+          ]
+        }
+      ],
+      "mode": "append"
+    }
+]
