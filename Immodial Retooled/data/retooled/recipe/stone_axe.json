@@ -32,7 +32,7 @@
                     \"italic\": false
                 }",
                 "{
-                    \"text\": \" 0.6 Attack Speed\",
+                    \"text\": \" 0.7 Attack Speed\",
                     \"color\": \"dark_green\",
                     \"italic\": false
                 }",
@@ -61,7 +61,7 @@
                 {
                     "id": "retooled:weapon_speed",
                     "type": "minecraft:generic.attack_speed",
-                    "amount": -3.2,
+                    "amount": -3.3,
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
