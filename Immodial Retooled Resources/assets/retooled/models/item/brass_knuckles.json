@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "item/brass_knuckles"
+		"layer0": "retooled:item/brass_knuckles"
 	},
 	"display": {
 		"thirdperson_righthand": {
