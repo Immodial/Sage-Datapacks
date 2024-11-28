@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shapeless",
     "category": "equipment",
     "ingredients": [
-        {"item": "minecraft:copper_ingot"},
-        {"item": "minecraft:gunpowder"},
-        {"item": "minecraft:iron_nugget"}
+        "minecraft:copper_ingot",
+        "minecraft:gunpowder",
+        "minecraft:iron_nugget"
     ],
     "result": {
         "id": "minecraft:iron_nugget",
         "count": 3,
         "components": {
             "item_name": "[{translate:'item.iguns.magnum_bullet'}]",
-            "custom_model_data": 102,
+            "item_model": "iguns:magnum_bullet",
             "custom_data": {
                 "IGGunAmmo":"bullet",
                 "IGAmmoBonus":"magnum"

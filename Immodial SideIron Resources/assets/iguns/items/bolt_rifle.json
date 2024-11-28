@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "entries": [
+            {
+                "threshold": 1000,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "iguns:item/bolt_rifle_loaded"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "iguns:item/bolt_rifle_standby"
+        }
+    }
+}

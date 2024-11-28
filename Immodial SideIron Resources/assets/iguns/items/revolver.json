@@ -1,0 +1,68 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "iguns:item/revolver_loading_1"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "iguns:item/revolver_loading_2"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "iguns:item/revolver_loading_3"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "iguns:item/revolver_loading_4"
+                }
+            },
+            {
+                "threshold": 1001,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "iguns:item/revolver_loaded_1"
+                }
+            },
+            {
+                "threshold": 1002,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "iguns:item/revolver_loaded_2"
+                }
+            },
+            {
+                "threshold": 1003,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "iguns:item/revolver_loaded_3"
+                }
+            },
+            {
+                "threshold": 1004,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "iguns:item/revolver_loaded_4"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "iguns:item/revolver_standby"
+        }
+    }
+}

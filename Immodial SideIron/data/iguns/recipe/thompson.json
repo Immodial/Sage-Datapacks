@@ -6,35 +6,28 @@
         " BI"
     ],
     "key": {
-        "n": {
-            "item": "minecraft:iron_ingot"
-        },
-        "B": {
-            "item": "minecraft:iron_block"
-        },
-        "I": {
-            "item": "minecraft:stick"
-        },
-        "#": {
-            "tag": "minecraft:planks"
-        }
+        "n": "minecraft:iron_ingot",
+        "B": "minecraft:iron_block",
+        "I": "minecraft:stick",
+        "#": "#minecraft:planks"
     },
     "result": {
         "id": "minecraft:rotten_flesh",
         "count": 1,
         "components": {
             "item_name": "[{translate:'item.iguns.thompson'}]",
-            "custom_model_data": 40000,
+            "item_model":"iguns:bolt_rifle",
+            "custom_model_data": {"floats":[0]},
             "max_damage":100,
             "!max_stack_size":{},
-            "food": {
-                "saturation":0, "nutrition":0,
-                "can_always_eat": true,
-                "eat_seconds": 100000
+            "!food":{},
+            "consumable": {
+                "consume_seconds": 100000,
+                "animation": "bow",
+                "has_consume_particles": false
             },
             "custom_data": {
                 "IGWeapon":true,
-                "IGGunID":4,
                 "IGMaxAmmo":15,
                 "IGLoaded":false,
                 "IGAmmoType":"bullet",

@@ -1,0 +1,33 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "iguns:item/shotgun_loading_1"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "iguns:item/shotgun_loading_2"
+                }
+            },
+            {
+                "threshold": 1000,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "iguns:item/shotgun_loaded"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "iguns:item/shotgun_standby"
+        }
+    }
+}

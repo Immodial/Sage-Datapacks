@@ -1,5 +1,5 @@
 {
-  "parent": "worldpilot:recipe",
+  "parent": "iguns:recipe",
   "criteria": {
     "has_glowstone_dust": {
       "trigger": "minecraft:inventory_changed",

@@ -1,5 +1,5 @@
 {
-  "parent": "worldpilot:recipe",
+  "parent": "iguns:recipe",
   "criteria": {
     "has_iron_ingot": {
       "trigger": "minecraft:inventory_changed",

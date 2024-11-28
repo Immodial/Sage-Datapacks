@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shapeless",
     "category": "equipment",
     "ingredients": [
-        {"item": "minecraft:gold_nugget"},
-        {"item": "minecraft:gunpowder"},
-        {"item": "minecraft:iron_ingot"}
+        "minecraft:gold_nugget",
+        "minecraft:gunpowder",
+        "minecraft:iron_ingot"
     ],
     "result": {
         "id": "minecraft:iron_nugget",
         "count": 4,
         "components": {
             "item_name": "[{translate:'item.iguns.piercing_cartridge'}]",
-            "custom_model_data": 301,
+            "item_model": "iguns:piercing_cartridge",
             "custom_data": {
                 "IGGunAmmo":"cartridge",
                 "IGAmmoBonus":"piercing"
