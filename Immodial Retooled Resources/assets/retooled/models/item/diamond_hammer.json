@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "item/stone_hammer"
+		"layer0": "retooled:item/diamond_hammer"
 	}
 }

@@ -7,15 +7,9 @@
         "##"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:iron_ingot"
-        },
-        "F": {
-            "item": "minecraft:flint_and_steel"
-        },
-        "G": {
-            "item": "minecraft:glowstone_dust"
-        }
+        "#": "minecraft:iron_ingot",
+        "F": "minecraft:flint_and_steel",
+        "G": "minecraft:glowstone_dust"
     },
     "result": {
         "id": "minecraft:flint_and_steel",
@@ -23,7 +17,7 @@
         "components": {
             "minecraft:item_name": "'Lighter'",
             "minecraft:custom_data": {"RTModified":true},
-            "minecraft:custom_model_data": 2,
+            "minecraft:item_model": "retooled:lighter",
             "max_damage": 96
         }
     }

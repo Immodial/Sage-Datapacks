@@ -4,7 +4,7 @@
 ## >> Does: Cause weapons effects and 
 ## >> Input: None
 # Decrease base player interaction range
-execute as @a run attribute @s player.entity_interaction_range base set 2
+execute as @a run attribute @s entity_interaction_range base set 2
 # Replace items
 execute as @a if items entity @s weapon.* #retooled:modified[!custom_data] run function retooled:retool
 # Grab enemies with sicle

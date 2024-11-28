@@ -6,16 +6,14 @@
         "C C"
     ],
     "key": {
-        "C": {
-            "item": "minecraft:copper_ingot"
-        }
+        "C": "minecraft:copper_ingot"
     },
     "result": {
         "id": "minecraft:stone_pickaxe",
         "count": 1,
         "components": {
             "minecraft:item_name": "'Brass Knuckles'",
-            "minecraft:custom_model_data": 71,
+            "minecraft:item_model": "retooled:brass_knuckles",
             "max_damage":350,
             "!tool":{},
             "minecraft:lore": [
@@ -50,21 +48,21 @@
               "modifiers": [
                 {
                     "id": "retooled:weapon_attack",
-                    "type": "minecraft:generic.attack_damage",
+                    "type": "minecraft:attack_damage",
                     "amount": 4,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
                 {
                     "id": "retooled:weapon_speed",
-                    "type": "minecraft:generic.attack_speed",
+                    "type": "minecraft:attack_speed",
                     "amount": -0.8,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
                 {
                     "id": "retooled:weapon_knockback",
-                    "type": "minecraft:generic.attack_knockback",
+                    "type": "minecraft:attack_knockback",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "mainhand"
