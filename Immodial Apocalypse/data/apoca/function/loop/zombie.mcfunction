@@ -32,6 +32,16 @@ execute if block ~ ~ ~ #apoca:melting run attribute @s burning_time modifier add
 execute if block ~ ~ ~ #apoca:melting run tag @s add APOCMelting
 execute if entity @s[tag=APOCMelting] run data modify entity @s Fire set value 10s
 execute if entity @s[tag=APOCMelting] if block ~ ~ ~ #minecraft:replaceable run setblock ~ ~0.1 ~ fire
-# Break blocks to get to player
-execute if score @s APOCZombieDensity matches 6.. anchored eyes facing entity @p[distance=..3] eyes if block ^ ^ ^0.8 #mineable/axe run scoreboard players add @s APOCBreakTime 1
-execute if score @s APOCBreakTime matches 60.. anchored eyes facing entity @p[distance=..3] eyes if block ^ ^ ^0.8 #mineable/axe run setblock ^ ^ ^0.8 air destroy
+# Only break blocks if in high density crowd, near player, and in front of blocks
+execute unless score @s APOCZombieDensity matches 6.. run return run scoreboard players remove @s[scores={APOCBreakTime=1..}] APOCBreakTime 1
+execute anchored eyes unless entity @p[distance=..5] run return run scoreboard players remove @s[scores={APOCBreakTime=1..}] APOCBreakTime 1
+execute anchored eyes facing entity @p[distance=..5] eyes unless block ^ ^ ^0.8 #apoca:zombie_breakable unless block ^ ^-1 ^0.8 #apoca:zombie_breakable run return run scoreboard players remove @s[scores={APOCBreakTime=1..}] APOCBreakTime 1
+scoreboard players add @s APOCBreakTime 1
+execute if score @s APOCBreakTime matches 50 anchored eyes run playsound block.nether_wood.place hostile @a ^ ^ ^0.8 1 0.2
+execute if score @s APOCBreakTime matches 50 anchored eyes run playsound entity.slime.attack hostile @a ^ ^ ^0.8 1 0.2
+execute if score @s APOCBreakTime matches 100 anchored eyes run playsound block.nether_wood.place hostile @a ^ ^ ^0.8 1 0.2
+execute if score @s APOCBreakTime matches 100 anchored eyes run playsound entity.slime.attack hostile @a ^ ^ ^0.8 1 0.2
+execute unless score @s APOCBreakTime matches 110.. run return fail
+scoreboard players remove @s APOCBreakTime 80
+execute anchored eyes facing entity @p[distance=..5] eyes if block ^ ^ ^0.8 #apoca:zombie_breakable run setblock ^ ^ ^0.8 air destroy
+execute anchored eyes facing entity @p[distance=..5] eyes if block ^ ^-1 ^0.8 #apoca:zombie_breakable run setblock ^ ^-1 ^0.8 air destroy
