@@ -7,12 +7,8 @@
         " # "
     ],
     "key": {
-        "#": {
-            "item": "minecraft:stick"
-        },
-        "X": {
-            "tag": "minecraft:planks"
-        }
+        "#": "minecraft:stick",
+        "X": "#minecraft:planks"
     },
     "result": {
         "id": "minecraft:stone_pickaxe",
@@ -20,7 +16,7 @@
         "components": {
             "minecraft:item_name": "'Wooden Hammer'",
             "minecraft:custom_data": {"RTModified":true},
-            "minecraft:custom_model_data": 12,
+            "minecraft:item_model": "retooled:wooden_hammer",
             "max_damage": 59,
             "tool": {
                 "rules": [
@@ -60,28 +56,28 @@
               "modifiers": [
                 {
                     "id": "retooled:weapon_attack",
-                    "type": "minecraft:generic.attack_damage",
+                    "type": "minecraft:attack_damage",
                     "amount": 4,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
                 {
                     "id": "retooled:weapon_length",
-                    "type": "minecraft:player.entity_interaction_range",
+                    "type": "minecraft:entity_interaction_range",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
                 {
                     "id": "retooled:weapon_speed",
-                    "type": "minecraft:generic.attack_speed",
+                    "type": "minecraft:attack_speed",
                     "amount": -3.2,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
                 {
                     "id": "retooled:weapon_knockback",
-                    "type": "minecraft:generic.attack_knockback",
+                    "type": "minecraft:attack_knockback",
                     "amount": 1.5,
                     "operation": "add_value",
                     "slot": "mainhand"

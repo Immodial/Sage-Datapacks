@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "item/wooden_spear"
+		"layer0": "retooled:item/stone_hammer"
 	}
 }
