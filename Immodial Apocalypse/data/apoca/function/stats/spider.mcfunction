@@ -4,10 +4,10 @@
 ## >> Does: Give spider special stats
 ## >> Input: None
 # Give 
-attribute @s generic.scale base set 0.5
-attribute @s generic.max_health base set 8
-attribute @s generic.movement_speed base set 0.2
-attribute @s generic.jump_strength base set 0.65
+attribute @s scale base set 0.5
+attribute @s max_health base set 8
+attribute @s movement_speed base set 0.2
+attribute @s jump_strength base set 0.65
 # Mark as given stats
 tag @s add APOCModified
 # Apply weaving or make more spiders
