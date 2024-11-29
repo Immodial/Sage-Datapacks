@@ -11,7 +11,7 @@
         "count": 4,
         "components": {
             "item_name": "[{translate:'item.iguns.hunting_cartridge'}]",
-            "custom_model_data": 303,
+            "item_model": "iguns:hunting_cartridge",
             "custom_data": {
                 "IGGunAmmo":"cartridge",
                 "IGAmmoBonus":"hunting"
