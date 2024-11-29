@@ -3,5 +3,5 @@
 ## >> As: Player in light
 ## >> Does: Update player temperature
 ## >> Input: None
-execute unless predicate frostbite:raining run scoreboard players add @s FBTemperature 1
+execute unless score @s FBWetness matches 1.. run scoreboard players add @s FBTemperature 1
 advancement revoke @s only frostbite:touch/lit
