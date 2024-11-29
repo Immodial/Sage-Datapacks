@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "use_item": {
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "requirements": [
+    [
+      "use_item"
+    ]
+  ],
+  "rewards": {
+    "function": "retooled:use"
+  }
+}

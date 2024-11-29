@@ -5,9 +5,13 @@
 ## >> Input: None
 # Decrease base player interaction range
 execute as @a run attribute @s entity_interaction_range base set 2
+# Update use state
+tag @a remove RTUsed
+tag @a[tag=RTUsing] add RTUsed
+tag @a remove RTUsing
 # Replace items
 execute as @a if items entity @s weapon.* #retooled:modified[!custom_data] run function retooled:retool
-# Grab enemies with sicle
-execute as @e[nbt={HurtTime:9s}] if function retooled:check/sickle at @s run function retooled:hit/sickle
+execute as @a if items entity @s weapon.offhand *[custom_data~{RTKnuckles:true},!consumable] run function retooled:functionality/knuckles/activate
+execute as @a if items entity @s weapon.mainhand *[custom_data~{RTKnuckles:true},consumable] run function retooled:functionality/knuckles/deactivate
 # Loop
 schedule function retooled:tick 1

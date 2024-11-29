@@ -12,8 +12,9 @@
         "id": "minecraft:stone_pickaxe",
         "count": 1,
         "components": {
-            "minecraft:item_name": "'Brass Knuckles'",
-            "minecraft:item_model": "retooled:brass_knuckles",
+            "minecraft:item_name": "'Copper Knuckles'",
+            "minecraft:custom_data": {"RTModified":true,"RTKnuckles":true},
+            "minecraft:item_model": "retooled:copper_knuckles",
             "max_damage":350,
             "!tool":{},
             "minecraft:lore": [
