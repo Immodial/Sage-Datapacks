@@ -8,7 +8,7 @@
     "key": {
         "#": "minecraft:paper",
         "G": "minecraft:gunpowder",
-        "S": "minecraft:stick",
+        "S": "minecraft:stick"
     },
     "result": {
         "id": "minecraft:flint_and_steel",
