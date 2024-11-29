@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "do_attack": {
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "requirements": [
+    [
+      "do_attack"
+    ]
+  ],
+  "rewards": {
+    "function": "retooled:attack"
+  }
+}
