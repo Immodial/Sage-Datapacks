@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "retooled:item/brass_knuckles"
+        "model": "retooled:item/copper_knuckles"
     }
 }
