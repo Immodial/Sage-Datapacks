@@ -14,6 +14,8 @@ execute as @e[type=#apoca:skeleton] at @s run function apoca:loop/skeleton
 execute as @e[type=#apoca:spider] at @s run function apoca:loop/spider
 # Run creeper effects
 execute as @e[type=creeper,nbt=!{Fuse:0s},nbt=!{ignited:true}] at @s run function apoca:loop/creeper
+# Run iron golem effects
+execute as @e[type=iron_golem] at @s run function apoca:loop/golem
 # Set hard difficulty
 difficulty hard
 # Loop
