@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shaped",
     "category": "equipment",
     "pattern": [
-        "XX",
-        "X#",
-        " #"
+        "XXX",
+        " # ",
+        " # "
     ],
     "key": {
         "#": "minecraft:stick",
         "X": "#minecraft:planks"
     },
     "result": {
-        "id": "minecraft:stone_pickaxe",
+        "id": "minecraft:wooden_pickaxe",
         "count": 1,
         "components": {
             "minecraft:custom_data": {"RTModified":true},
