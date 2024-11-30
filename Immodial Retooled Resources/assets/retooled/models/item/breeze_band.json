@@ -1,0 +1,6 @@
+{
+	"parent": "retooled:item/bracelet",
+	"textures": {
+		"mat": "retooled:item/breeze_band"
+	}
+}

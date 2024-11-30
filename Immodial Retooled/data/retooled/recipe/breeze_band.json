@@ -16,7 +16,7 @@
         "components": {
             "minecraft:item_name": "'Breeze Band'",
             "minecraft:custom_data": {"RTBreezeBand":true},
-            "minecraft:item_model": "minecraft:breeze_rod",
+            "minecraft:item_model": "retooled:breeze_band",
             "!minecraft:max_stack_size": {},
             "!food":{},
             "!consumable":{},
