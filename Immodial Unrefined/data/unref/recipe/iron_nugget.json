@@ -2,12 +2,17 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "minecraft:iron_ingot"
-    }
+    "minecraft:iron_ingot"
   ],
   "result": {
     "id": "minecraft:iron_nugget",
-    "count": 16
+    "count": 16,
+    "components": {
+      "minecraft:item_name": "{translate:'item.unrefined.molten_iron_nugget'}",
+      "minecraft:custom_data": {"URMolten":true},
+      "minecraft:item_model": "unref:molten_iron_nugget",
+      "minecraft:max_stack_size": 16,
+      "minecraft:damage_resistant": {"types":"#is_fire"}
+    }
   }
 }

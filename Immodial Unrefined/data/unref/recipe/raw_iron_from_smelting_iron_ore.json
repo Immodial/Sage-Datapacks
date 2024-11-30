@@ -2,9 +2,7 @@
     "type": "minecraft:smelting",
     "category": "misc",
     "group": "raw_iron",
-    "ingredient": {
-      "item": "minecraft:deepslate_iron_ore"
-    },
+    "ingredient": "minecraft:deepslate_iron_ore",
     "result": {
       "id": "minecraft:raw_iron",
       "components": {

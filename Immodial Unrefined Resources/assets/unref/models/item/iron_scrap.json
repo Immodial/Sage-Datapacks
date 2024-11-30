@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "item/molten_iron_nugget"
+		"layer0": "unref:item/iron_scrap"
 	}
 }

@@ -1,15 +1,13 @@
 {
     "type": "minecraft:blasting",
     "category": "misc",
-    "ingredient": {
-      "item": "minecraft:raw_iron"
-    },
+    "ingredient": "minecraft:raw_iron",
     "result": {
       "id": "minecraft:raw_iron",
       "components": {
         "minecraft:item_name": "{translate:'item.unrefined.iron_scrap'}",
         "minecraft:custom_data": {"URScrap":true},
-        "minecraft:custom_model_data": 1,
+        "minecraft:item_model": "unref:iron_scrap",
         "!minecraft:max_stack_size": {}
       }
     },

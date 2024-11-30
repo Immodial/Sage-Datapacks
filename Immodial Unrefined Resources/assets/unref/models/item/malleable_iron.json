@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "item/iron_scrap"
+		"layer0": "unref:item/malleable_iron"
 	}
 }

@@ -9,6 +9,7 @@ execute if items entity @s contents iron_nugget[custom_data~{URMolten:true}] if 
 execute if items entity @s contents iron_nugget[custom_data~{URMolten:true},count={min:16}] run function unref:modify/mixmolteniron
 execute if items entity @s contents iron_ingot[custom_data~{URMalleable:true}] if block ~ ~ ~ water run function unref:modify/coolmalleableiron
 execute if items entity @s contents cooked_porkchop[custom_data~{URIronIngot:true}] if block ~ ~ ~ #unref:melting run function unref:modify/heatironingot
+execute if items entity @s contents cooked_porkchop[custom_data~{URIronNugget:true}] if block ~ ~ ~ #unref:melting run function unref:modify/heatironnugget
 scoreboard players add @s URCoolTime 1
 # Cause smoke loop
 scoreboard players add @s URSmokeLoop 1
