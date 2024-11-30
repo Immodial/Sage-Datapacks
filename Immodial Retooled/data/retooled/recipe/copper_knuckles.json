@@ -43,6 +43,17 @@
                     \"text\": \" Forceful\",
                     \"color\": \"dark_green\",
                     \"italic\": false
+                }",
+                "{\"text\": \"\"}",
+                "{
+                    \"text\": \"When in Off Hand:\",
+                    \"color\": \"gray\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" Can Uppercut After a Hit\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
                 }"
             ],
             "minecraft:attribute_modifiers": {

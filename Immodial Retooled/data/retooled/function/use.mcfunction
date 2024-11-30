@@ -1,4 +1,4 @@
-## >> From: retooled:tick
+## >> From: retooled:use (advancement)
 ## >> At: Player using an item
 ## >> As: Player using an item
 ## >> Does: Apply possible effects

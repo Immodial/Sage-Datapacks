@@ -1,4 +1,4 @@
-## >> From: retooled:tick
+## >> From: retooled:attack (advancement)
 ## >> At: Player who just attacked an entity
 ## >> As: Player who just attacked an entity
 ## >> Does: Apply possible effects

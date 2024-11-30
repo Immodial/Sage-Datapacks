@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "do_jump": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "input": {
+              "jump": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "do_jump"
+    ]
+  ],
+  "rewards": {
+    "function": "retooled:jump"
+  }
+}
