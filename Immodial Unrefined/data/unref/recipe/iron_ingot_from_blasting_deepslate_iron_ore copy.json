@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:blasting",
+    "category": "misc",
+    "group": "iron_ingot",
+    "ingredient": "minecraft:deepslate_iron_ore",
+    "result": {
+      "id": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:item_name": "{translate:'item.minecraft.iron_ingot'}",
+        "minecraft:custom_data": {"URIronIngot":true},
+        "minecraft:item_model": "minecraft:iron_ingot",
+        "minecraft:max_stack_size": 16,
+        "minecraft:damage_resistant": {"types":"#is_fire"},
+        "!minecraft:food": {},
+        "!minecraft:consumable": {}
+      }
+    },
+    "experience": 0.7,
+    "cookingtime": 200
+}  
