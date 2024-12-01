@@ -1,7 +1,7 @@
 ## >> From: retooled:tick
 ## >> At: Player with breeze band offhand
 ## >> As: Player with breeze band offhand
-## >> Does: Hover 
+## >> Does: Fire Breeze Ball downwards
 ## >> Input: None
 execute unless entity @s[tag=!RTJumped,nbt=!{FallDistance:0f}] run return fail
 summon wind_charge ~ ~ ~ {Tags:["RTBreezeJump"],Motion:[0d,-1d,0d]}
