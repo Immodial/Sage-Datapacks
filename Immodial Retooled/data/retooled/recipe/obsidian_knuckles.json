@@ -2,20 +2,20 @@
     "type": "minecraft:crafting_shaped",
     "category": "equipment",
     "pattern": [
-        "CCC",
-        "C C"
+        "OOO",
+        "O O"
     ],
     "key": {
-        "C": "minecraft:copper_ingot"
+        "O": "minecraft:obsidian"
     },
     "result": {
         "id": "minecraft:stone_pickaxe",
         "count": 1,
         "components": {
-            "minecraft:item_name": "'Copper Knuckles'",
-            "minecraft:custom_data": {"RTModified":true,"RTKnuckles":true,"RTCopper":true},
-            "minecraft:item_model": "retooled:copper_knuckles",
-            "max_damage":350,
+            "minecraft:item_name": "'Obsidian Knuckles'",
+            "minecraft:custom_data": {"RTModified":true,"RTKnuckles":true,"RTObsidian":true},
+            "minecraft:item_model": "retooled:obsidian_knuckles",
+            "max_damage":3122,
             "!tool":{},
             "minecraft:lore": [
                 "{\"text\": \"\"}",
@@ -25,12 +25,12 @@
                     \"italic\": false
                 }",
                 "{
-                    \"text\": \" 5 Attack Damage\",
+                    \"text\": \" 7 Attack Damage\",
                     \"color\": \"dark_green\",
                     \"italic\": false
                 }",
                 "{
-                    \"text\": \" 3.2 Attack Speed\",
+                    \"text\": \" 2.8 Attack Speed\",
                     \"color\": \"dark_green\",
                     \"italic\": false
                 }",
@@ -40,7 +40,7 @@
                     \"italic\": false
                 }",
                 "{
-                    \"text\": \" Forceful\",
+                    \"text\": \" Hefty\",
                     \"color\": \"dark_green\",
                     \"italic\": false
                 }",
@@ -51,7 +51,7 @@
                     \"italic\": false
                 }",
                 "{
-                    \"text\": \" Can Uppercut After a Hit\",
+                    \"text\": \" Can Slam After a Hit\",
                     \"color\": \"dark_green\",
                     \"italic\": false
                 }"
@@ -61,21 +61,21 @@
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
-                    "amount": 4,
+                    "amount": 6,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
                 {
                     "id": "retooled:weapon_speed",
                     "type": "minecraft:attack_speed",
-                    "amount": -0.8,
+                    "amount": -1.2,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
                 {
                     "id": "retooled:weapon_knockback",
                     "type": "minecraft:attack_knockback",
-                    "amount": 1,
+                    "amount": 1.5,
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
