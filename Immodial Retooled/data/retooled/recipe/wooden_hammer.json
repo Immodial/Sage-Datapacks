@@ -11,7 +11,7 @@
         "X": "#minecraft:planks"
     },
     "result": {
-        "id": "minecraft:stone_pickaxe",
+        "id": "minecraft:wooden_pickaxe",
         "count": 1,
         "components": {
             "minecraft:item_name": "'Wooden Hammer'",
