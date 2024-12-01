@@ -11,7 +11,7 @@
         "X": "minecraft:iron_ingot"
     },
     "result": {
-        "id": "minecraft:stone_pickaxe",
+        "id": "minecraft:iron_pickaxe",
         "count": 1,
         "components": {
             "minecraft:item_name": "'Iron Hammer'",

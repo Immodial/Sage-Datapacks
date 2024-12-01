@@ -11,7 +11,7 @@
         "X": "minecraft:diamond"
     },
     "result": {
-        "id": "minecraft:stone_pickaxe",
+        "id": "minecraft:diamond_pickaxe",
         "count": 1,
         "components": {
             "minecraft:item_name": "'Diamond Hammer'",
@@ -20,7 +20,7 @@
             "max_damage": 1561,
             "tool": {
                 "rules": [
-                    {"blocks": "#retooled:mineable/hammer", "speed": 10, "correct_for_drops": true},
+                    {"blocks": "#retooled:mineable/hammer", "speed": 12, "correct_for_drops": true},
                     {"blocks": "#minecraft:incorrect_for_diamond_tool", "correct_for_drops": false}
                 ]
             },

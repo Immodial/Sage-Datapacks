@@ -11,7 +11,7 @@
         "X": "minecraft:diamond"
     },
     "result": {
-        "id": "minecraft:stone_pickaxe",
+        "id": "minecraft:diamond_pickaxe",
         "count": 1,
         "components": {
             "minecraft:item_name": "'Diamond Spear'",
