@@ -1,0 +1,6 @@
+{
+	"parent": "retooled:item/knuckles",
+	"textures": {
+		"mat": "retooled:item/obsidian_knuckles"
+	}
+}
