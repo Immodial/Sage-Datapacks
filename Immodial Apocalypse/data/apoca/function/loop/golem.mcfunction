@@ -5,7 +5,7 @@
 ## >> Input: None
 # Apply stats
 execute if entity @s[tag=!APOCModified] run function apoca:stats/golem
-# Reheal
+# Smash ground
 execute store result score _GolemFall APOCGlobals run data get entity @s FallDistance
 execute if score _GolemFall APOCGlobals matches 4.. run tag @s add APOCSmashFall
 scoreboard players reset _GolemFall APOCGlobals

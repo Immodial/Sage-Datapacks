@@ -1,9 +1,9 @@
-## >> From: apoca:loop/zombie
-## >> At: Any zombie
-## >> As: Any zombie
-## >> Does: Give zombie special stats
+## >> From: apoca:loop/golem
+## >> At: Any iron golem
+## >> As: Any iron golem
+## >> Does: Give iron golem special stats
 ## >> Input: None
-# Give fire immunity, armor, 
+# Give fire immunity, armor, and modify movement values
 effect give @s fire_resistance infinite 0 true
 attribute @s armor base set 12
 attribute @s armor_toughness base set 5

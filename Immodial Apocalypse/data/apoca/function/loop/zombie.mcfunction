@@ -24,7 +24,7 @@ execute unless score @s APOCZombieDensity matches 10.. run attribute @s attack_d
 execute unless score @s APOCZombieDensity matches 10.. run attribute @s attack_knockback modifier remove apoca:large_crowd_knockback
 execute unless score @s APOCZombieDensity matches 10.. run attribute @s knockback_resistance modifier remove apoca:large_crowd_resilience
 # Spawn zombies randomly
-execute unless function apoca:random/4800 unless predicate apoca:daytime if dimension overworld run function apoca:bonus
+execute unless function apoca:random/4800 unless predicate apoca:daytime if dimension overworld run function apoca:special/horde
 # Randomly dissapear during day
 execute unless function apoca:random/9600 if predicate apoca:daytime unless entity @e[type=#apoca:avoided,distance=..30] if dimension overworld run tp @s ~ -1000 ~
 # Die quickly if in fire
