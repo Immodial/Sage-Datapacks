@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "retooled:item/copper_knuckles"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-90, 0, 45],
+			"translation": [0, -2, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-90, 0, -45],
+			"translation": [0, -2, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-65, -30, 40],
+			"translation": [1, 2, -2.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-65, -30, -40],
+			"translation": [1, 2, -2.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [0, 0, 45],
+			"translation": [0, 1, -6.5]
+		}
+	}
+}
