@@ -33,6 +33,8 @@
       "minecraft:trapped_chest",
       "minecraft:ender_chest",
       "minecraft:barrel",
+      "minecraft:decorated_pot",
+      "minecraft:flower_pot",
       "minecraft:furnace",
       "minecraft:smoker",
       "minecraft:blast_furnace",
