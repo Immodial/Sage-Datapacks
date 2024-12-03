@@ -4,7 +4,7 @@
 ## >> Does: Break blocks and damage mobs
 ## >> Input: None
 tp @s ^ ^ ^0.3
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=!item,dx=0,dy=0,dz=0] run damage @s 1 retooled:magic_bolt at ^ ^ ^-5
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=!item,dx=0,dy=0,dz=0] run damage @s 2 retooled:magic_bolt at ^ ^ ^-5
 execute if block ^ ^ ^0.3 #retooled:mineable/hammer run setblock ^ ^ ^0.3 air destroy
 execute if block ^0.3 ^0.3 ^ #retooled:mineable/hammer run setblock ^0.3 ^0.3 ^ air destroy
 execute if block ^-0.3 ^0.3 ^ #retooled:mineable/hammer run setblock ^-0.3 ^0.3 ^ air destroy
