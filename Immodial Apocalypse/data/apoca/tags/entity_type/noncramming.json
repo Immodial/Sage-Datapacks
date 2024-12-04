@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:item",
+    "minecraft:armor_stand",
+    "#minecraft:impact_projectiles",
+    "#minecraft:boat",
+    "#apoca:chest_boat",
+    "#apoca:minecart",
+    "#apoca:nonphysical"
+  ]
+}
