@@ -13,6 +13,6 @@ execute if entity @n[tag=RTKnuckleHit] anchored eyes run particle gust ^ ^ ^1
 damage @n[tag=RTKnuckleHit] 1 retooled:uppercut by @p[tag=RTAttackMarked]
 damage @n[tag=RTKnuckleHit] 1 retooled:uppercut by @p[tag=RTAttackMarked]
 damage @n[tag=RTKnuckleHit] 1 retooled:uppercut by @p[tag=RTAttackMarked]
-damage @n[tag=RTKnuckleHit] 3 retooled:uppercut by @p[tag=RTAttackMarked]
+damage @n[tag=RTKnuckleHit] 4 retooled:uppercut by @p[tag=RTAttackMarked]
 tag @e remove RTKnuckleHit
 tag @s remove RTAttackMarked
