@@ -8,10 +8,10 @@
     ],
     "key": {
         "#": "minecraft:stick",
-        "X": "#minecraft:stone_tool_materials"
+        "X": "#minecraft:planks"
     },
     "result": {
-        "id": "minecraft:stone_shovel",
+        "id": "minecraft:wooden_shovel",
         "count": 1,
         "components": {
             "minecraft:custom_data": {"RTModified":true},

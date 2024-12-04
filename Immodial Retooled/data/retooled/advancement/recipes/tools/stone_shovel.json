@@ -1,12 +1,12 @@
 {
     "parent": "minecraft:recipes/root",
     "criteria": {
-        "has_diamond": {
+        "has_cobblestone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:diamond"
+                        "items": "#minecraft:stone_tool_materials"
                     }
                 ]
             }
@@ -14,19 +14,19 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "retooled:diamond_shovel"
+                "recipe": "retooled:stone_shovel"
             }
         }
     },
     "requirements": [
         [
             "has_the_recipe",
-            "has_diamond"
+            "has_cobblestone"
         ]
     ],
     "rewards": {
         "recipes": [
-            "retooled:diamond_shovel"
+            "retooled:stone_shovel"
         ]
     }
 }
