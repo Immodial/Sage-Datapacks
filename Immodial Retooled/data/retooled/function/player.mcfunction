@@ -14,3 +14,5 @@ tag @s remove RTJumped
 tag @s[tag=RTJumping] add RTJumped
 tag @s remove RTJumping
 tag @s[nbt={OnGround:1b}] remove RTDoubleJumped
+# Modify held items
+execute if items entity @s weapon.* #retooled:modified[!custom_data] run function retooled:retool
