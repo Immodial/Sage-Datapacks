@@ -1,0 +1,66 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "XX",
+        "XX",
+        "# "
+    ],
+    "key": {
+        "#": "minecraft:stick",
+        "X": "minecraft:iron_ingot"
+    },
+    "result": {
+        "id": "minecraft:stone_pickaxe",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": "'Cleaver'",
+            "minecraft:custom_data": {"RTModified":true},
+            "max_damage": 500,
+            "!tool":{},
+            "minecraft:lore": [
+                "{\"text\": \"\"}",
+                "{
+                    \"text\": \"When in Main Hand:\",
+                    \"color\": \"gray\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" 11 Attack Damage\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" 0.5 Attack Speed\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" Short Length\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:attack_damage",
+                    "amount": 9,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -3.6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+    }
+}
+  

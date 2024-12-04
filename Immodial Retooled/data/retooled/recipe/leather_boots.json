@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": "minecraft:leather"
+    },
+    "result": {
+        "id": "minecraft:leather_boots",
+        "count": 1,
+        "components": {
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:boots_health",
+                    "type": "minecraft:max_health",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "feet"
+                }
+              ]
+            }
+        }
+    }
+}
+  

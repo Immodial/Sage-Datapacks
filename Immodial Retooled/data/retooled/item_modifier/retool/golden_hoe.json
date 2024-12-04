@@ -1,0 +1,62 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:lore": [
+                "{\"text\": \"\"}",
+                "{
+                    \"text\": \"When in Main Hand:\",
+                    \"color\": \"gray\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" 2 Attack Damage\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" 1.8 Attack Speed\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" Medium Length\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" Sickle\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:attack_damage",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_length",
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+    }
+]  

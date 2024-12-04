@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "SGS",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:paper",
+        "G": "minecraft:gunpowder",
+        "S": "minecraft:stick"
+    },
+    "result": {
+        "id": "minecraft:flint_and_steel",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": "'Matchbox'",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:matchbox",
+            "max_damage": 8
+        }
+    }
+}
+  
