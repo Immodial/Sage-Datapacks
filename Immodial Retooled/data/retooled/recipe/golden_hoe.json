@@ -36,6 +36,16 @@
                     \"text\": \" Medium Length\",
                     \"color\": \"dark_green\",
                     \"italic\": false
+                }",
+                "{
+                    \"text\": \" Sickle\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
+                }",
+                "{
+                    \"text\": \" Sickle\",
+                    \"color\": \"dark_green\",
+                    \"italic\": false
                 }"
             ],
             "minecraft:attribute_modifiers": {

@@ -10,7 +10,7 @@
         "X": "minecraft:heavy_core"
     },
     "result": {
-        "id": "minecraft:stone_hoe",
+        "id": "minecraft:mace",
         "count": 1,
         "components": {
             "minecraft:custom_data": {"RTModified":true},
