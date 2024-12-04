@@ -14,6 +14,7 @@ execute as @e[type=creeper,nbt=!{Fuse:0s},nbt=!{ignited:true}] at @s run functio
 execute as @e[type=iron_golem] at @s run function apoca:loop/golem
 execute as @e[type=ghast] at @s run function apoca:loop/ghast
 execute as @e[type=fireball] at @s run function apoca:loop/fireball
+execute as @e[type=experience_orb] at @s run function apoca:loop/xporb
 # Run player effects
 execute as @a at @s run function apoca:loop/player
 execute unless entity @a[tag=!RestfulSleeping] run time add 20
