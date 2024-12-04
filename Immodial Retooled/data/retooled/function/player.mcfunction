@@ -14,7 +14,3 @@ tag @s remove RTJumped
 tag @s[tag=RTJumping] add RTJumped
 tag @s remove RTJumping
 tag @s[nbt={OnGround:1b}] remove RTDoubleJumped
-# Replace items
-execute if items entity @s weapon.* #retooled:modified[!custom_data] run function retooled:retool
-execute if items entity @s weapon.offhand *[custom_data~{RTKnuckles:true},!consumable] run function retooled:functionality/knuckles/activate
-execute if items entity @s weapon.mainhand *[custom_data~{RTKnuckles:true},consumable] run function retooled:functionality/knuckles/deactivate

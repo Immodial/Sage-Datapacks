@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "change_inventory": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "change_inventory"
+    ]
+  ],
+  "rewards": {
+    "function": "retooled:inventory"
+  }
+}

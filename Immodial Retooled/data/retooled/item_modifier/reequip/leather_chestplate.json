@@ -1,0 +1,19 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:chestplate_health",
+                    "type": "minecraft:max_health",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "chest"
+                }
+              ]
+            }
+        }
+    }
+]  

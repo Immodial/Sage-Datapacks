@@ -1,0 +1,19 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:helmet_health",
+                    "type": "minecraft:max_health",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                }
+              ]
+            }
+        }
+    }
+]  
