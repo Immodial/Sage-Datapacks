@@ -15,5 +15,5 @@ scoreboard objectives add APOCChargeTime dummy "Fireball Charge"
 scoreboard objectives add APOCParticleTime dummy "Fireball Particles"
 # Loops
 schedule function apoca:tick 1
-schedule clear apoca:densities
-schedule function apoca:densities 20
+schedule clear apoca:states
+schedule function apoca:states 20
