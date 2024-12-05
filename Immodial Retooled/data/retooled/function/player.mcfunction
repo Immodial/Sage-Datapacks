@@ -16,3 +16,5 @@ tag @s remove RTJumping
 tag @s[nbt={OnGround:1b}] remove RTDoubleJumped
 # Modify held items
 execute if items entity @s weapon.* #retooled:modified[!custom_data] run function retooled:retool
+# Disable knuckles
+execute if items entity @s weapon.mainhand *[custom_data~{RTKnuckles:true},consumable] run function retooled:functionality/knuckles/deactivate
