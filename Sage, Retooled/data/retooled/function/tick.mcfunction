@@ -10,5 +10,7 @@ execute as @e[type=armor_stand,tag=!RTArmorStandUpdated] run data modify entity 
 tag @e[type=armor_stand] add RTArmorStandUpdated
 # Update projectiles
 execute as @e[type=marker,tag=RTProjectile] at @s run function retooled:projectile with entity @s data.Projectile
+# Modify items
+execute as @e[type=item] if items entity @s contents #retooled:modified[!custom_data] run function retooled:redrop
 # Loop
 schedule function retooled:tick 1
