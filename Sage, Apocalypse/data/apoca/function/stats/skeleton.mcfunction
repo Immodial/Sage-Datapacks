@@ -3,8 +3,7 @@
 ## >> As: Any skeleton
 ## >> Does: Give skeleton special stats
 ## >> Input: None
-# Give base armor, and increased follow range
-attribute @s armor base set 10
+# Give increased follow range
 attribute @s follow_range base set 60
 # Get basic weapon
 execute unless function apoca:random/8 run item replace entity @s weapon.mainhand with stone_sword
