@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        "minecraft:string",
+        "#minecraft:wool",
+        "minecraft:string"
+    ],
+    "result": {
+        "id": "minecraft:cooked_porkchop",
+        "count": 2,
+        "components": {
+            "minecraft:item_name": "'Bandage'",
+            "minecraft:item_model": "retooled:bandage",
+            "!food": {},
+            "consumable": {
+                "animation": "block",
+                "consume_seconds": 3,
+                "has_consume_particles": false,
+                "sound": "entity.leash_knot.break",
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:regeneration",
+                                "duration": 48,
+                                "amplifier": 2
+                            }
+                        ]
+                    },
+                    {
+                        "type": "minecraft:play_sound",
+                        "sound": "entity.leash_knot.place"
+                    }
+                ]
+            }
+        }
+    }
+}
+  
