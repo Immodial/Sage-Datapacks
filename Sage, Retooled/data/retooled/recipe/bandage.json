@@ -12,6 +12,7 @@
         "components": {
             "minecraft:item_name": "'Bandage'",
             "minecraft:item_model": "retooled:bandage",
+            "minecraft:max_stack_size": 16,
             "!food": {},
             "consumable": {
                 "animation": "block",
