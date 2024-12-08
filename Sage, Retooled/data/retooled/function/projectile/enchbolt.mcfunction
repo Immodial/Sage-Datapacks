@@ -3,6 +3,8 @@
 ## >> As: Enchantment Bolt being fired
 ## >> Does: Break blocks and damage mobs
 ## >> Input: None
+execute if score @s RTProjectileTime matches 1 if entity @a[dx=0,dy=0,dz=0] positioned ^ ^ ^0.5 unless entity @a[dx=0,dy=0,dz=0] run return run tp ^ ^ ^
+execute if score @s RTProjectileTime matches 1 if entity @a[dx=0,dy=0,dz=0] run return run tp ^ ^ ^1
 tp @s ^ ^ ^0.3
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=!item,dx=0,dy=0,dz=0] run damage @s 2 retooled:magic_bolt at ^ ^ ^-5
 execute if block ^ ^ ^0.3 #retooled:mineable/hammer run setblock ^ ^ ^0.3 air destroy
