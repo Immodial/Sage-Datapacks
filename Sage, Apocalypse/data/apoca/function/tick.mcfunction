@@ -15,7 +15,7 @@ execute as @e[type=fireball] at @s run function apoca:loop/fireball
 execute as @e[type=experience_orb] at @s run function apoca:loop/xporb
 # Run player effects
 execute as @a at @s run function apoca:loop/player
-execute unless entity @a[tag=!RestfulSleeping] run time add 20
+execute unless entity @a[gamemode=!spectator,tag=!RestfulSleeping] run time add 20
 # Set hard difficulty and lack of sleep
 difficulty hard
 gamerule playersSleepingPercentage 200
