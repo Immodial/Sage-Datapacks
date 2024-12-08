@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " # ",
+        "# #"
+    ],
+    "key": {
+        "#": "minecraft:copper_ingot"
+    },
+    "result": {
+        "id": "minecraft:cooked_porkchop",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": "'Copper Helmet'",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:copper_helmet",
+            "minecraft:equippable": {
+                "slot": "head",
+                "asset_id": "retooled:copper"
+            },
+            "minecraft:max_damage": 82,
+            "!max_stack_size": {},
+            "!food":{},
+            "!consumable":{},
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:helmet_armor",
+                    "type": "minecraft:armor",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                },
+                {
+                    "id": "retooled:helmet_mining",
+                    "type": "minecraft:mining_efficiency",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "head"
+                }
+              ]
+            }
+        }
+    }
+}
+  
