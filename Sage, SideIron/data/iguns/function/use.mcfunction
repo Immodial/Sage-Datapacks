@@ -12,6 +12,9 @@ tag @s add IGUsing
 execute if entity @s[tag=IGUsed] run return fail
 # Increment time and mark player
 scoreboard players add @s IGUseTime 1
+# Swap gun state
+execute if predicate iguns:crouch if items entity @s weapon.mainhand *[custom_data~{IGLoaded:false}] run return run function iguns:ready
+execute if predicate iguns:crouch if items entity @s weapon.mainhand *[custom_data~{IGLoaded:true}] run return run function iguns:unready with entity @s SelectedItem.components.minecraft:custom_data
 # Load data
 execute store result score @s IGLoadTime run data get entity @s SelectedItem.components.minecraft:custom_data.IGLoadTime
 execute if items entity @s weapon.mainhand *[custom_data~{IGLoaded:false}] if score @s IGUseTime = @s IGLoadTime run function iguns:load with entity @s SelectedItem.components.minecraft:custom_data
