@@ -31,7 +31,7 @@
                 "IGLoaded":false,
                 "IGAmmoType":"cartridge",
                 "IGAmmo":[],
-                "IGLoadTime":30
+                "IGLoadTime":35
             },
             "lore": [
                 "{text:'0/8',color:'dark_green',italic:false}",
