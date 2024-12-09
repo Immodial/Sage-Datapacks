@@ -10,7 +10,7 @@
         "#": "minecraft:copper_ingot"
     },
     "result": {
-        "id": "minecraft:cooked_porkchop",
+        "id": "minecraft:diamond_leggings",
         "count": 1,
         "components": {
             "minecraft:item_name": "'Copper Leggings'",

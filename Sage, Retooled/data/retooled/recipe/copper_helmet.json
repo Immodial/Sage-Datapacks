@@ -9,7 +9,7 @@
         "#": "minecraft:copper_ingot"
     },
     "result": {
-        "id": "minecraft:cooked_porkchop",
+        "id": "minecraft:diamond_helmet",
         "count": 1,
         "components": {
             "minecraft:item_name": "'Copper Helmet'",
