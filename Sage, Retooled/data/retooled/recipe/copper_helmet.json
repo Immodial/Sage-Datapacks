@@ -12,7 +12,7 @@
         "id": "minecraft:diamond_helmet",
         "count": 1,
         "components": {
-            "minecraft:item_name": "'Copper Helmet'",
+            "minecraft:item_name": "[{translate:'item.retooled.copper_helmet'}]",
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:copper_helmet",
             "minecraft:equippable": {

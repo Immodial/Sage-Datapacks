@@ -14,34 +14,36 @@
         "id": "minecraft:diamond_sword",
         "count": 1,
         "components": {
-            "minecraft:item_name": "'Diamond Longsword'",
+            "minecraft:item_name": "[{translate:'item.retooled.diamond_longsword'}]",
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:lore": [
-                "{\"text\": \"\"}",
+                "{text: ''}",
                 "{
-                    \"text\": \"When in Main Hand:\",
-                    \"color\": \"gray\",
-                    \"italic\": false
+                    translate: 'item.modifiers.mainhand',
+                    color: 'gray',
+                    italic: false
                 }",
                 "{
-                    \"text\": \" 7 Attack Damage\",
-                    \"color\": \"dark_green\",
-                    \"italic\": false
+                    text: ' 7 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_damage'}]
                 }",
                 "{
-                    \"text\": \" 1.6 Attack Speed\",
-                    \"color\": \"dark_green\",
-                    \"italic\": false
+                    text: ' 1.6 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_speed'}]
                 }",
                 "{
-                    \"text\": \" Medium Length\",
-                    \"color\": \"dark_green\",
-                    \"italic\": false
+                    translate: 'trait.retooled.length.medium',
+                    color: 'dark_green',
+                    italic: false
                 }",
                 "{
-                    \"text\": \" Sweeping\",
-                    \"color\": \"dark_green\",
-                    \"italic\": false
+                    text: ' Sweeping',
+                    color: 'dark_green',
+                    italic: false
                 }"
             ],
             "minecraft:attribute_modifiers": {

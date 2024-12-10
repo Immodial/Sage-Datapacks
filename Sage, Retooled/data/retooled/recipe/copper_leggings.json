@@ -13,7 +13,7 @@
         "id": "minecraft:diamond_leggings",
         "count": 1,
         "components": {
-            "minecraft:item_name": "'Copper Leggings'",
+            "minecraft:item_name": "[{translate:'item.retooled.copper_leggings'}]",
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:copper_leggings",
             "minecraft:equippable": {

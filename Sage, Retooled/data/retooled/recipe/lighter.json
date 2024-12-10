@@ -15,7 +15,7 @@
         "id": "minecraft:flint_and_steel",
         "count": 1,
         "components": {
-            "minecraft:item_name": "'Lighter'",
+            "minecraft:item_name": "[{translate:'item.retooled.lighter'}]",
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:lighter",
             "max_damage": 96

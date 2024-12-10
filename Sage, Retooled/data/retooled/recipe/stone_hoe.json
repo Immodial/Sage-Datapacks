@@ -16,26 +16,28 @@
         "components": {
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:lore": [
-                "{\"text\": \"\"}",
+                "{text: ''}",
                 "{
-                    \"text\": \"When in Main Hand:\",
-                    \"color\": \"gray\",
-                    \"italic\": false
+                    translate: 'item.modifiers.mainhand',
+                    color: 'gray',
+                    italic: false
                 }",
                 "{
-                    \"text\": \" 2 Attack Damage\",
-                    \"color\": \"dark_green\",
-                    \"italic\": false
+                    text: ' 2 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_damage'}]
                 }",
                 "{
-                    \"text\": \" 1.6 Attack Speed\",
-                    \"color\": \"dark_green\",
-                    \"italic\": false
+                    text: ' 1.6 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_speed'}]
                 }",
                 "{
-                    \"text\": \" Long Length\",
-                    \"color\": \"dark_green\",
-                    \"italic\": false
+                    translate: 'trait.retooled.length.long',
+                    color: 'dark_green',
+                    italic: false
                 }"
             ],
             "minecraft:attribute_modifiers": {

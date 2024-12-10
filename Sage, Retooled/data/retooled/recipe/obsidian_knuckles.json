@@ -12,48 +12,50 @@
         "id": "minecraft:stone_pickaxe",
         "count": 1,
         "components": {
-            "minecraft:item_name": "'Obsidian Knuckles'",
+            "minecraft:item_name": "[{translate:'item.retooled.obsidian_knuckles'}]",
             "minecraft:custom_data": {"RTModified":true,"RTKnuckles":true,"RTObsidian":true},
             "minecraft:item_model": "retooled:obsidian_knuckles",
             "max_damage":3122,
             "!tool":{},
             "minecraft:lore": [
-                "{\"text\": \"\"}",
+                "{text: ''}",
                 "{
-                    \"text\": \"When in Main Hand:\",
-                    \"color\": \"gray\",
-                    \"italic\": false
+                    translate: 'item.modifiers.mainhand',
+                    color: 'gray',
+                    italic: false
                 }",
                 "{
-                    \"text\": \" 7 Attack Damage\",
-                    \"color\": \"dark_green\",
-                    \"italic\": false
+                    text: ' 7 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_damage'}]
                 }",
                 "{
-                    \"text\": \" 2.8 Attack Speed\",
-                    \"color\": \"dark_green\",
-                    \"italic\": false
+                    text: ' 2.8 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_speed'}]
                 }",
                 "{
-                    \"text\": \" Short Length\",
-                    \"color\": \"dark_green\",
-                    \"italic\": false
+                    translate: 'trait.retooled.length.short',
+                    color: 'dark_green',
+                    italic: false
                 }",
                 "{
-                    \"text\": \" Hefty\",
-                    \"color\": \"dark_green\",
-                    \"italic\": false
+                    translate: 'trait.retooled.knockback.strong',
+                    color: 'dark_green',
+                    italic: false
                 }",
-                "{\"text\": \"\"}",
+                "{text: ''}",
                 "{
-                    \"text\": \"When in Off Hand:\",
-                    \"color\": \"gray\",
-                    \"italic\": false
+                    translate: 'item.modifiers.offhand',
+                    color: 'gray',
+                    italic: false
                 }",
                 "{
-                    \"text\": \" Can Slam After a Hit\",
-                    \"color\": \"dark_green\",
-                    \"italic\": false
+                    text: ' Can Slam After a Hit',
+                    color: 'dark_green',
+                    italic: false
                 }"
             ],
             "minecraft:attribute_modifiers": {

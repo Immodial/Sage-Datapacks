@@ -14,7 +14,7 @@
         "id": "minecraft:flint_and_steel",
         "count": 1,
         "components": {
-            "minecraft:item_name": "'Matchbox'",
+            "minecraft:item_name": "[{translate:'item.retooled.matchbox'}]",
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:matchbox",
             "max_damage": 8
