@@ -2,23 +2,18 @@
     "type": "minecraft:crafting_shapeless",
     "category": "equipment",
     "ingredients": [
-        {
-            "item": "minecraft:ink_sac"
-        },
-        {
-            "tag": "minecraft:wool"
-        }
+        "minecraft:ink_sac",
+        "#minecraft:wool"
     ],
     "result": {
-        "id": "minecraft:paper",
+        "id": "minecraft:cooked_porkchop",
         "count": 1,
         "components": {
-            "item_name": "'Date Stamp'",
-            "custom_model_data": 2,
-            "food": {
-                "saturation":0, "nutrition":0,
-                "can_always_eat": true,
-                "eat_seconds": 100000
+            "item_name": "[{translate:'item.loremaster.date_stamp'}]",
+            "item_model": "lorem:date_stamp",
+            "!food": {},
+            "consumable": {
+                "consume_seconds": 100000
             },
             "custom_data": {
                 "LMDateStamp":true
