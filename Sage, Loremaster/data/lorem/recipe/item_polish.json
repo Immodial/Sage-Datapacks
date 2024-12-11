@@ -2,23 +2,18 @@
     "type": "minecraft:crafting_shapeless",
     "category": "equipment",
     "ingredients": [
-        {
-            "item": "minecraft:honeycomb"
-        },
-        {
-            "tag": "minecraft:wool"
-        }
+        "minecraft:honeycomb",
+        "#minecraft:wool"
     ],
     "result": {
-        "id": "minecraft:paper",
+        "id": "minecraft:cooked_porkchop",
         "count": 1,
         "components": {
-            "item_name": "'Item Polish'",
-            "custom_model_data": 3,
-            "food": {
-                "saturation":0, "nutrition":0,
-                "can_always_eat": true,
-                "eat_seconds": 100000
+            "item_name": "[{translate:'item.loremaster.item_polish'}]",
+            "item_model": "lorem:item_polish",
+            "!food": {},
+            "consumable": {
+                "consume_seconds": 100000
             },
             "custom_data": {
                 "LMPolish":true
