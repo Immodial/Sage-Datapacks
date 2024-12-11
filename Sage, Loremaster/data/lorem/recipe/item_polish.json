@@ -3,7 +3,7 @@
     "category": "equipment",
     "ingredients": [
         "minecraft:honeycomb",
-        "#minecraft:wool"
+        "minecraft:paper"
     ],
     "result": {
         "id": "minecraft:cooked_porkchop",
