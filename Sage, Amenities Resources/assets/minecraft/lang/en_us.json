@@ -1,5 +1,6 @@
 {
-    "item.unrefined.malleable_iron": "Malleable Iron",
-    "item.unrefined.molten_iron_nugget": "Molten Iron Nugget",
-    "item.unrefined.iron_scrap": "Iron Scrap"
+    "item.loremaster.lore_tag": "Lore Tag",
+    "item.loremaster.item_polish": "Item Polish",
+    "item.loremaster.date_stamp": "Date Stamp",
+    "item.loremaster.signing_quill": "Signing Quill"
 }

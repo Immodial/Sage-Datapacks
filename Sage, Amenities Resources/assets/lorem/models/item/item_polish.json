@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "item/date_stamp"
+		"layer0": "lorem:item/item_polish"
 	}
 }
