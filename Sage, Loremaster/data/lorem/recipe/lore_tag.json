@@ -2,26 +2,19 @@
     "type": "minecraft:crafting_shapeless",
     "category": "equipment",
     "ingredients": [
-        {
-            "item": "minecraft:paper"
-        },
-        {
-            "item": "minecraft:paper"
-        },
-        {
-            "item": "minecraft:string"
-        }
+        "minecraft:paper",
+        "minecraft:paper",
+        "minecraft:string"
     ],
     "result": {
-        "id": "minecraft:paper",
+        "id": "minecraft:cooked_porkchop",
         "count": 1,
         "components": {
-            "item_name": "'Lore Tag'",
-            "custom_model_data": 1,
-            "food": {
-                "saturation":0, "nutrition":0,
-                "can_always_eat": true,
-                "eat_seconds": 100000
+            "item_name": "[{translate:'item.loremaster.lore_tag'}]",
+            "item_model": "lorem:lore_tag",
+            "!food": {},
+            "consumable": {
+                "consume_seconds": 100000
             },
             "custom_data": {
                 "LMLoreTag":true

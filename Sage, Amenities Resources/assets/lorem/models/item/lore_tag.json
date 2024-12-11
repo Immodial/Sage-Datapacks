@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "item/signing_quill"
+		"layer0": "lorem:item/lore_tag"
 	}
 }
