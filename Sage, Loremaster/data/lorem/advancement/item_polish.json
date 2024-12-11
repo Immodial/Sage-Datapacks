@@ -1,30 +1,30 @@
 {
-  "parent": "worldpilot:recipe",
+  "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_gunpowder": {
+    "has_honeycomb": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-          {"items": "minecraft:gunpowder"}
+          {"items": "minecraft:honeycomb"}
         ]
       }
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "iguns:buckshot_shell"
+        "recipe": "lorem:item_polish"
       }
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_gunpowder"
+      "has_honeycomb"
     ]
   ],
   "rewards": {
     "recipes": [
-      "iguns:buckshot_shell"
+      "lorem:item_polish"
     ]
   }
 }
