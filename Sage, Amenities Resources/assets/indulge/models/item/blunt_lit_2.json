@@ -1,0 +1,6 @@
+{
+	"parent": "indulge:item/blunt",
+	"textures": {
+		"layer0": "indulge:item/blunt_lit_2"
+	}
+}

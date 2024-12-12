@@ -1,0 +1,33 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "cases": [
+            {
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "indulge:item/blunt_lit_0"
+                },
+                "when": "lit_0"
+            },
+            {
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "indulge:item/blunt_lit_1"
+                },
+                "when": "lit_1"
+            },
+            {
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "indulge:item/blunt_lit_2"
+                },
+                "when": "lit_2"
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "indulge:item/blunt_unlit"
+        }
+    }
+}
