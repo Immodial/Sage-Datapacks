@@ -1,0 +1,90 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:consumable": {
+      "consume_seconds": 4,
+      "animation": "spyglass",
+      "sound": "minecraft:entity.sniffer.sniffing",
+      "has_consume_particles": false,
+      "on_consume_effects": [
+        {
+          "type": "minecraft:apply_effects",
+          "effects": [
+            {
+              "id": "minecraft:nausea",
+              "duration": 100
+            }
+          ]
+        }
+      ]
+    },
+    "custom_model_data": {"strings": ["lit_0"]},
+    "custom_data": {},
+    "minecraft:use_remainder": {
+      "id": "cooked_porkchop",
+      "count": 1,
+      "components": {
+        "item_name": "[{translate:'item.indulge.wheat_blunt'}]",
+        "item_model": "indulge:blunt",
+        "custom_model_data": {"strings": ["lit_1"]},
+        "!food": {},
+        "minecraft:consumable": {
+          "consume_seconds": 4,
+          "animation": "spyglass",
+          "sound": "minecraft:entity.sniffer.sniffing",
+          "has_consume_particles": false,
+          "on_consume_effects": [
+            {
+              "type": "minecraft:apply_effects",
+              "effects": [
+                {
+                  "id": "minecraft:nausea",
+                  "duration": 100
+                }
+              ]
+            }
+          ]
+        },
+        "equippable": {
+          "slot": "head",
+          "swappable": false,
+          "equip_sound": "minecraft:entity.sniffer.sniffing"
+        },
+        "!max_stack_size": {},
+        "minecraft:use_remainder": {
+          "id": "cooked_porkchop",
+          "count": 1,
+          "components": {
+              "item_name": "[{translate:'item.indulge.wheat_blunt'}]",
+              "item_model": "indulge:blunt",
+              "custom_model_data": {"strings": ["lit_2"]},
+              "!food": {},
+              "minecraft:consumable": {
+                "consume_seconds": 4,
+                "animation": "spyglass",
+                "sound": "minecraft:entity.sniffer.sniffing",
+                "has_consume_particles": false,
+                "on_consume_effects": [
+                  {
+                    "type": "minecraft:apply_effects",
+                    "effects": [
+                      {
+                        "id": "minecraft:nausea",
+                        "duration": 100
+                      }
+                    ]
+                  }
+                ]
+              },
+              "equippable": {
+                "slot": "head",
+                "swappable": false,
+                "equip_sound": "minecraft:entity.sniffer.sniffing"
+              },
+              "!max_stack_size": {}
+          }
+        }
+      }
+    }
+  }
+}
