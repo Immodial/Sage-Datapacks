@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:quartz",
+        "minecraft:melon_slice",
+        "minecraft:ice"
+    ],
+    "result": {
+        "id": "minecraft:cooked_porkchop",
+        "count": 1,
+        "components": {
+            "item_name": "[{translate:'item.indulge.iced_tea'}]",
+            "item_model": "indulge:teacup",
+            "food": {
+                "nutrition": 3,
+                "saturation": 1.8,
+                "can_always_eat": true
+            },
+            "dyed_color": 7775130,
+            "!potion_contents": {},
+            "consumable": {
+                "animation": "drink",
+                "has_consume_particles": false,
+                "sound": "minecraft:entity.generic.drink",
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [{"id": "minecraft:fire_resistance", "duration": 20}]
+                    }
+                ]
+            },
+            "use_remainder": {
+                "id": "minecraft:quartz",
+                "count": 1,
+                "components": {
+                    "item_name": "[{translate:'item.indulge.teacup'}]",
+                    "item_model": "indulge:teacup_empty"
+                }
+            },
+            "!max_stack_size": {}
+        }
+    }
+}
