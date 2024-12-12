@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:wheat",
+        "minecraft:wheat",
+        "minecraft:paper",
+        "minecraft:paper"
+    ],
+    "result": {
+        "id": "minecraft:cooked_porkchop",
+        "count": 1,
+        "components": {
+            "item_name": "[{translate:'item.indulge.wheat_blunt'}]",
+            "item_model": "indulge:blunt",
+            "!food": {},
+            "consumable": {
+                "consume_seconds": 100000,
+                "animation": "spyglass"
+            },
+            "custom_data": {
+                "IDLGBlunt":true
+            },
+            "equippable": {
+              "slot": "head",
+              "swappable": false,
+              "equip_sound": "minecraft:entity.sniffer.sniffing"
+            },
+            "!max_stack_size": {}
+        }
+    }
+}
