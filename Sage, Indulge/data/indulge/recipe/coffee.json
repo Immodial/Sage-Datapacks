@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:quartz",
+        "minecraft:cocoa_beans",
+        "minecraft:sugar"
+    ],
+    "result": {
+        "id": "minecraft:cooked_porkchop",
+        "count": 1,
+        "components": {
+            "item_name": "[{translate:'item.indulge.coffee'}]",
+            "item_model": "indulge:teacup",
+            "food": {
+                "nutrition": 2,
+                "saturation": 0.4,
+                "can_always_eat": true
+            },
+            "dyed_color": 4595460,
+            "!potion_contents": {},
+            "consumable": {
+                "animation": "drink",
+                "has_consume_particles": false,
+                "sound": "minecraft:entity.generic.drink",
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [{"id": "minecraft:speed", "amplifier": 1,"duration": 60}]
+                    }
+                ]
+            },
+            "use_remainder": {
+                "id": "minecraft:quartz",
+                "count": 1,
+                "components": {
+                    "item_name": "[{translate:'item.indulge.teacup'}]",
+                    "item_model": "indulge:teacup_empty"
+                }
+            },
+            "!max_stack_size": {}
+        }
+    }
+}
