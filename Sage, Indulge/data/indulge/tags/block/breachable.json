@@ -1,0 +1,21 @@
+{
+    "values": [
+        "#minecraft:mineable/shovel",
+        "#minecraft:mineable/hoe",
+        "#minecraft:mineable/axe",
+        "minecraft:cobblestone",
+        "minecraft:stone",
+        "minecraft:granite",
+        "minecraft:diorite",
+        "minecraft:andesite",
+        "#minecraft:terracotta",
+        "minecraft:calcite",
+        "minecraft:tuff",
+        "#minecraft:ice",
+        "minecraft:dripstone_block",
+        "minecraft:pointed_dripstone",
+        "minecraft:netherrack",
+        "minecraft:blackstone",
+        "minecraft:end_stone"
+    ]
+}

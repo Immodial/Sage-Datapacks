@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "# #",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:quartz"
+    },
+    "result": {
+        "id": "minecraft:quartz",
+        "count": 3,
+        "components": {
+            "item_name": "[{translate:'item.indulge.teacup'}]",
+            "item_model": "indulge:teacup_empty"
+        }
+    }
+}

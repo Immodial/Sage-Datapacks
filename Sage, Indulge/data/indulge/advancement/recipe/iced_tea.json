@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:ice"}
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "indulge:iced_tea"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ice"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "indulge:iced_tea"
+    ]
+  }
+}
