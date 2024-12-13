@@ -1,0 +1,25 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "retooled:item/glider_full"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-90, 0, 0],
+			"scale": [2, 2, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-90, 0, 0],
+			"scale": [2, 2, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-30, -20, 0],
+			"translation": [0.5, 4.75, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-30, -20, 0],
+			"translation": [0.5, 4.75, 0]
+		}
+	}
+}

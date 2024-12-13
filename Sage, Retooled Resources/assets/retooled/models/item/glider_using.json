@@ -1,0 +1,14 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "retooled:item/glider_full",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [-20, 10, 10],
+			"translation": [-3, 4, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-20, 10, 10],
+			"translation": [-3, 4, 0]
+		}
+	}
+}

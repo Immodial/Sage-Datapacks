@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "retooled:item/glider_full"
+                    },
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "retooled:item/glider_using"
+                    }
+                },
+                "when": ["firstperson_righthand","firstperson_lefthand","thirdperson_righthand","thirdperson_lefthand"]
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "retooled:item/glider_item"
+        }
+    }
+}
