@@ -11,7 +11,7 @@
         "I": "minecraft:stick"
     },
     "result": {
-        "id": "minecraft:rotten_flesh",
+        "id": "minecraft:cooked_porkchop",
         "count": 1,
         "components": {
             "item_name": "[{translate:'item.iguns.bolt_rifle'}]",
@@ -37,7 +37,6 @@
                 "{text:'0/1',color:'dark_green',italic:false}",
                 "{translate:'description.iguns.use_cartridges',color:'dark_green',italic:false}"
             ]
-
         }
     }
 }

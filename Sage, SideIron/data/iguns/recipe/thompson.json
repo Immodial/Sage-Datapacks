@@ -12,7 +12,7 @@
         "#": "#minecraft:planks"
     },
     "result": {
-        "id": "minecraft:rotten_flesh",
+        "id": "minecraft:cooked_porkchop",
         "count": 1,
         "components": {
             "item_name": "[{translate:'item.iguns.thompson'}]",
@@ -38,7 +38,6 @@
                 "{text:'0/16',color:'dark_green',italic:false}",
                 "{translate:'description.iguns.use_bullets',color:'dark_green',italic:false}"
             ]
-
         }
     }
 }
