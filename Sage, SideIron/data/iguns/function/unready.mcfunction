@@ -3,8 +3,6 @@
 ## >> As: Player unreadying a full gun
 ## >> Does: Make gun ready
 ## >> Input: IGMaxAmmo (int)
-# End if all ammo is loaded
-$execute if data entity @s SelectedItem.components.minecraft:custom_data.IGAmmo[$(IGMaxAmmo)] run return fail
 # Copy item which is now readied
 summon item ~ ~ ~ {Tags:["IGGunUpdate"],Item:{id:"minecraft:stone",count:1}}
 data modify entity @e[tag=IGGunUpdate,limit=1] Item set from entity @s SelectedItem
