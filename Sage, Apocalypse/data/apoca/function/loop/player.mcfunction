@@ -3,6 +3,9 @@
 ## >> As: Any player
 ## >> Does: Run player modifiers
 ## >> Input: None
+execute unless predicate apoca:daytime positioned ~ 164 ~ if entity @s[dy=1000] unless entity @e[type=phantom,distance=..100] unless function apoca:random/48 run playsound entity.phantom.flap hostile @a ~ ~48 ~ 100 0.4
+execute unless predicate apoca:daytime positioned ~ 164 ~ if entity @s[dy=1000] unless entity @e[type=phantom,distance=..100] unless function apoca:random/2400 run function apoca:special/haunt
+# Track sleeping state
 tag @s remove RestfulSlept
 tag @s[tag=RestfulSleeping] add RestfulSlept
 tag @s remove RestfulSleeping
