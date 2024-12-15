@@ -10,7 +10,7 @@
         "#": "minecraft:copper_ingot"
     },
     "result": {
-        "id": "minecraft:diamond_leggings",
+        "id": "minecraft:chainmail_leggings",
         "count": 1,
         "components": {
             "minecraft:item_name": "[{translate:'item.retooled.copper_leggings'}]",
@@ -21,9 +21,6 @@
                 "asset_id": "retooled:copper"
             },
             "minecraft:max_damage": 112,
-            "!max_stack_size": {},
-            "!food":{},
-            "!consumable":{},
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
