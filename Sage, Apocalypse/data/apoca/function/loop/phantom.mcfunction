@@ -6,7 +6,7 @@
 # Apply stats
 execute if entity @s[tag=!APOCModified] run function apoca:stats/phantom
 # Blast nearby player
-execute on target positioned ~-10 ~-10 ~-10 if entity @s[dx=19,dy=19,dz=19] positioned ~10 ~10 ~10 run tag @n[type=phantom] add APOCBlastCharging
+execute on target if dimension overworld positioned ~-10 ~-10 ~-10 if entity @s[dx=19,dy=19,dz=19] positioned ~10 ~10 ~10 run tag @n[type=phantom] add APOCBlastCharging
 execute if entity @s[tag=APOCBlastCharging] run scoreboard players add @s APOCChargeTime 1
 execute unless entity @s[tag=APOCBlastCharging] run scoreboard players reset @s APOCChargeTime
 tag @s remove APOCBlastCharging
