@@ -9,11 +9,12 @@ execute if score @s FBDeath matches 1.. run return run function frostbite:reset
 execute if score @s FBDrink matches 1.. run function frostbite:drink
 # Apply food temp effects
 execute if score @s FBEatMelon matches 1.. run scoreboard players remove @s FBTemperature 500
+execute if score @s FBEatBeetSoup matches 1.. run scoreboard players remove @s FBTemperature 200
 execute if score @s FBEatRabStew matches 1.. run scoreboard players add @s FBTemperature 800
-execute if score @s FBEatPie matches 1.. run scoreboard players add @s FBTemperature 500
-execute if score @s FBEatPotato matches 1.. run scoreboard players add @s FBTemperature 200
 execute if score @s FBEatMushStew matches 1.. run scoreboard players add @s FBTemperature 200
 execute if score @s FBEatSusStew matches 1.. run scoreboard players add @s FBTemperature 200
+execute if score @s FBEatPie matches 1.. run scoreboard players add @s FBTemperature 500
+execute if score @s FBEatPotato matches 1.. run scoreboard players add @s FBTemperature 200
 # Show wetness and modify based on weather/nether
 execute if predicate frostbite:raining if score @s FBWetness matches ..50 run scoreboard players set @s FBWetness 50
 execute if dimension the_nether run scoreboard players set @s FBWetness 0
