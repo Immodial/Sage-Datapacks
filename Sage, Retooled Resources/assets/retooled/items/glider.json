@@ -23,5 +23,6 @@
             "type": "minecraft:model",
             "model": "retooled:item/glider_item"
         }
-    }
+    },
+    "hand_animation_on_swap": false
 }
