@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "base": "#minecraft:bundles",
+    "addition": "minecraft:netherite_ingot",
+    "result": {
+        "id": "minecraft:bundle",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": "[{translate:'item.retooled.netherite_briefcase'}]",
+            "minecraft:item_model": "retooled:netherite_briefcase",
+            "damage_resistant": {"types": "#minecraft:is_fire"}
+        }
+    }
+}
+  
