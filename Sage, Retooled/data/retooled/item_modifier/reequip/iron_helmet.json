@@ -1,0 +1,26 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:helmet_armor",
+                    "type": "minecraft:armor",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head"
+                },
+                {
+                    "id": "retooled:helmet_toughness",
+                    "type": "minecraft:armor_toughness",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                }
+              ]
+            }
+        }
+    }
+]  
