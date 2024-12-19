@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "EEE",
+        "EVE",
+        "EEE"
+    ],
+    "key": {
+        "V": "minecraft:vault",
+        "E": "minecraft:end_portal_frame"
+    },
+    "result": {
+        "id": "minecraft:barrel",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": "'Sage Crate'",
+            "minecraft:item_model": "sutils:creative_barrel",
+            "minecraft:container_loot": {"loot_table": "sutils:crate"}
+        }
+    }
+}

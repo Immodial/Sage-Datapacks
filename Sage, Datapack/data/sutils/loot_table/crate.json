@@ -4,12 +4,12 @@
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
       "name": "minecraft:barrel",
-      "functions": [{"function": "minecraft:set_components", "components": {"minecraft:custom_name": "'Retooled Crate'","minecraft:container_loot": {"loot_table": "sutils:retooled"}}}]
+      "functions": [{"function": "minecraft:set_components", "components": {"minecraft:custom_name": "'Retooled Crate'","minecraft:item_model": "sutils:dark_oak_barrel","minecraft:container_loot": {"loot_table": "sutils:retooled"}}}]
     }]},
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
       "name": "minecraft:barrel",
-      "functions": [{"function": "minecraft:set_components", "components": {"minecraft:custom_name": "'SideIron Crate'","minecraft:container_loot": {"loot_table": "sutils:sideiron"}}}]
+      "functions": [{"function": "minecraft:set_components", "components": {"minecraft:custom_name": "'SideIron Crate'","minecraft:item_model": "sutils:iron_barrel","minecraft:container_loot": {"loot_table": "sutils:sideiron"}}}]
     }]}
   ]
 }

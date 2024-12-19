@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "in_creative": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "gamemode": [
+              "creative"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_creative"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sutils:crate"
+    ]
+  }
+}

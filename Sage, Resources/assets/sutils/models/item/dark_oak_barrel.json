@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+      "end": "sutils:item/dark_oak_barrel",
+      "side": "sutils:item/dark_oak_barrel_side"
+    }
+}

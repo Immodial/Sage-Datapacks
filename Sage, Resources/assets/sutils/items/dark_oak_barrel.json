@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "sutils:item/dark_oak_barrel"
+    }
+}
