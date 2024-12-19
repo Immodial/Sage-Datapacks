@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_fermented_spider_eye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:fermented_spider_eye"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "retooled:venom_ring"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_fermented_spider_eye"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "retooled:venom_ring"
+        ]
+    }
+}

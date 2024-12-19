@@ -20,3 +20,5 @@ execute if items entity @s weapon.* #retooled:modified[!custom_data] run functio
 execute if items entity @s weapon.mainhand *[custom_data~{RTKnuckles:true},consumable] run function retooled:functionality/knuckles/deactivate
 execute unless entity @s[tag=RTUsed] if items entity @s weapon.mainhand *[custom_data~{RTGlider:true},glider] run item modify entity @s weapon.mainhand retooled:functionality/glider_disable
 execute unless entity @s[tag=RTUsed] if items entity @s weapon.offhand *[custom_data~{RTGlider:true},glider] run item modify entity @s weapon.offhand retooled:functionality/glider_disable
+# Remove poison if wearing ring
+execute if items entity @s weapon.offhand *[custom_data~{RTVenomRing:true}] run effect clear @s poison
