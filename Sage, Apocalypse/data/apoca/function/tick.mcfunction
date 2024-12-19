@@ -7,6 +7,8 @@
 execute as @e[type=#apoca:zombie] at @s run function apoca:loop/zombie
 execute as @e[type=#apoca:skeleton] at @s run function apoca:loop/skeleton
 execute as @e[type=#apoca:spider] at @s run function apoca:loop/spider
+execute as @e[type=#apoca:champion,tag=APOCChampion] at @s run function apoca:loop/champion
+execute as @e[type=marker,tag=APOCGrave] at @s run particle sculk_soul ~ ~0.5 ~ 0.4 0.4 0.4 0 1 force
 execute as @e[type=creeper,nbt=!{Fuse:0s},nbt=!{ignited:true}] at @s run function apoca:loop/creeper
 execute as @e[type=iron_golem] at @s run function apoca:loop/golem
 execute as @e[type=ghast] at @s run function apoca:loop/ghast

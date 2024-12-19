@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#apoca:zombie",
+    "#apoca:skeleton",
+    "#apoca:spider",
+    "minecraft:witch",
+    "minecraft:zombified_piglin",
+    "minecraft:wither_skeleton"
+  ]
+}

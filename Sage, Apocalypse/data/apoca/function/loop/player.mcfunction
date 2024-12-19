@@ -3,6 +3,16 @@
 ## >> As: Any player
 ## >> Does: Run player modifiers
 ## >> Input: None
+# Detect dead player
+execute if entity @s[nbt=!{DeathTime:0s}] unless entity @s[tag=APOCDead] run tag @s add APOCDying
+execute if entity @s[tag=APOCDying] run function apoca:special/grave
+execute if entity @s[tag=APOCDying] on attacker if entity @s[type=#apoca:champion] run function apoca:special/champion
+tag @s remove APOCDying
+execute if entity @s[nbt=!{DeathTime:0s}] run return run tag @s add APOCDead
+tag @s remove APOCDead
+# Gather from gravestones
+execute as @e[type=marker,tag=APOCGrave,distance=..2] at @s run function apoca:special/gravedrop
+# Spawn phantoms
 execute unless predicate apoca:daytime positioned ~ 164 ~ if entity @s[dy=1000] unless entity @e[type=phantom,distance=..100] unless function apoca:random/48 run playsound entity.phantom.flap hostile @a ~ ~48 ~ 100 0.4
 execute unless predicate apoca:daytime positioned ~ 164 ~ if entity @s[dy=1000] unless entity @e[type=phantom,distance=..100] unless function apoca:random/2400 run function apoca:special/haunt
 # Track sleeping state
