@@ -5,6 +5,9 @@
         "hellscape:init",
         "iguns:init",
         "retooled:init",
-        "sutils:init"
+        "sutils:init",
+        "lorem:init",
+        "indulge:init",
+        "glue:init"
     ]
 }
