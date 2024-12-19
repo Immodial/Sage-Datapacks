@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:cooked_porkchop",
+      "functions": [{
+        "function": "minecraft:set_components",
+        "components": {
+            "item_name":"[{translate:'item.iguns.shotgun'}]",
+            "item_model":"iguns:shotgun",
+            "custom_model_data": {"floats":[0]},
+            "max_damage":100,
+            "!max_stack_size":{},
+            "!food":{},
+            "consumable": {
+                "consume_seconds": 100000,
+                "animation": "bow",
+                "has_consume_particles": false
+            },
+            "custom_data": {
+                "IGWeapon":true,
+                "IGMaxAmmo":1,
+                "IGLoaded":false,
+                "IGAmmoType":"shell",
+                "IGAmmo":[],
+                "IGLoadTime":30
+            },
+            "lore": [
+                "{text:'0/2',color:'dark_green',italic:false}",
+                "{translate:'description.iguns.use_shells',color:'dark_green',italic:false}"
+            ]
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:iron_nugget",
+      "functions": [{"function": "minecraft:set_count","count":64},{
+        "function": "minecraft:set_components",
+        "components": {
+            "item_name": "[{translate:'item.iguns.buckshot_shell'}]",
+            "item_model": "iguns:buckshot_shell",
+            "custom_data": {
+                "IGGunAmmo":"shell",
+                "IGAmmoBonus":"buckshot"
+            }
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:iron_nugget",
+      "functions": [{"function": "minecraft:set_count","count":64},{
+        "function": "minecraft:set_components",
+        "components": {
+            "item_name": "[{translate:'item.iguns.slug_shell'}]",
+            "item_model": "iguns:slug_shell",
+            "custom_data": {
+                "IGGunAmmo":"shell",
+                "IGAmmoBonus":"slug"
+            }
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:iron_nugget",
+      "functions": [{"function": "minecraft:set_count","count":64},{
+        "function": "minecraft:set_components",
+        "components": {
+            "item_name": "[{translate:'item.iguns.breach_shell'}]",
+            "item_model": "iguns:breach_shell",
+            "custom_data": {
+                "IGGunAmmo":"shell",
+                "IGAmmoBonus":"breach"
+            }
+        }
+      }]
+    }]}
+  ]
+}

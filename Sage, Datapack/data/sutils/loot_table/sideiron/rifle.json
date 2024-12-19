@@ -1,0 +1,114 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:cooked_porkchop",
+      "functions": [{
+        "function": "minecraft:set_components",
+        "components": {
+            "item_name": "[{translate:'item.iguns.bolt_rifle'}]",
+            "item_model":"iguns:bolt_rifle",
+            "custom_model_data": {"floats":[0]},
+            "max_damage":100,
+            "!max_stack_size":{},
+            "!food":{},
+            "consumable": {
+                "consume_seconds": 100000,
+                "animation": "bow",
+                "has_consume_particles": false
+            },
+            "custom_data": {
+                "IGWeapon":true,
+                "IGMaxAmmo":0,
+                "IGLoaded":false,
+                "IGAmmoType":"cartridge",
+                "IGAmmo":[],
+                "IGLoadTime":30
+            },
+            "lore": [
+                "{text:'0/1',color:'dark_green',italic:false}",
+                "{translate:'description.iguns.use_cartridges',color:'dark_green',italic:false}"
+            ]
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:cooked_porkchop",
+      "functions": [{
+        "function": "minecraft:set_components",
+        "components": {
+            "item_name": "[{translate:'item.iguns.lever_rifle'}]",
+            "item_model":"iguns:bolt_rifle",
+            "custom_model_data": {"floats":[0]},
+            "max_damage":100,
+            "!max_stack_size":{},
+            "!food":{},
+            "consumable": {
+                "consume_seconds": 100000,
+                "animation": "bow",
+                "has_consume_particles": false
+            },
+            "custom_data": {
+                "IGWeapon":true,
+                "IGMaxAmmo":7,
+                "IGLoaded":false,
+                "IGAmmoType":"cartridge",
+                "IGAmmo":[],
+                "IGLoadTime":35
+            },
+            "lore": [
+                "{text:'0/8',color:'dark_green',italic:false}",
+                "{translate:'description.iguns.use_cartridges',color:'dark_green',italic:false}"
+            ]
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:iron_nugget",
+      "functions": [{"function": "minecraft:set_count","count":64},{
+        "function": "minecraft:set_components",
+        "components": {
+            "item_name": "[{translate:'item.iguns.magnum_cartridge'}]",
+            "item_model": "iguns:magnum_cartridge",
+            "custom_data": {
+                "IGGunAmmo":"cartridge",
+                "IGAmmoBonus":"magnum"
+            }
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:iron_nugget",
+      "functions": [{"function": "minecraft:set_count","count":64},{
+        "function": "minecraft:set_components",
+        "components": {
+            "item_name": "[{translate:'item.iguns.piercing_cartridge'}]",
+            "item_model": "iguns:piercing_cartridge",
+            "custom_data": {
+                "IGGunAmmo":"cartridge",
+                "IGAmmoBonus":"piercing"
+            }
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:iron_nugget",
+      "functions": [{"function": "minecraft:set_count","count":64},{
+        "function": "minecraft:set_components",
+        "components": {
+            "item_name": "[{translate:'item.iguns.hunting_cartridge'}]",
+            "item_model": "iguns:hunting_cartridge",
+            "custom_data": {
+                "IGGunAmmo":"cartridge",
+                "IGAmmoBonus":"hunting"
+            }
+        }
+      }]
+    }]}
+  ]
+}

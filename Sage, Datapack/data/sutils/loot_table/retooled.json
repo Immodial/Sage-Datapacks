@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:barrel",
+      "functions": [{"function": "minecraft:set_components", "components": {"minecraft:custom_name": "'Spear Crate'","minecraft:container_loot": {"loot_table": "sutils:retooled/spear"}}}]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:barrel",
+      "functions": [{"function": "minecraft:set_components", "components": {"minecraft:custom_name": "'Hammer Crate'","minecraft:container_loot": {"loot_table": "sutils:retooled/hammer"}}}]
+    }]}
+  ]
+}

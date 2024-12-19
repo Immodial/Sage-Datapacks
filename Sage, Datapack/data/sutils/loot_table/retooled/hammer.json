@@ -1,0 +1,415 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:wooden_pickaxe",
+      "functions": [{
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_name": "[{translate:'item.retooled.wooden_hammer'}]",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:wooden_hammer",
+            "max_damage": 59,
+            "tool": {
+                "rules": [
+                    {"blocks": "#retooled:mineable/hammer", "speed": 3, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_wooden_tool", "correct_for_drops": false}
+                ]
+            },
+            "minecraft:lore": [
+                "{text: ''}",
+                "{
+                    translate: 'item.modifiers.mainhand',
+                    color: 'gray',
+                    italic: false
+                }",
+                "{
+                    text: ' 4 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_damage'}]
+                }",
+                "{
+                    text: ' 0.8 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_speed'}]
+                }",
+                "{
+                    translate: 'trait.retooled.length.medium',
+                    color: 'dark_green',
+                    italic: false
+                }",
+                "{
+                    translate: 'trait.retooled.knockback.strong',
+                    color: 'dark_green',
+                    italic: false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:attack_damage",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_length",
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -3.2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_knockback",
+                    "type": "minecraft:attack_knockback",
+                    "amount": 1.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:stone_pickaxe",
+      "functions": [{
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_name": "[{translate:'item.retooled.stone_hammer'}]",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:stone_hammer",
+            "max_damage": 131,
+            "tool": {
+                "rules": [
+                    {"blocks": "#retooled:mineable/hammer", "speed": 6, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_stone_tool", "correct_for_drops": false}
+                ]
+            },
+            "minecraft:lore": [
+                "{text: ''}",
+                "{
+                    translate: 'item.modifiers.mainhand',
+                    color: 'gray',
+                    italic: false
+                }",
+                "{
+                    text: ' 7 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_damage'}]
+                }",
+                "{
+                    text: ' 0.7 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_speed'}]
+                }",
+                "{
+                    translate: 'trait.retooled.length.medium',
+                    color: 'dark_green',
+                    italic: false
+                }",
+                "{
+                    translate: 'trait.retooled.knockback.strong',
+                    color: 'dark_green',
+                    italic: false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:attack_damage",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_length",
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -3.3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_knockback",
+                    "type": "minecraft:attack_knockback",
+                    "amount": 1.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:iron_pickaxe",
+      "functions": [{
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_name": "[{translate:'item.retooled.iron_hammer'}]",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:iron_hammer",
+            "max_damage": 250,
+            "tool": {
+                "rules": [
+                    {"blocks": "#retooled:mineable/hammer", "speed": 10, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_iron_tool", "correct_for_drops": false}
+                ]
+            },
+            "minecraft:lore": [
+                "{text: ''}",
+                "{
+                    translate: 'item.modifiers.mainhand',
+                    color: 'gray',
+                    italic: false
+                }",
+                "{
+                    text: ' 8 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_damage'}]
+                }",
+                "{
+                    text: ' 0.8 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_speed'}]
+                }",
+                "{
+                    translate: 'trait.retooled.length.medium',
+                    color: 'dark_green',
+                    italic: false
+                }",
+                "{
+                    translate: 'trait.retooled.knockback.strong',
+                    color: 'dark_green',
+                    italic: false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:attack_damage",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_length",
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -3.2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_knockback",
+                    "type": "minecraft:attack_knockback",
+                    "amount": 1.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:golden_pickaxe",
+      "functions": [{
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_name": "[{translate:'item.retooled.golden_hammer'}]",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:golden_hammer",
+            "max_damage": 32,
+            "tool": {
+                "rules": [
+                    {"blocks": "#retooled:mineable/hammer", "speed": 14, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_gold_tool", "correct_for_drops": false}
+                ]
+            },
+            "minecraft:lore": [
+                "{text: ''}",
+                "{
+                    translate: 'item.modifiers.mainhand',
+                    color: 'gray',
+                    italic: false
+                }",
+                "{
+                    text: ' 7 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_damage'}]
+                }",
+                "{
+                    text: ' 1 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_speed'}]
+                }",
+                "{
+                    translate: 'trait.retooled.length.medium',
+                    color: 'dark_green',
+                    italic: false
+                }",
+                "{
+                    translate: 'trait.retooled.knockback.strong',
+                    color: 'dark_green',
+                    italic: false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:attack_damage",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_length",
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_knockback",
+                    "type": "minecraft:attack_knockback",
+                    "amount": 1.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:diamond_pickaxe",
+      "functions": [{
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_name": "[{translate:'item.retooled.diamond_hammer'}]",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:diamond_hammer",
+            "max_damage": 1561,
+            "tool": {
+                "rules": [
+                    {"blocks": "#retooled:mineable/hammer", "speed": 12, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_diamond_tool", "correct_for_drops": false}
+                ]
+            },
+            "minecraft:lore": [
+                "{text: ''}",
+                "{
+                    translate: 'item.modifiers.mainhand',
+                    color: 'gray',
+                    italic: false
+                }",
+                "{
+                    text: ' 9 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_damage'}]
+                }",
+                "{
+                    text: ' 0.8 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_speed'}]
+                }",
+                "{
+                    translate: 'trait.retooled.length.medium',
+                    color: 'dark_green',
+                    italic: false
+                }",
+                "{
+                    translate: 'trait.retooled.knockback.strong',
+                    color: 'dark_green',
+                    italic: false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:attack_damage",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_length",
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -3.2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_knockback",
+                    "type": "minecraft:attack_knockback",
+                    "amount": 1.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+      }]
+    }]}
+  ]
+}

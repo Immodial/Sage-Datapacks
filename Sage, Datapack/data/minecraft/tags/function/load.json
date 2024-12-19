@@ -3,6 +3,7 @@
         "apoca:init",
         "frostbite:init",
         "iguns:init",
-        "retooled:init"
+        "retooled:init",
+        "sutils:init"
     ]
 }
