@@ -86,5 +86,14 @@
     "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "",
     "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "",
     "death.attack.radiation": "%1$s succumbed to radiation",
-    "death.attack.radiation.player": "%1$s's skin flaked off while trying to escape %2$s"
+    "death.attack.radiation.player": "%1$s's skin flaked off while trying to escape %2$s",
+    
+    "item.loremaster.lore_tag": "Lore Tag",
+    "item.loremaster.item_polish": "Item Polish",
+    "item.loremaster.date_stamp": "Date Stamp",
+    "item.loremaster.signing_quill": "Signing Quill",
+    "item.indulge.wheat_blunt": "Wheat Blunt",
+    "item.indulge.teacup": "Teacup",
+    "item.indulge.iced_tea": "Iced Tea",
+    "item.indulge.coffee": "Coffee"
 }
