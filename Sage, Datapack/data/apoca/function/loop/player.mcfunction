@@ -12,6 +12,7 @@ execute if entity @s[nbt=!{DeathTime:0s}] run return run tag @s add APOCDead
 tag @s remove APOCDead
 # Gather from gravestones
 execute as @e[type=marker,tag=APOCGrave,distance=..2] at @s run function apoca:special/gravedrop
+kill @e[type=text_display,tag=APOCGraveName,distance=..2]
 # Spawn phantoms
 execute unless predicate apoca:daytime positioned ~ 164 ~ if entity @s[dy=1000] unless entity @e[type=phantom,distance=..100] unless function apoca:random/48 run playsound entity.phantom.flap hostile @a ~ ~48 ~ 100 0.4
 execute unless predicate apoca:daytime positioned ~ 164 ~ if entity @s[dy=1000] unless entity @e[type=phantom,distance=..100] unless function apoca:random/2400 run function apoca:special/haunt
