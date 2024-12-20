@@ -10,6 +10,7 @@ data modify entity @n[type=text_display,tag=APOCGraveNaming] text set value '{"s
 tag @s remove APOCDeadNaming
 tag @n[type=item,distance=..3] add APOCCollecting
 execute as @n[type=marker,tag=APOCGraveSpawning] at @s if entity @n[type=item,tag=APOCCollecting] run function apoca:special/graveadd
+execute as @n[type=marker,tag=APOCGraveSpawning] unless data entity @s data.GraveItems[0] run kill @n[type=text_display,tag=APOCGraveNaming]
 execute as @n[type=marker,tag=APOCGraveSpawning] unless data entity @s data.GraveItems[0] run kill @s
 tag @n[type=marker,tag=APOCGraveSpawning] remove APOCGraveSpawning
 tag @n[type=text_display,tag=APOCGraveNaming] remove APOCGraveNaming
