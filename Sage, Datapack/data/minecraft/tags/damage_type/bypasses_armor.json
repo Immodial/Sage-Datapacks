@@ -1,6 +1,7 @@
 {
     "values": [
         "frostbite:hyperthermia",
-        "frostbite:hypothermia"
+        "frostbite:hypothermia",
+        "hellscape:radiation"
     ]
 }
