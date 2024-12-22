@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        "minecraft:gold_ingot",
+        "minecraft:goat_horn",
+        "minecraft:string"
+    ],
+    "result": {
+        "id": "minecraft:cooked_porkchop",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": "[{translate:'item.frostbite.drinking_horn'}]",
+            "minecraft:item_model": "frostbite:drinking_horn",
+            "minecraft:custom_data": {"FBCanteen":true},
+            "minecraft:custom_model_data":{"floats":[0]},
+            "!max_stack_size": {},
+            "!food": {},
+            "consumable": {
+                "animation": "block",
+                "consume_seconds": 100000,
+                "has_consume_particles": false
+            }
+        }
+    }
+}

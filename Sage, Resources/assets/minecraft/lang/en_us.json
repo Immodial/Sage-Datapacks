@@ -1,4 +1,7 @@
 {
+    "item.frostbite.drinking_horn": "Drinking Horn",
+    "item.minecraft.potion.effect.drinking_horn": "Drinking Horn",
+    
     "item.iguns.revolver": "Revolver",
     "item.iguns.shotgun": "Shotgun",
     "item.iguns.bolt_rifle": "Bolt-Action Rifle",

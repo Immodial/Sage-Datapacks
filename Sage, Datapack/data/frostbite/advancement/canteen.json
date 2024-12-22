@@ -1,0 +1,23 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "use_canteen": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": {"FBCanteen": true}
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_canteen"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:canteen"
+  }
+}

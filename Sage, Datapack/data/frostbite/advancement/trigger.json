@@ -1,15 +1,12 @@
 {
   "criteria": {
-    "move_item": {
-      "trigger": "minecraft:inventory_changed"
+    "nothing": {
+      "trigger": "minecraft:impossible"
     }
   },
   "requirements": [
     [
-      "move_item"
+      "nothing"
     ]
-  ],
-  "rewards": {
-    "function": "frostbite:reinsulate"
-  }
+  ]
 }

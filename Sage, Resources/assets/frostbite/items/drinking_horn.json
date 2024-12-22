@@ -1,0 +1,69 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "cases": [
+            {
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "frostbite:item/drinking_horn"
+                        },
+                        {
+                            "type": "minecraft:range_dispatch",
+                            "property": "minecraft:custom_model_data",
+                            "entries": [
+                                {
+                                    "threshold": 5,
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "frostbite:item/water_bar_5"
+                                    }
+                                },
+                                {
+                                    "threshold": 4,
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "frostbite:item/water_bar_4"
+                                    }
+                                },
+                                {
+                                    "threshold": 3,
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "frostbite:item/water_bar_3"
+                                    }
+                                },
+                                {
+                                    "threshold": 2,
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "frostbite:item/water_bar_2"
+                                    }
+                                },
+                                {
+                                    "threshold": 1,
+                                    "model": {
+                                        "type": "minecraft:model",
+                                        "model": "frostbite:item/water_bar_1"
+                                    }
+                                }
+                            ],
+                            "fallback": {
+                                "type": "minecraft:model",
+                                "model": "frostbite:item/water_bar_0"
+                            }
+                        }
+                    ]
+                },
+                "when": "gui"
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "frostbite:item/drinking_horn"
+        }
+    }
+}
