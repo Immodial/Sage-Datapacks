@@ -5,6 +5,7 @@
 ## >> Input: None
 # Variables
 scoreboard objectives add APOCGlobals dummy "Global Vars"
+scoreboard objectives add APOCGraveTime dummy "Grave Time"
 scoreboard objectives add APOCZombieDensity dummy "Proximity to Other Zombies"
 scoreboard objectives add APOCCramming dummy "Proximity to Mobs"
 scoreboard objectives add APOCDreams dummy "Dreaming"
