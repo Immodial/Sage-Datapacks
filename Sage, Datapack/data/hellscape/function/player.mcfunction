@@ -28,5 +28,6 @@ execute if score @s HSRadiation matches 1000.. run effect give @s nausea 10 0 tr
 # Remove radiation
 execute run scoreboard players remove @s[scores={HSRadiation=1..}] HSRadiation 1
 execute unless dimension the_nether run scoreboard players remove @s[scores={HSRadiation=1..}] HSRadiation 1
+execute if items entity @s armor.head *[custom_data~{HSLowRadProtect:true}] run scoreboard players remove @s[scores={HSRadiation=1..}] HSRadiation 1
 execute if score @s FBWetness matches 1.. run scoreboard players remove @s[scores={HSRadiation=1..}] HSRadiation 2
 execute if score @s HSRadiation matches 1200.. run damage @s 1 hellscape:radiation
