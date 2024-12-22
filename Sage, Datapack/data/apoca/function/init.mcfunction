@@ -14,6 +14,7 @@ scoreboard objectives add APOCChargeX dummy "Fireball X Momentum"
 scoreboard objectives add APOCChargeY dummy "Fireball Y Momentum"
 scoreboard objectives add APOCChargeZ dummy "Fireball Z Momentum"
 scoreboard objectives add APOCChargeTime dummy "Mob Charge"
+scoreboard objectives add APOCSlamHeight dummy "Ghast Slam Y Level"
 scoreboard objectives add APOCParticleTime dummy "Fireball Particles"
 # Loops
 schedule function apoca:tick 1
