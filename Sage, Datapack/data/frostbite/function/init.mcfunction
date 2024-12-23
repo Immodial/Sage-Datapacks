@@ -24,3 +24,5 @@ scoreboard objectives add FBEatPotato minecraft.used:minecraft.baked_potato "Bak
 # Loops
 schedule clear frostbite:loop
 schedule function frostbite:loop 1
+schedule clear frostbite:longloop
+schedule function frostbite:longloop 1
