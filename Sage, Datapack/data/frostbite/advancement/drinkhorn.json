@@ -1,12 +1,12 @@
 {
   "parent": "frostbite:trigger",
   "criteria": {
-    "use_canteen": {
+    "use_drinking_horn": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
           "predicates": {
-            "custom_data": {"FBCanteen": true}
+            "custom_data": {"FBDrinkHorn": true}
           }
         }
       }
@@ -14,10 +14,10 @@
   },
   "requirements": [
     [
-      "use_canteen"
+      "use_drinking_horn"
     ]
   ],
   "rewards": {
-    "function": "frostbite:canteen"
+    "function": "frostbite:drinkhorn"
   }
 }

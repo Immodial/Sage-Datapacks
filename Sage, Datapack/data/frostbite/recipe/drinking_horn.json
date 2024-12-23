@@ -12,7 +12,7 @@
         "components": {
             "minecraft:item_name": "[{translate:'item.frostbite.drinking_horn'}]",
             "minecraft:item_model": "frostbite:drinking_horn",
-            "minecraft:custom_data": {"FBCanteen":true},
+            "minecraft:custom_data": {"FBDrinkHorn":true},
             "minecraft:custom_model_data":{"floats":[0]},
             "!max_stack_size": {},
             "!food": {},
