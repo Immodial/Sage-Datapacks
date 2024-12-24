@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " # ",
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": "minecraft:diamond"
+    },
+    "result": {
+        "id": "minecraft:diamond_leggings",
+        "count": 1,
+        "components": {
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:leggings_armor",
+                    "type": "minecraft:armor",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "legs"
+                },
+                {
+                    "id": "retooled:leggings_toughness",
+                    "type": "minecraft:armor_toughness",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "legs"
+                }
+              ]
+            }
+        }
+    }
+}
+  

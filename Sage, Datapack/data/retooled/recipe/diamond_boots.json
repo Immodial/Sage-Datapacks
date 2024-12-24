@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": "minecraft:diamond"
+    },
+    "result": {
+        "id": "minecraft:diamond_boots",
+        "count": 1,
+        "components": {
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:boots_armor",
+                    "type": "minecraft:armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet"
+                },
+                {
+                    "id": "retooled:boots_toughness",
+                    "type": "minecraft:armor_toughness",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "feet"
+                }
+              ]
+            }
+        }
+    }
+}
+  
