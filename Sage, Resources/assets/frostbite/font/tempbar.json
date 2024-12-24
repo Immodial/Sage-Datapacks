@@ -9,210 +9,210 @@
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_empty_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE000"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_empty_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF000"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_1_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE011"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_1_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF011"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_2_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE012"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_2_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF012"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_3_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE013"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_3_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF013"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_4_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE014"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_4_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF014"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_5_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE015"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_5_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF015"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_6_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE016"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_6_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF016"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_7_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE017"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_hot_7_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF017"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_1_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE021"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_1_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF021"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_2_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE022"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_2_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF022"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_3_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE023"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_3_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF023"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_4_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE024"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_4_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF024"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_5_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE025"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_5_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF025"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_6_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE026"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_6_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF026"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_7_left.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uE027"]
         },
         {
             "type": "bitmap",
             "file": "frostbite:ui/temp_cold_7_right.png",
-            "ascent": -7,
+            "ascent": -2,
             "height": 27,
             "chars": ["\uF027"]
         }
