@@ -5,6 +5,9 @@
 ## >> Input: None
 # Affect all players
 execute as @a run function retooled:player
+# Modify held items
+execute as @e if items entity @s weapon.* #retooled:modified[!custom_data] run function retooled:retool
+execute as @e if items entity @s armor.* #retooled:modified[!custom_data] run function retooled:reequip
 # Give armor stands arms
 execute as @e[type=armor_stand,tag=!RTArmorStandUpdated] run data modify entity @s ShowArms set value true
 tag @e[type=armor_stand] add RTArmorStandUpdated

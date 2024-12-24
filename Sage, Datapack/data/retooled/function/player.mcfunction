@@ -14,8 +14,6 @@ tag @s remove RTJumped
 tag @s[tag=RTJumping] add RTJumped
 tag @s remove RTJumping
 tag @s[nbt={OnGround:1b}] remove RTDoubleJumped
-# Modify held items
-execute if items entity @s weapon.* #retooled:modified[!custom_data] run function retooled:retool
 # Disable knuckles and gliders
 execute if items entity @s weapon.mainhand *[custom_data~{RTKnuckles:true},consumable] run function retooled:functionality/knuckles/deactivate
 execute unless entity @s[tag=RTUsed] if items entity @s weapon.mainhand *[custom_data~{RTGlider:true},glider] run item modify entity @s weapon.mainhand retooled:functionality/glider_disable
