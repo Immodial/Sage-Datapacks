@@ -10,7 +10,7 @@
         "#": "minecraft:copper_ingot"
     },
     "result": {
-        "id": "minecraft:chainmail_chestplate",
+        "id": "minecraft:cooked_porkchop",
         "count": 1,
         "components": {
             "minecraft:item_name": "[{translate:'item.retooled.copper_chestplate'}]",
@@ -20,7 +20,11 @@
                 "slot": "chest",
                 "asset_id": "retooled:copper"
             },
+            "!food": {},
+            "!consumable": {},
+            "!max_stack_size": {},
             "minecraft:max_damage": 120,
+            "minecraft:damage": 0,
             "minecraft:attribute_modifiers": {
               "modifiers": [
                 {
