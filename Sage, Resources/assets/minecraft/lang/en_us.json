@@ -1,6 +1,10 @@
 {
     "item.frostbite.drinking_horn": "Drinking Horn",
     "item.minecraft.potion.effect.drinking_horn": "Drinking Horn",
+    "death.attack.hypothermia": "%1$s got frostbite",
+    "death.attack.hypothermia.player": "%1$s got frostbite while trying to escape",
+    "death.attack.hyperthermia": "%1$s overheated",
+    "death.attack.hyperthermia.player": "%1$s overheated while trying to escape",
     
     "item.iguns.revolver": "Revolver",
     "item.iguns.shotgun": "Shotgun",

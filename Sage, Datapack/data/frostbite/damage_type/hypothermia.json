@@ -1,5 +1,5 @@
 {
-  "message_id": "freeze",
+  "message_id": "hypothermia",
   "exhaustion": 1.5,
   "scaling": "always",
   "effects": "freezing"
