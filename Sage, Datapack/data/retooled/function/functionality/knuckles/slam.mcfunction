@@ -17,4 +17,4 @@ damage @n[tag=RTKnuckleHit] 1 retooled:uppercut by @p[tag=RTAttackMarked]
 damage @n[tag=RTKnuckleHit] 4 retooled:uppercut by @p[tag=RTAttackMarked]
 tag @e remove RTKnuckleHit
 tag @a remove RTKnuckleHit
-tag @s remove RTAttackMarked
+tag @a remove RTAttackMarked

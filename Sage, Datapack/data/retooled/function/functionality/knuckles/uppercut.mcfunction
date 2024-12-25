@@ -16,4 +16,4 @@ damage @n[tag=RTKnuckleHit] 5 retooled:uppercut by @p[tag=RTAttackMarked]
 execute as @n[tag=RTKnuckleHit] at @s run tp @s ~ ~0.6 ~
 tag @e remove RTKnuckleHit
 tag @a remove RTKnuckleHit
-tag @s remove RTAttackMarked
+tag @a remove RTAttackMarked
