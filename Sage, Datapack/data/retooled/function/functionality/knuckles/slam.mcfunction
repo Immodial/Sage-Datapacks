@@ -5,7 +5,7 @@
 ## >> Input: None
 execute if entity @s[tag=RTUsed] run return fail
 tag @s add RTAttackMarked
-execute anchored eyes positioned ^ ^ ^2 positioned ~-1 ~-1 ~-1 as @e[dx=1,dy=1,dz=1,nbt=!{HurtTime:0s}] if function retooled:check/marked run tag @s add RTKnuckleHit
+execute anchored eyes positioned ^ ^ ^2 positioned ~-1 ~-1 ~-1 as @n[tag=!RTAttackMarked,dx=1,dy=1,dz=1,nbt=!{HurtTime:0s}] if function retooled:check/marked run tag @s add RTKnuckleHit
 effect give @n[tag=RTKnuckleHit] slowness 2 1
 execute at @n[tag=RTKnuckleHit] run playsound entity.player.attack.crit player @a ~ ~ ~ 1 1.5
 execute at @n[tag=RTKnuckleHit] run playsound entity.player.attack.knockback player @a ~ ~ ~ 1 1.5
