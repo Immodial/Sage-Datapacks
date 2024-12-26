@@ -7,6 +7,8 @@
       "#retooled:custom/tools/diamond",
       "minecraft:flint_and_steel",
       "minecraft:mace",
-      "#retooled:custom/armor/leather"
+      "#retooled:custom/armor/leather",
+      "#retooled:custom/armor/iron",
+      "#retooled:custom/armor/diamond"
     ]
 }  
