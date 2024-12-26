@@ -15,3 +15,7 @@ execute if items entity @s armor.head diamond_helmet[!custom_data] run item modi
 execute if items entity @s armor.chest diamond_chestplate[!custom_data] run item modify entity @s armor.chest retooled:reequip/diamond_chestplate
 execute if items entity @s armor.legs diamond_leggings[!custom_data] run item modify entity @s armor.legs retooled:reequip/diamond_leggings
 execute if items entity @s armor.feet diamond_boots[!custom_data] run item modify entity @s armor.feet retooled:reequip/diamond_boots
+execute if items entity @s armor.head netherite_helmet[!custom_data] run item modify entity @s armor.head retooled:reequip/netherite_helmet
+execute if items entity @s armor.chest netherite_chestplate[!custom_data] run item modify entity @s armor.chest retooled:reequip/netherite_chestplate
+execute if items entity @s armor.legs netherite_leggings[!custom_data] run item modify entity @s armor.legs retooled:reequip/netherite_leggings
+execute if items entity @s armor.feet netherite_boots[!custom_data] run item modify entity @s armor.feet retooled:reequip/netherite_boots

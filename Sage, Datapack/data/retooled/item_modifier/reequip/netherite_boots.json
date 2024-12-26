@@ -1,0 +1,33 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:boots_armor",
+                    "type": "minecraft:armor",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "feet"
+                },
+                {
+                    "id": "retooled:boots_toughness",
+                    "type": "minecraft:armor_toughness",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet"
+                },
+                {
+                    "id": "retooled:boots_knockback_resist",
+                    "type": "minecraft:knockback_resistance",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "feet"
+                }
+              ]
+            }
+        }
+    }
+]  

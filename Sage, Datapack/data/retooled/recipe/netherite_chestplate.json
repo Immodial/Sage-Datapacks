@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "# #",
+        "###",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "id": "minecraft:netherite_chestplate",
+        "count": 1,
+        "components": {
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:chestplate_armor",
+                    "type": "minecraft:armor",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "chest"
+                },
+                {
+                    "id": "retooled:chestplate_toughness",
+                    "type": "minecraft:armor_toughness",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "chest"
+                },
+                {
+                    "id": "retooled:chestplate_knockback_resist",
+                    "type": "minecraft:knockback_resistance",
+                    "amount": 0.3,
+                    "operation": "add_value",
+                    "slot": "chest"
+                }
+              ]
+            }
+        }
+    }
+}
+  
