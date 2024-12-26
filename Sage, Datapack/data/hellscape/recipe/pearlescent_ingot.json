@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      "minecraft:ender_pearl",
+      "minecraft:ender_pearl",
+      "minecraft:ender_pearl",
+      "minecraft:ender_pearl",
+      "minecraft:diamond",
+      "minecraft:diamond"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:netherite_upgrade_smithing_template",
+      "components": {
+        "minecraft:item_name": "[{translate:'item.hellscape.pearlescent_ingot'}]",
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:custom_data": {"RTModified":true} 
+      }
+    }
+}
