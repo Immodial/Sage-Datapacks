@@ -5,10 +5,12 @@
       "#retooled:custom/tools/iron",
       "#retooled:custom/tools/golden",
       "#retooled:custom/tools/diamond",
+      "#retooled:custom/tools/netherite",
       "minecraft:flint_and_steel",
       "minecraft:mace",
       "#retooled:custom/armor/leather",
       "#retooled:custom/armor/iron",
-      "#retooled:custom/armor/diamond"
+      "#retooled:custom/armor/diamond",
+      "#retooled:custom/armor/netherite"
     ]
 }  

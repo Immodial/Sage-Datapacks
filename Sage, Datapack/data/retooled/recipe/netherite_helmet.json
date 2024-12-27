@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " # ",
+        "# #"
+    ],
+    "key": {
+        "#": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "id": "minecraft:netherite_helmet",
+        "count": 1,
+        "components": {
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:helmet_armor",
+                    "type": "minecraft:armor",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "head"
+                },
+                {
+                    "id": "retooled:helmet_toughness",
+                    "type": "minecraft:armor_toughness",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "head"
+                },
+                {
+                    "id": "retooled:helmet_knockback_resist",
+                    "type": "minecraft:knockback_resistance",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "head"
+                }
+              ]
+            }
+        }
+    }
+}
+  

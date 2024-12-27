@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " # ",
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "id": "minecraft:netherite_leggings",
+        "count": 1,
+        "components": {
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:leggings_armor",
+                    "type": "minecraft:armor",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "legs"
+                },
+                {
+                    "id": "retooled:leggings_toughness",
+                    "type": "minecraft:armor_toughness",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "legs"
+                },
+                {
+                    "id": "retooled:leggings_knockback_resist",
+                    "type": "minecraft:knockback_resistance",
+                    "amount": 0.2,
+                    "operation": "add_value",
+                    "slot": "legs"
+                }
+              ]
+            }
+        }
+    }
+}
+  

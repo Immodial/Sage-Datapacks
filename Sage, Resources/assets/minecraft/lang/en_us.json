@@ -40,6 +40,9 @@
     "item.retooled.diamond_spear": "Diamond Spear",
     "item.retooled.diamond_hammer": "Diamond Hammer",
     "item.retooled.diamond_longsword": "Diamond Longsword",
+    "item.retooled.netherite_spear": "Netherite Spear",
+    "item.retooled.netherite_hammer": "Netherite Hammer",
+    "item.retooled.netherite_longsword": "Netherite Longsword",
     "item.retooled.copper_knuckles": "Copper Knuckles",
     "item.retooled.obsidian_knuckles": "Obsidian Knuckles",
     "item.retooled.breeze_band": "Breeze Band",
@@ -53,6 +56,7 @@
     "item.retooled.bandage": "Bandage",
     "item.retooled.adhesive_bandage": "Adhesive Bandage",
     "item.retooled.phantasm_glider": "Phantasm Glider",
+    "item.retooled.netherite_briefcase": "Netherite Briefcase",
     "item.retooled.venom_ring": "Venom Ring",
     "trait.retooled.length.short": " Short Length",
     "trait.retooled.length.medium": " Medium Length",
@@ -62,5 +66,18 @@
     "trait.retooled.sweeping": " Sweeping",
     "enchantment.retooled.useless": "Curse of Slightly Longer Description",
     "enchantment.retooled.velocity": "Velocity",
-    "enchantment.retooled.essence": "Essence"
+    "enchantment.retooled.essence": "Essence",
+    
+    "item.hellscape.copper_mask": "Copper Mask",
+    "item.minecraft.netherite_ingot": "Netherite Alloy",
+    "item.hellscape.pearlescent_ingot": "Pearlescent Alloy",
+    "item.minecraft.netherite_upgrade_smithing_template.new": "Pearlescent Alloy",
+    "item.minecraft.smithing_template.netherite_upgrade.ingredients": "(Due to datapack limitations)",
+    "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Nothing! This section could not be removed.",
+    "item.minecraft.netherite_upgrade_smithing_template": "",
+    "upgrade.minecraft.netherite_upgrade": "",
+    "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "",
+    "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "",
+    "death.attack.radiation": "%1$s succumbed to radiation",
+    "death.attack.radiation.player": "%1$s's skin flaked off while trying to escape %2$s"
 }

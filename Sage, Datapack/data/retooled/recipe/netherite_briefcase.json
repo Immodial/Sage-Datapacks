@@ -1,8 +1,11 @@
 {
-    "type": "minecraft:smithing_transform",
-    "template": "minecraft:netherite_upgrade_smithing_template",
-    "base": "#minecraft:bundles",
-    "addition": "minecraft:netherite_ingot",
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        "minecraft:netherite_ingot",
+        "#minecraft:bundles",
+        "minecraft:netherite_ingot"
+    ],
     "result": {
         "id": "minecraft:bundle",
         "count": 1,
@@ -13,4 +16,3 @@
         }
     }
 }
-  

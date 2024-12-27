@@ -2,6 +2,7 @@
     "values": [
         "apoca:init",
         "frostbite:init",
+        "hellscape:init",
         "iguns:init",
         "retooled:init",
         "sutils:init"

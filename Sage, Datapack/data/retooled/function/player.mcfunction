@@ -14,6 +14,9 @@ tag @s remove RTJumped
 tag @s[tag=RTJumping] add RTJumped
 tag @s remove RTJumping
 tag @s[nbt={OnGround:1b}] remove RTDoubleJumped
+# Fix Pearlescent Alloy
+execute if items entity @s container.* netherite_upgrade_smithing_template[!custom_data] run give @s netherite_upgrade_smithing_template[item_name="[{translate:'item.hellscape.pearlescent_ingot'}]",hide_additional_tooltip={},custom_data={RTModified:true}]
+execute if items entity @s container.* netherite_upgrade_smithing_template[!custom_data] run clear @s netherite_upgrade_smithing_template[!custom_data]
 # Disable knuckles and gliders
 execute if items entity @s weapon.mainhand *[custom_data~{RTKnuckles:true},consumable] run function retooled:functionality/knuckles/deactivate
 execute unless entity @s[tag=RTUsed] if items entity @s weapon.mainhand *[custom_data~{RTGlider:true},glider] run item modify entity @s weapon.mainhand retooled:functionality/glider_disable
