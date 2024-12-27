@@ -3,11 +3,11 @@
 ## >> As: Any player
 ## >> Does: Cause effects
 ## >> Input: None
-execute if block ~ ~ ~ #hellscape:netherrack_based run scoreboard players add @s HSRadiation 1
-execute if block ~ ~ ~ #hellscape:blackstone run scoreboard players add @s HSRadiation 1
-execute if block ~ ~ ~ basalt run scoreboard players add @s HSRadiation 2
-execute if block ~ ~ ~ soul_soil run scoreboard players add @s HSRadiation 2
-execute if block ~ ~ ~ soul_sand run scoreboard players add @s HSRadiation 5
-execute if block ~ ~ ~ crying_obsidian run scoreboard players add @s HSRadiation 40
-execute if block ~ ~ ~ nether_portal at @s unless entity @n[type=marker,tag=HSPortal,distance=..1] run scoreboard players add @s HSRadiation 20
-execute if block ~ ~ ~ nether_portal run scoreboard players add @s HSRadiation 10
+execute if block ~ ~ ~ #hellscape:netherrack_based unless score _RadMax HSGlobals matches 1.. run scoreboard players set _RadMax HSGlobals 1
+execute if block ~ ~ ~ #hellscape:blackstone unless score _RadMax HSGlobals matches 1.. run scoreboard players set _RadMax HSGlobals 1
+execute if block ~ ~ ~ basalt unless score _RadMax HSGlobals matches 2.. run scoreboard players set _RadMax HSGlobals 2
+execute if block ~ ~ ~ soul_soil unless score _RadMax HSGlobals matches 2.. run scoreboard players set _RadMax HSGlobals 3
+execute if block ~ ~ ~ soul_sand unless score _RadMax HSGlobals matches 5.. run scoreboard players set _RadMax HSGlobals 8
+execute if block ~ ~ ~ crying_obsidian unless score _RadMax HSGlobals matches 40.. run scoreboard players set _RadMax HSGlobals 40
+execute if block ~ ~ ~ nether_portal unless score _RadMax HSGlobals matches 10.. run scoreboard players set _RadMax HSGlobals 10
+execute if block ~ ~ ~ nether_portal unless score _RadMax HSGlobals matches 30.. at @s unless entity @n[type=marker,tag=HSPortal,distance=..1] run scoreboard players set _RadMax HSGlobals 30

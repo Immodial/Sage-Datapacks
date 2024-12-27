@@ -8,7 +8,6 @@ execute if entity @s[nbt=!{DeathTime:0s}] run return run scoreboard players rese
 # Find radiation value
 execute store result storage hellscape RadCheck.Yaw int 1 run random value 0..359
 execute store result storage hellscape RadCheck.Pitch int 1 run random value -80..80
-scoreboard players set _RadDistance HSGlobals 20
 execute anchored eyes positioned ^ ^ ^ run function hellscape:radcheck with storage hellscape RadCheck
 # Radiation VFX
 execute if score @s HSRadiation matches 100.. run playsound particle.soul_escape player @a ~ ~ ~ 0.4 2
