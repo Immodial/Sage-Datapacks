@@ -53,7 +53,15 @@ execute if items entity @s weapon.mainhand diamond_shovel[!custom_data] run item
 execute if items entity @s weapon.offhand diamond_shovel[!custom_data] run item modify entity @s weapon.offhand retooled:retool/diamond_shovel
 execute if items entity @s weapon.mainhand diamond_hoe[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/diamond_hoe
 execute if items entity @s weapon.offhand diamond_hoe[!custom_data] run item modify entity @s weapon.offhand retooled:retool/diamond_hoe
-execute if items entity @s weapon.mainhand flint_and_steel[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/flint_and_steel
-execute if items entity @s weapon.offhand flint_and_steel[!custom_data] run item modify entity @s weapon.offhand retooled:retool/flint_and_steel
+execute if items entity @s weapon.mainhand netherite_sword[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/netherite_sword
+execute if items entity @s weapon.offhand netherite_sword[!custom_data] run item modify entity @s weapon.offhand retooled:retool/netherite_sword
+execute if items entity @s weapon.mainhand netherite_axe[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/netherite_axe
+execute if items entity @s weapon.offhand netherite_axe[!custom_data] run item modify entity @s weapon.offhand retooled:retool/netherite_axe
+execute if items entity @s weapon.mainhand netherite_pickaxe[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/netherite_pickaxe
+execute if items entity @s weapon.offhand netherite_pickaxe[!custom_data] run item modify entity @s weapon.offhand retooled:retool/netherite_pickaxe
+execute if items entity @s weapon.mainhand netherite_shovel[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/netherite_shovel
+execute if items entity @s weapon.offhand netherite_shovel[!custom_data] run item modify entity @s weapon.offhand retooled:retool/netherite_shovel
+execute if items entity @s weapon.mainhand netherite_hoe[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/netherite_hoe
+execute if items entity @s weapon.offhand netherite_hoe[!custom_data] run item modify entity @s weapon.offhand retooled:retool/netherite_hoe
 execute if items entity @s weapon.mainhand mace[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/mace
 execute if items entity @s weapon.offhand mace[!custom_data] run item modify entity @s weapon.offhand retooled:retool/mace
