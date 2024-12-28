@@ -23,7 +23,7 @@
                     italic: false
                 }",
                 "{
-                    text: ' 10 ',
+                    text: ' 11 ',
                     color: 'dark_green',
                     italic: false,
                     extra: [{translate: 'attribute.name.attack_damage'}]
@@ -45,7 +45,7 @@
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
-                    "amount": 9,
+                    "amount": 10,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
