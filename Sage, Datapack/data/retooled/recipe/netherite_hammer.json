@@ -20,7 +20,7 @@
             "max_damage": 2031,
             "tool": {
                 "rules": [
-                    {"blocks": "#retooled:mineable/hammer", "speed": 12, "correct_for_drops": true},
+                    {"blocks": "#retooled:mineable/hammer", "speed": 14, "correct_for_drops": true},
                     {"blocks": "#minecraft:incorrect_for_netherite_tool", "correct_for_drops": false}
                 ]
             },
