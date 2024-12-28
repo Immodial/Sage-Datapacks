@@ -17,7 +17,7 @@
             "!food": {},
             "consumable": {
                 "animation": "block",
-                "consume_seconds": 3,
+                "consume_seconds": 1.2,
                 "has_consume_particles": false,
                 "sound": "entity.leash_knot.break",
                 "on_consume_effects": [
