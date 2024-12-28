@@ -15,9 +15,9 @@ execute unless entity @s[tag=HSNewPortal] run return fail
 playsound block.respawn_anchor.set_spawn block @a ~ ~ ~ 3 1.4
 tag @s remove HSNewPortal
 # Expand portal marking
-execute positioned ~1 ~ ~ if block ~ ~ ~ nether_portal unless entity @e[tag=HSPortal,distance=..0.1] run summon marker ~ ~ ~ {Tags:["HSPortal","HSNewPortal"]}
-execute positioned ~-1 ~ ~ if block ~ ~ ~ nether_portal unless entity @e[tag=HSPortal,distance=..0.1] run summon marker ~ ~ ~ {Tags:["HSPortal","HSNewPortal"]}
-execute positioned ~ ~1 ~ if block ~ ~ ~ nether_portal unless entity @e[tag=HSPortal,distance=..0.1] run summon marker ~ ~ ~ {Tags:["HSPortal","HSNewPortal"]}
-execute positioned ~ ~-1 ~ if block ~ ~ ~ nether_portal unless entity @e[tag=HSPortal,distance=..0.1] run summon marker ~ ~ ~ {Tags:["HSPortal","HSNewPortal"]}
-execute positioned ~ ~ ~1 if block ~ ~ ~ nether_portal unless entity @e[tag=HSPortal,distance=..0.1] run summon marker ~ ~ ~ {Tags:["HSPortal","HSNewPortal"]}
-execute positioned ~ ~ ~-1 if block ~ ~ ~ nether_portal unless entity @e[tag=HSPortal,distance=..0.1] run summon marker ~ ~ ~ {Tags:["HSPortal","HSNewPortal"]}
+execute align xyz positioned ~1.5 ~0.5 ~0.5 if block ~ ~ ~ nether_portal unless entity @e[tag=HSPortal,distance=..0.1] run summon marker ~ ~ ~ {Tags:["HSPortal","HSNewPortal"]}
+execute align xyz positioned ~-0.5 ~0.5 ~0.5 if block ~ ~ ~ nether_portal unless entity @e[tag=HSPortal,distance=..0.1] run summon marker ~ ~ ~ {Tags:["HSPortal","HSNewPortal"]}
+execute align xyz positioned ~0.5 ~1.5 ~0.5 if block ~ ~ ~ nether_portal unless entity @e[tag=HSPortal,distance=..0.1] run summon marker ~ ~ ~ {Tags:["HSPortal","HSNewPortal"]}
+execute align xyz positioned ~0.5 ~-0.5 ~0.5 if block ~ ~ ~ nether_portal unless entity @e[tag=HSPortal,distance=..0.1] run summon marker ~ ~ ~ {Tags:["HSPortal","HSNewPortal"]}
+execute align xyz positioned ~0.5 ~0.5 ~1.5 if block ~ ~ ~ nether_portal unless entity @e[tag=HSPortal,distance=..0.1] run summon marker ~ ~ ~ {Tags:["HSPortal","HSNewPortal"]}
+execute align xyz positioned ~0.5 ~0.5 ~-0.5 if block ~ ~ ~ nether_portal unless entity @e[tag=HSPortal,distance=..0.1] run summon marker ~ ~ ~ {Tags:["HSPortal","HSNewPortal"]}
