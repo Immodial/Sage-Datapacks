@@ -37,19 +37,6 @@ execute unless data entity @s SleepingY run return fail
 tag @s add RestfulSleeping
 time add 1
 effect give @s blindness 4 0 true
-# Dreams
-execute if entity @s[tag=RestfulSleeping,tag=!RestfulSlept] store result score @s APOCDreams run random value 1..10
-tellraw @s[scores={APOCDreams=1}] {"text":"You dream of monsters. Green creatures channel the strength of their horde.","italic":true,"color":"green"}
-tellraw @s[scores={APOCDreams=2}] {"text":"You dream of fire. Flames quickly engulf groups of undead.","italic":true,"color":"green"}
-tellraw @s[scores={APOCDreams=3}] {"text":"You dream of escape. The hefty weapons you lug along force the creatures of the night away.","italic":true,"color":"green"}
-tellraw @s[scores={APOCDreams=4}] {"text":"You dream of collection. Shining orange armor helps you extract more out of the earth.","italic":true,"color":"green"}
-tellraw @s[scores={APOCDreams=5}] {"text":"You dream of leaping. After proving yourself, return to the surface with the power of wind.","italic":true,"color":"green"}
-tellraw @s[scores={APOCDreams=6}] {"text":"You dream of stretching. Your reach feels short, but the weapons you wield extend it further than it ever was.","italic":true,"color":"green"}
-tellraw @s[scores={APOCDreams=7}] {"text":"You dream of cold. The frozen air does a number on your soaked body, and your breath hovers in front of your face.","italic":true,"color":"green"}
-tellraw @s[scores={APOCDreams=8}] {"text":"You dream of heat. Hellish stone, blazing sun, and fiery sands make moving difficult.","italic":true,"color":"green"}
-tellraw @s[scores={APOCDreams=9}] {"text":"You dream of comfort. Cool water and melons make the heat of the desert bearable.","italic":true,"color":"green"}
-tellraw @s[scores={APOCDreams=10}] {"text":"You dream of coziness. Despite the cold, your warm clothes, hot soup, and crackling fire keep you safe.","italic":true,"color":"green"}
-scoreboard players reset @s APOCDreams
 # Play player sleeping sound
 execute facing entity @a[tag=RestfulSleeping,tag=!RestfulSlept] feet run playsound block.wood.place player @s ^ ^ ^10 1 0.4 1
 execute facing entity @a[tag=RestfulSleeping,tag=!RestfulSlept] feet run playsound block.wool.place player @s ^ ^ ^10 1 0.4 1
