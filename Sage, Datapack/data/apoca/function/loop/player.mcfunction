@@ -13,6 +13,14 @@ tag @s remove APOCDead
 # Gather from gravestones
 execute as @e[type=marker,tag=APOCGrave,distance=..2,scores={APOCGraveTime=100..}] at @s run function apoca:special/gravedrop
 kill @e[type=text_display,tag=APOCGraveName,distance=..2,scores={APOCGraveTime=100..}]
+# Heal over time
+scoreboard players add @s APOCHealTime 1
+effect give @s[scores={APOCHunger=20..,APOCHealTime=150..}] regeneration 1 2 true
+scoreboard players reset @s[scores={APOCHunger=20..,APOCHealTime=150..}] APOCHealTime
+effect give @s[scores={APOCHunger=17..19,APOCHealTime=500..}] regeneration 1 2 true
+scoreboard players reset @s[scores={APOCHunger=17..19,APOCHealTime=500..}] APOCHealTime
+effect give @s[scores={APOCHunger=10..16,APOCHealTime=1000..}] regeneration 1 2 true
+scoreboard players reset @s[scores={APOCHunger=10..16,APOCHealTime=1000..}] APOCHealTime
 # Spawn phantoms
 execute unless predicate apoca:daytime positioned ~ 164 ~ if entity @s[dy=1000] unless entity @e[type=phantom,distance=..100] unless function apoca:random/48 run playsound entity.phantom.flap hostile @a ~ ~48 ~ 100 0.4
 execute unless predicate apoca:daytime positioned ~ 164 ~ if entity @s[dy=1000] unless entity @e[type=phantom,distance=..100] unless function apoca:random/2400 run function apoca:special/haunt
