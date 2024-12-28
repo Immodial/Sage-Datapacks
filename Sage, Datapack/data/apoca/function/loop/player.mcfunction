@@ -19,7 +19,7 @@ execute store result score _MaxHealth APOCGlobals run attribute @s max_health ge
 execute if score @s APOCHealth >= _MaxHealth APOCGlobals run scoreboard players reset @s APOCHealTime
 effect give @s[scores={APOCHunger=20..,APOCHealTime=100..}] regeneration 1 2 true
 effect give @s[scores={APOCHunger=20..,APOCHealTime=100..}] hunger 1 39 true
-scoreboard players reset @s[scores={APOCHunger=20..,APOCHealTime=150..}] APOCHealTime
+scoreboard players reset @s[scores={APOCHunger=20..,APOCHealTime=100..}] APOCHealTime
 effect give @s[scores={APOCHunger=17..19,APOCHealTime=400..}] regeneration 1 2 true
 effect give @s[scores={APOCHunger=17..19,APOCHealTime=400..}] hunger 1 19 true
 scoreboard players reset @s[scores={APOCHunger=17..19,APOCHealTime=400..}] APOCHealTime
