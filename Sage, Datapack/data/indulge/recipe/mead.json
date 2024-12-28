@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "#s#",
+        "nHn",
+        "###"
+    ],
+    "key": {
+        "H": "minecraft:honey_bottle",
+        "s": "minecraft:sugar",
+        "n": "minecraft:iron_nugget",
+        "#": "minecraft:stick"
+    },
+    "result": {
+        "id": "minecraft:cooked_porkchop",
+        "count": 1,
+        "components": {
+            "item_name": "[{translate:'item.indulge.mead'}]",
+            "item_model": "indulge:mead",
+            "food": {
+                "nutrition": 4,
+                "saturation": 9.6,
+                "can_always_eat": true
+            },
+            "consumable": {
+                "animation": "drink",
+                "has_consume_particles": false,
+                "sound": "minecraft:item.honey_bottle.drink"
+            },
+            "use_remainder": {
+                "id": "minecraft:iron_nugget",
+                "count": 1,
+                "components": {
+                    "item_name": "[{translate:'item.indulge.wooden_cup'}]",
+                    "item_model": "indulge:wooden_cup"
+                }
+            },
+            "!max_stack_size": {}
+        }
+    }
+}
