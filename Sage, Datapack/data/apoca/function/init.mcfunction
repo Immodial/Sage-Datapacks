@@ -6,7 +6,8 @@
 # Variables
 scoreboard objectives add APOCGlobals dummy "Global Vars"
 scoreboard objectives add APOCHealTime dummy "Heal Cooldown"
-scoreboard objectives add APOCHunger food "Hunger"
+scoreboard objectives add APOCHealth health "Player Health"
+scoreboard objectives add APOCHunger food "Player Hunger"
 scoreboard objectives add APOCGraveTime dummy "Grave Time"
 scoreboard objectives add APOCZombieDensity dummy "Proximity to Other Zombies"
 scoreboard objectives add APOCCramming dummy "Proximity to Mobs"

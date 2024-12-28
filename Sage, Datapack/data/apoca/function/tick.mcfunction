@@ -21,9 +21,10 @@ execute as @e[type=experience_orb] at @s run function apoca:loop/xporb
 # Run player effects
 execute as @a at @s run function apoca:loop/player
 execute unless entity @a[gamemode=!spectator,tag=!RestfulSleeping] run time add 20
-# Set hard difficulty and lack of sleep
+# Set hard difficulty and gamerules
 difficulty hard
 gamerule playersSleepingPercentage 200
 gamerule doInsomnia false
+gamerule naturalRegeneration false
 # Loop
 schedule function apoca:tick 1
