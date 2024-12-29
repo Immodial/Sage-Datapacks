@@ -114,6 +114,8 @@
     "item.indulge.mead": "Honey Mead",
     "item.indulge.wooden_cup": "Wooden Cup",
     
+    "item.journey.plane": "Biplane",
+    
     "block.minecraft.firefly_bush": "Firefly Grass",
     "sleep.not_possible": "You feel the night pass faster"
 }
