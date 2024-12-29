@@ -105,5 +105,7 @@
     "item.indulge.iced_tea": "Iced Tea",
     "item.indulge.coffee": "Coffee",
     "item.indulge.mead": "Honey Mead",
-    "item.indulge.wooden_cup": "Wooden Cup"
+    "item.indulge.wooden_cup": "Wooden Cup",
+    
+    "item.journey.plane": "Biplane"
 }
