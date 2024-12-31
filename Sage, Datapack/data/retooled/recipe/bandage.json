@@ -25,7 +25,7 @@
                         "effects": [
                             {
                                 "id": "minecraft:regeneration",
-                                "duration": 48,
+                                "duration": 36,
                                 "amplifier": 2
                             }
                         ]
