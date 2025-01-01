@@ -21,6 +21,12 @@ execute if items entity @s weapon.* lapis_lazuli run data modify entity @n[type=
 execute if items entity @s weapon.* lapis_lazuli run data modify storage windings lore.Addition set value "L"
 execute if items entity @s weapon.* emerald run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "eme"
 execute if items entity @s weapon.* emerald run data modify storage windings lore.Addition set value "E"
+execute if items entity @s weapon.* amethyst_shard run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "ame"
+execute if items entity @s weapon.* amethyst_shard run data modify storage windings lore.Addition set value "A"
+execute if items entity @s weapon.* prismarine_shard run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "shar"
+execute if items entity @s weapon.* prismarine_shard run data modify storage windings lore.Addition set value "S"
+execute if items entity @s weapon.* prismarine_crystals run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "cry"
+execute if items entity @s weapon.* prismarine_crystals run data modify storage windings lore.Addition set value "C"
 execute if items entity @s weapon.* gold_nugget run data modify storage windings lore.Addition set value ""
 execute if items entity @s weapon.* gold_nugget run function windings:erase
 data modify storage windings lore.Source set from entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGGlyphs

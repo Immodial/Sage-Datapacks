@@ -18,7 +18,7 @@ execute if data storage windings {parse:{match:{1:"red",2:"lap"}}} run function 
 execute if data storage windings {parse:{match:{1:"lap",2:"redmaj"}}} run function windings:pattern/2lapmaj
 execute if data storage windings {parse:{match:{1:"redmaj",2:"lap"}}} run function windings:pattern/2lapmaj
 execute if data storage windings {parse:{match:{1:"eme",2:"red"}}} run function windings:pattern/2ememaj
-execute if data storage windings {parse:{match:{1:"red",2:"maj"}}} run function windings:pattern/2ememaj
+execute if data storage windings {parse:{match:{1:"red",2:"eme"}}} run function windings:pattern/2ememaj
 execute if data storage windings {parse:{match:{1:"eme",2:"redmaj"}}} run function windings:pattern/2ememaj
 execute if data storage windings {parse:{match:{1:"redmaj",2:"eme"}}} run function windings:pattern/2ememaj
 execute if data storage windings {parse:{match:{1:"redmaj",2:"red"}}} run function windings:pattern/2red
@@ -33,6 +33,12 @@ execute if data storage windings {parse:{match:{1:"redsup",2:"lapmaj"}}} run fun
 execute if data storage windings {parse:{match:{1:"lapmaj",2:"redsup"}}} run function windings:pattern/2lapsup
 execute if data storage windings {parse:{match:{1:"redmaj",2:"lapmaj"}}} run function windings:pattern/2ame
 execute if data storage windings {parse:{match:{1:"lapmaj",2:"redmaj"}}} run function windings:pattern/2ame
+execute if data storage windings {parse:{match:{1:"lapmaj",2:"red"}}} run function windings:pattern/2ame
+execute if data storage windings {parse:{match:{1:"red",2:"lapmaj"}}} run function windings:pattern/2ame
+execute if data storage windings {parse:{match:{1:"lapmaj",2:"eme"}}} run function windings:pattern/2cry
+execute if data storage windings {parse:{match:{1:"eme",2:"lapmaj"}}} run function windings:pattern/2cry
+execute if data storage windings {parse:{match:{1:"ememaj",2:"lap"}}} run function windings:pattern/2shar
+execute if data storage windings {parse:{match:{1:"lap",2:"ememaj"}}} run function windings:pattern/2shar
 # If no matches occured, store current glyph
 execute unless data storage windings parse.match run tag @s add WNDGMerged
 execute if data storage windings parse.match run data modify entity @s data.Inscribed append from storage windings parse.Reading[0]
