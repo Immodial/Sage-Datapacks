@@ -24,7 +24,9 @@ scoreboard players add @e[type=marker,tag=APOCGrave] APOCGraveTime 1
 scoreboard players add @e[type=text_display,tag=APOCGraveName] APOCGraveTime 1
 # Run player effects
 execute as @a at @s run function apoca:loop/player
-execute unless entity @a[gamemode=!spectator,tag=!RestfulSleeping] run time add 20
+execute if entity @a[gamemode=!spectator] unless entity @a[gamemode=!spectator,tag=!RestfulSleeping] run time add 20
+gamerule doDaylightCycle true
+execute unless entity @a[gamemode=!spectator] run gamerule doDaylightCycle false
 # Set hard difficulty and gamerules
 difficulty hard
 gamerule playersSleepingPercentage 200
