@@ -1,0 +1,23 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "heated_biome": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "#frostbite:heated"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "heated_biome"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:biome/dynamic/heated"
+  }
+}
