@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "use_winding": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {"custom_data": {"WNDGBook":true}}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_winding"
+    ]
+  ],
+  "rewards": {
+    "function": "windings:use"
+  }
+}

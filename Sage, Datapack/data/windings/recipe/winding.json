@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "GGG",
+        "GPP",
+        "GGG"
+    ],
+    "key": {
+        "P": "minecraft:paper",
+        "G": "minecraft:gold_ingot"
+    },
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "components": {
+            "item_name": "[{translate:'item.windings.winding'}]",
+            "!stored_enchantments":{},
+            "consumable": {
+                "consume_seconds": 100000,
+                "animation": "brush",
+                "has_consume_particles": false
+            },
+            "custom_data": {
+                "WNDGBook":true,
+                "WNDGInscribed":[],
+                "WNDGGlyphs":""
+            },
+            "lore": [
+                "{text:'Empty',color:'white',italic:false}"
+            ]
+        }
+    }
+}
