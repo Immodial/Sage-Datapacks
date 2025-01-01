@@ -3,4 +3,4 @@
 ## >> As: Spell containing the Amethyst Glyph
 ## >> Does: Nothing yet
 ## >> Input: None
-tp @s ^ ^ ^3
+execute as @p[distance=..50] run tp @s ~ ~ ~
