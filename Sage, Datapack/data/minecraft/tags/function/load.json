@@ -10,6 +10,8 @@
         "lorem:init",
         "indulge:init",
         "glue:init",
-        "seated:init"
+        "seated:init",
+        "windings:init",
+        "sutils:init"
     ]
 }
