@@ -3,4 +3,4 @@
 ## >> As: Spell containing the Redstone Major Glyph
 ## >> Does: Give nearby things speed
 ## >> Input: None
-effect give @e[distance=..2] speed 3 0
+effect give @e[distance=..3] speed 3 0
