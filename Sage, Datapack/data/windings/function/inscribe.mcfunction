@@ -27,6 +27,8 @@ execute if items entity @s weapon.* prismarine_shard run data modify entity @n[t
 execute if items entity @s weapon.* prismarine_shard run data modify storage windings lore.Addition set value "S"
 execute if items entity @s weapon.* prismarine_crystals run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "cry"
 execute if items entity @s weapon.* prismarine_crystals run data modify storage windings lore.Addition set value "C"
+execute if items entity @s weapon.* resin_clump run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "res"
+execute if items entity @s weapon.* resin_clump run data modify storage windings lore.Addition set value "R"
 execute if items entity @s weapon.* gold_nugget run data modify storage windings lore.Addition set value ""
 execute if items entity @s weapon.* gold_nugget run function windings:erase
 data modify storage windings lore.Source set from entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGGlyphs
