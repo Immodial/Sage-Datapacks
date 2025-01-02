@@ -99,5 +99,8 @@
     "item.indulge.mead": "Honey Mead",
     "item.indulge.wooden_cup": "Wooden Cup",
     
-    "item.journey.plane": "Biplane"
+    "item.journey.plane": "Biplane",
+    
+    "item.windings.winding": "Winding",
+    "item.windings.practice_winding": "Practice Winding"
 }

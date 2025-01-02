@@ -2,19 +2,20 @@
     "type": "minecraft:crafting_shaped",
     "category": "equipment",
     "pattern": [
-        "GGG",
-        "GPP",
-        "GGG"
+        "OGG",
+        "OPP",
+        "OGG"
     ],
     "key": {
         "P": "minecraft:paper",
-        "G": "minecraft:gold_ingot"
+        "G": "minecraft:gold_ingot",
+        "O": "minecraft:obsidian"
     },
     "result": {
         "id": "minecraft:book",
         "count": 1,
         "components": {
-            "item_name": "[{translate:'item.windings.winding'}]",
+            "item_name": "[{translate:'item.windings.practice_winding'}]",
             "!stored_enchantments":{},
             "consumable": {
                 "consume_seconds": 100000,
@@ -23,6 +24,7 @@
             },
             "custom_data": {
                 "WNDGBook":true,
+                "WNDGSlowed":true,
                 "WNDGInscribed":[],
                 "WNDGGlyphs":""
             },
