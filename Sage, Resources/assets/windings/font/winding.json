@@ -1,0 +1,53 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "windings:font/tangible.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["A"]
+        },
+        {
+            "type": "bitmap",
+            "file": "windings:font/control.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["B"]
+        },
+        {
+            "type": "bitmap",
+            "file": "windings:font/power.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["C"]
+        },
+        {
+            "type": "bitmap",
+            "file": "windings:font/refract.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["D"]
+        },
+        {
+            "type": "bitmap",
+            "file": "windings:font/transothers.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["E"]
+        },
+        {
+            "type": "bitmap",
+            "file": "windings:font/transself.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["F"]
+        },
+        {
+            "type": "bitmap",
+            "file": "windings:font/damage.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["G"]
+        }
+    ]
+}
