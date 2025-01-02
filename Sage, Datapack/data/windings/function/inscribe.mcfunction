@@ -15,20 +15,20 @@ summon item ~ ~ ~ {Tags:["WNDGInscribing"],Item:{id:"minecraft:cobblestone",coun
 execute if items entity @s weapon.mainhand *[custom_data~{WNDGBook:true}] run item replace entity @n[type=item,tag=WNDGInscribing] contents from entity @s weapon.mainhand
 execute if items entity @s weapon.offhand *[custom_data~{WNDGBook:true}] run item replace entity @n[type=item,tag=WNDGInscribing] contents from entity @s weapon.offhand
 # Add data
-execute if items entity @s weapon.* redstone_block run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "red"
-execute if items entity @s weapon.* redstone_block run data modify storage windings lore.Addition set value "R"
-execute if items entity @s weapon.* lapis_lazuli run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "lap"
-execute if items entity @s weapon.* lapis_lazuli run data modify storage windings lore.Addition set value "L"
 execute if items entity @s weapon.* emerald run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "eme"
-execute if items entity @s weapon.* emerald run data modify storage windings lore.Addition set value "E"
+execute if items entity @s weapon.* emerald run data modify storage windings lore.Addition set value "A"
+execute if items entity @s weapon.* lapis_lazuli run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "lap"
+execute if items entity @s weapon.* lapis_lazuli run data modify storage windings lore.Addition set value "B"
+execute if items entity @s weapon.* redstone_block run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "red"
+execute if items entity @s weapon.* redstone_block run data modify storage windings lore.Addition set value "C"
 execute if items entity @s weapon.* amethyst_shard run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "ame"
-execute if items entity @s weapon.* amethyst_shard run data modify storage windings lore.Addition set value "A"
+execute if items entity @s weapon.* amethyst_shard run data modify storage windings lore.Addition set value "D"
 execute if items entity @s weapon.* prismarine_shard run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "shar"
-execute if items entity @s weapon.* prismarine_shard run data modify storage windings lore.Addition set value "S"
+execute if items entity @s weapon.* prismarine_shard run data modify storage windings lore.Addition set value "E"
 execute if items entity @s weapon.* prismarine_crystals run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "cry"
-execute if items entity @s weapon.* prismarine_crystals run data modify storage windings lore.Addition set value "C"
+execute if items entity @s weapon.* prismarine_crystals run data modify storage windings lore.Addition set value "F"
 execute if items entity @s weapon.* resin_clump run data modify entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGInscribed append value "res"
-execute if items entity @s weapon.* resin_clump run data modify storage windings lore.Addition set value "R"
+execute if items entity @s weapon.* resin_clump run data modify storage windings lore.Addition set value "G"
 execute if items entity @s weapon.* gold_nugget run data modify storage windings lore.Addition set value ""
 execute if items entity @s weapon.* gold_nugget run function windings:erase
 data modify storage windings lore.Source set from entity @n[type=item,tag=WNDGInscribing] Item.components."minecraft:custom_data".WNDGGlyphs
