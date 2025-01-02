@@ -45,6 +45,10 @@ execute if data storage windings {parse:{match:{1:"ememaj",2:"lap"}}} run functi
 execute if data storage windings {parse:{match:{1:"lap",2:"ememaj"}}} run function windings:pattern/2shar
 execute if data storage windings {parse:{match:{1:"ememaj",2:"redmaj"}}} run function windings:pattern/2res
 execute if data storage windings {parse:{match:{1:"redmaj",2:"ememaj"}}} run function windings:pattern/2res
+execute if data storage windings {parse:{match:{1:"res",2:"redmaj"}}} run function windings:pattern/2amemaj
+execute if data storage windings {parse:{match:{1:"redmaj",2:"res"}}} run function windings:pattern/2amemaj
+execute if data storage windings {parse:{match:{1:"redsup",2:"res"}}} run function windings:pattern/2amemaj
+execute if data storage windings {parse:{match:{1:"res",2:"redsup"}}} run function windings:pattern/2amemaj
 # If no matches occured, store current glyph
 execute unless data storage windings parse.match run tag @s add WNDGMerged
 execute if data storage windings parse.match run data modify entity @s data.Inscribed append from storage windings parse.Reading[0]
