@@ -14,7 +14,7 @@
         "id": "minecraft:enchanted_book",
         "count": 1,
         "components": {
-            "item_name": "[{translate:'item.windings.winding'}]",
+            "item_name": "[{translate:'Winding'}]",
             "!stored_enchantments":{},
             "consumable": {
                 "consume_seconds": 100000,
