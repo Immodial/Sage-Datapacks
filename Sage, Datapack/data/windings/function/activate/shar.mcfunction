@@ -3,5 +3,5 @@
 ## >> As: Spell containing the Amethyst Glyph
 ## >> Does: Nothing yet
 ## >> Input: None
-execute at @n[type=!#apoca:nonphysical,distance=..5] facing entity @s feet run tp @n[type=!#apoca:nonphysical,distance=..5] ^ ^ ^2
-tp @e[type=!#apoca:nonphysical,distance=..2] ~ ~ ~
+execute at @n[type=!#windings:nonphysical,distance=..5] facing entity @s feet run tp @n[type=!#apoca:nonphysical,distance=..5] ^ ^ ^2
+tp @e[type=!#windings:nonphysical,distance=..2] ~ ~ ~
