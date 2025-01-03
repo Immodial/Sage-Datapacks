@@ -4,9 +4,9 @@
 ## >> Does: Merge pattern into Redstone Major
 ## >> Input: None
 # Remove match
-data remove storage windings parse.Reading[0]
-data remove storage windings parse.Reading[0]
-data remove storage windings parse.Reading[0]
+function windings:lens/decipher
+function windings:lens/decipher
+function windings:lens/decipher
 data modify entity @s data.Inscribed append value "redmaj"
 # Prevent future matches
 data remove storage windings parse.match

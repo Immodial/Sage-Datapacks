@@ -1,53 +1,97 @@
 {
     "providers": [
         {
+            "type": "space",
+            "advances": {
+                " ": 1,
+                "<": -9,
+                "-": -1,
+                "_": -2
+            }
+        },
+        {
             "type": "bitmap",
             "file": "windings:font/tangible.png",
-            "ascent": 9,
+            "ascent": 8,
             "height": 9,
             "chars": ["A"]
         },
         {
             "type": "bitmap",
             "file": "windings:font/control.png",
-            "ascent": 9,
+            "ascent": 8,
             "height": 9,
             "chars": ["B"]
         },
         {
             "type": "bitmap",
             "file": "windings:font/power.png",
-            "ascent": 9,
+            "ascent": 8,
             "height": 9,
             "chars": ["C"]
         },
         {
             "type": "bitmap",
             "file": "windings:font/refract.png",
-            "ascent": 9,
+            "ascent": 8,
             "height": 9,
             "chars": ["D"]
         },
         {
             "type": "bitmap",
             "file": "windings:font/transothers.png",
-            "ascent": 9,
+            "ascent": 8,
             "height": 9,
             "chars": ["E"]
         },
         {
             "type": "bitmap",
             "file": "windings:font/transself.png",
-            "ascent": 9,
+            "ascent": 8,
             "height": 9,
             "chars": ["F"]
         },
         {
             "type": "bitmap",
             "file": "windings:font/damage.png",
-            "ascent": 9,
+            "ascent": 8,
             "height": 9,
             "chars": ["G"]
+        },
+        {
+            "type": "bitmap",
+            "file": "windings:font/major.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["X"]
+        },
+        {
+            "type": "bitmap",
+            "file": "windings:font/super.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["Z"]
+        },
+        {
+            "type": "bitmap",
+            "file": "windings:font/openbrace.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["["]
+        },
+        {
+            "type": "bitmap",
+            "file": "windings:font/closebrace.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["]"]
+        },
+        {
+            "type": "bitmap",
+            "file": "windings:font/arrow.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["^"]
         }
     ]
 }
