@@ -9,7 +9,8 @@ Split into modules:
 
 ## To Install
 1. Click the bright green "Code" button
-    * You can switch to an experimental version
+    * You can switch to an experimental version by clicking the gray "main" button
+    * Select an experiment from the dropdown
 2. Click "Download Zip"
 3. Right Click the downloaded Zip File and hit "Extract All"
 4. Open extracted folder
