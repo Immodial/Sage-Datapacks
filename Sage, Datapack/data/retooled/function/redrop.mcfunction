@@ -34,6 +34,7 @@ execute if items entity @s contents netherite_pickaxe[!custom_data] run item mod
 execute if items entity @s contents netherite_shovel[!custom_data] run item modify entity @s contents retooled:retool/netherite_shovel
 execute if items entity @s contents netherite_hoe[!custom_data] run item modify entity @s contents retooled:retool/netherite_hoe
 execute if items entity @s contents flint_and_steel[!custom_data] run item modify entity @s contents retooled:retool/flint_and_steel
+execute if items entity @s contents trident[!custom_data] run item modify entity @s contents retooled:retool/trident
 execute if items entity @s contents mace[!custom_data] run item modify entity @s contents retooled:retool/mace
 execute if items entity @s contents leather_helmet[!custom_data] run item modify entity @s contents retooled:reequip/leather_helmet
 execute if items entity @s contents leather_chestplate[!custom_data] run item modify entity @s contents retooled:reequip/leather_chestplate

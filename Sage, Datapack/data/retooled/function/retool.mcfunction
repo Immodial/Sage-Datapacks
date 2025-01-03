@@ -63,5 +63,7 @@ execute if items entity @s weapon.mainhand netherite_shovel[!custom_data] run it
 execute if items entity @s weapon.offhand netherite_shovel[!custom_data] run item modify entity @s weapon.offhand retooled:retool/netherite_shovel
 execute if items entity @s weapon.mainhand netherite_hoe[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/netherite_hoe
 execute if items entity @s weapon.offhand netherite_hoe[!custom_data] run item modify entity @s weapon.offhand retooled:retool/netherite_hoe
+execute if items entity @s weapon.mainhand trident[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/trident
+execute if items entity @s weapon.offhand trident[!custom_data] run item modify entity @s weapon.offhand retooled:retool/trident
 execute if items entity @s weapon.mainhand mace[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/mace
 execute if items entity @s weapon.offhand mace[!custom_data] run item modify entity @s weapon.offhand retooled:retool/mace
