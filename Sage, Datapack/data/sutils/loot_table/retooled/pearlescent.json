@@ -3,275 +3,14 @@
   "pools": [
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
-      "name": "minecraft:wooden_pickaxe",
+      "name": "minecraft:diamond_sword",
       "functions": [{
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.wooden_spear'}]",
+            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_longsword'}]",
             "minecraft:custom_data": {"RTModified":true},
-            "minecraft:item_model": "retooled:wooden_spear",
-            "max_damage": 118,
-            "!tool":{},
-            "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 3 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 0.9 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.long',
-                    color: 'dark_green',
-                    italic: false
-                }"
-            ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
-                {
-                    "id": "retooled:weapon_attack",
-                    "type": "minecraft:attack_damage",
-                    "amount": 2,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                },
-                {
-                    "id": "retooled:weapon_length",
-                    "type": "minecraft:entity_interaction_range",
-                    "amount": 2,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                },
-                {
-                    "id": "retooled:weapon_speed",
-                    "type": "minecraft:attack_speed",
-                    "amount": -3.1,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                }
-              ],
-              "show_in_tooltip": false
-            }
-        }
-      }]
-    }]},
-    {"rolls": 1,"entries": [{
-      "type": "minecraft:item",
-      "name": "minecraft:stone_pickaxe",
-      "functions": [{
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.stone_spear'}]",
-            "minecraft:custom_data": {"RTModified":true},
-            "minecraft:item_model": "retooled:stone_spear",
-            "max_damage": 262,
-            "!tool":{},
-            "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 5 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 0.9 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.long',
-                    color: 'dark_green',
-                    italic: false
-                }"
-            ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
-                {
-                    "id": "retooled:weapon_attack",
-                    "type": "minecraft:attack_damage",
-                    "amount": 4,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                },
-                {
-                    "id": "retooled:weapon_length",
-                    "type": "minecraft:entity_interaction_range",
-                    "amount": 2,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                },
-                {
-                    "id": "retooled:weapon_speed",
-                    "type": "minecraft:attack_speed",
-                    "amount": -3.1,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                }
-              ],
-              "show_in_tooltip": false
-            }
-        }
-      }]
-    }]},
-    {"rolls": 1,"entries": [{
-      "type": "minecraft:item",
-      "name": "minecraft:iron_pickaxe",
-      "functions": [{
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.iron_spear'}]",
-            "minecraft:custom_data": {"RTModified":true},
-            "minecraft:item_model": "retooled:iron_spear",
-            "max_damage": 500,
-            "!tool":{},
-            "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 6 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 0.9 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.long',
-                    color: 'dark_green',
-                    italic: false
-                }"
-            ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
-                {
-                    "id": "retooled:weapon_attack",
-                    "type": "minecraft:attack_damage",
-                    "amount": 5,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                },
-                {
-                    "id": "retooled:weapon_length",
-                    "type": "minecraft:entity_interaction_range",
-                    "amount": 2,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                },
-                {
-                    "id": "retooled:weapon_speed",
-                    "type": "minecraft:attack_speed",
-                    "amount": -3.1,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                }
-              ],
-              "show_in_tooltip": false
-            }
-        }
-      }]
-    }]},
-    {"rolls": 1,"entries": [{
-      "type": "minecraft:item",
-      "name": "minecraft:golden_pickaxe",
-      "functions": [{
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.golden_spear'}]",
-            "minecraft:custom_data": {"RTModified":true},
-            "minecraft:item_model": "retooled:golden_spear",
-            "max_damage": 64,
-            "!tool":{},
-            "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 5 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 1.1 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.long',
-                    color: 'dark_green',
-                    italic: false
-                }"
-            ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
-                {
-                    "id": "retooled:weapon_attack",
-                    "type": "minecraft:attack_damage",
-                    "amount": 4,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                },
-                {
-                    "id": "retooled:weapon_length",
-                    "type": "minecraft:entity_interaction_range",
-                    "amount": 2,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                },
-                {
-                    "id": "retooled:weapon_speed",
-                    "type": "minecraft:attack_speed",
-                    "amount": -2.9,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                }
-              ],
-              "show_in_tooltip": false
-            }
-        }
-      }]
-    }]},
-    {"rolls": 1,"entries": [{
-      "type": "minecraft:item",
-      "name": "minecraft:netherite_pickaxe",
-      "functions": [{
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.netherite_spear'}]",
-            "minecraft:custom_data": {"RTModified":true},
-            "minecraft:item_model": "retooled:netherite_spear",
-            "max_damage": 4062,
-            "!tool":{},
+            "minecraft:item_model": "retooled:pearlescent_longsword",
+            "max_damage": 2621,
             "minecraft:lore": [
                 "{text: ''}",
                 "{
@@ -286,13 +25,18 @@
                     extra: [{translate: 'attribute.name.attack_damage'}]
                 }",
                 "{
-                    text: ' 0.9 ',
+                    text: ' 1.8 ',
                     color: 'dark_green',
                     italic: false,
                     extra: [{translate: 'attribute.name.attack_speed'}]
                 }",
                 "{
-                    translate: 'trait.retooled.length.long',
+                    translate: 'trait.retooled.length.medium',
+                    color: 'dark_green',
+                    italic: false
+                }",
+                "{
+                    text: ' Sweeping',
                     color: 'dark_green',
                     italic: false
                 }"
@@ -309,6 +53,303 @@
                 {
                     "id": "retooled:weapon_length",
                     "type": "minecraft:entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:diamond_sword",
+      "functions": [{
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_pickaxe'}]",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:pearlescent_pickaxe",
+            "max_damage": 2621,
+            "tool": {
+                "rules": [
+                    {"blocks": "#minecraft:mineable/pickaxe", "speed": 12, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_netherite_tool", "correct_for_drops": false}
+                ]
+            },
+            "minecraft:lore": [
+                "{text: ''}",
+                "{
+                    translate: 'item.modifiers.mainhand',
+                    color: 'gray',
+                    italic: false
+                }",
+                "{
+                    text: ' 6 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_damage'}]
+                }",
+                "{
+                    text: ' 1.4 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_speed'}]
+                }",
+                "{
+                    translate: 'trait.retooled.length.medium',
+                    color: 'dark_green',
+                    italic: false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:attack_damage",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_length",
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:diamond_sword",
+      "functions": [{
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_axe'}]",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:pearlescent_axe",
+            "max_damage": 2621,
+            "tool": {
+                "rules": [
+                    {"blocks": "#minecraft:mineable/axe", "speed": 12, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_netherite_tool", "correct_for_drops": false}
+                ]
+            },
+            "minecraft:lore": [
+                "{text: ''}",
+                "{
+                    translate: 'item.modifiers.mainhand',
+                    color: 'gray',
+                    italic: false
+                }",
+                "{
+                    text: ' 11 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_damage'}]
+                }",
+                "{
+                    text: ' 1 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_speed'}]
+                }",
+                "{
+                    translate: 'trait.retooled.length.medium',
+                    color: 'dark_green',
+                    italic: false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:attack_damage",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_length",
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:diamond_sword",
+      "functions": [{
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_shovel'}]",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:pearlescent_shovel",
+            "max_damage": 2621,
+            "tool": {
+                "rules": [
+                    {"blocks": "#minecraft:mineable/shovel", "speed": 14, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_netherite_tool", "correct_for_drops": false}
+                ]
+            },
+            "minecraft:lore": [
+                "{text: ''}",
+                "{
+                    translate: 'item.modifiers.mainhand',
+                    color: 'gray',
+                    italic: false
+                }",
+                "{
+                    text: ' 5 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_damage'}]
+                }",
+                "{
+                    text: ' 1.2 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_speed'}]
+                }",
+                "{
+                    translate: 'trait.retooled.length.medium',
+                    color: 'dark_green',
+                    italic: false
+                }",
+                "{
+                    translate: 'trait.retooled.knockback.weak',
+                    color: 'dark_green',
+                    italic: false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:attack_damage",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_length",
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.8,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_knockback",
+                    "type": "minecraft:attack_knockback",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:diamond_sword",
+      "functions": [{
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_hoe'}]",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:pearlescent_hoe",
+            "max_damage": 2621,
+            "tool": {
+                "rules": [
+                    {"blocks": "#minecraft:mineable/hoe", "speed": 14, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_netherite_tool", "correct_for_drops": false}
+                ]
+            },
+            "minecraft:lore": [
+                "{text: ''}",
+                "{
+                    translate: 'item.modifiers.mainhand',
+                    color: 'gray',
+                    italic: false
+                }",
+                "{
+                    text: ' 4 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_damage'}]
+                }",
+                "{
+                    text: ' 2 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_speed'}]
+                }",
+                "{
+                    translate: 'trait.retooled.length.long',
+                    color: 'dark_green',
+                    italic: false
+                }",
+                "{
+                    text: ' Sickle',
+                    color: 'dark_green',
+                    italic: false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:attack_damage",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_length",
+                    "type": "minecraft:entity_interaction_range",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "mainhand"
@@ -316,7 +357,89 @@
                 {
                     "id": "retooled:weapon_speed",
                     "type": "minecraft:attack_speed",
-                    "amount": -3.1,
+                    "amount": -2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+              ],
+              "show_in_tooltip": false
+            }
+        }
+      }]
+    }]},
+    {"rolls": 1,"entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:diamond_pickaxe",
+      "functions": [{
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_hammer'}]",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:pearlescent_hammer",
+            "max_damage": 2621,
+            "tool": {
+                "rules": [
+                    {"blocks": "#retooled:mineable/hammer", "speed": 16, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_netherite_tool", "correct_for_drops": false}
+                ]
+            },
+            "minecraft:lore": [
+                "{text: ''}",
+                "{
+                    translate: 'item.modifiers.mainhand',
+                    color: 'gray',
+                    italic: false
+                }",
+                "{
+                    text: ' 10 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_damage'}]
+                }",
+                "{
+                    text: ' 1 ',
+                    color: 'dark_green',
+                    italic: false,
+                    extra: [{translate: 'attribute.name.attack_speed'}]
+                }",
+                "{
+                    translate: 'trait.retooled.length.medium',
+                    color: 'dark_green',
+                    italic: false
+                }",
+                "{
+                    translate: 'trait.retooled.knockback.strong',
+                    color: 'dark_green',
+                    italic: false
+                }"
+            ],
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:attack_damage",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_length",
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_knockback",
+                    "type": "minecraft:attack_knockback",
+                    "amount": 1.5,
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
