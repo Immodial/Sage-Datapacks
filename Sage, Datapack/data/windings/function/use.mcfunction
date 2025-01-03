@@ -21,7 +21,6 @@ execute if predicate {condition:"random_chance",chance:0.05} run playsound entit
 execute unless score @s WNDGSpellTime >= _SpellCharge WNDGGlobals run return run scoreboard players reset _SpellCharge WNDGGlobals
 # Make spell
 summon marker ~ ~ ~ {Tags:["WNDGSpell","WNDGSpelling"],data:{Inscribed:[]}}
-execute if data entity @s SelectedItem.components."minecraft:custom_data".WNDGSlowed run tag @n[type=marker,tag=WNDGSpelling] add WNDGSlowSpell
 execute anchored eyes run tp @n[type=marker,tag=WNDGSpelling] ^ ^ ^0.6 ~ ~
 data modify entity @n[type=marker,tag=WNDGSpelling] data.Inscribed set from entity @s SelectedItem.components."minecraft:custom_data".WNDGInscribed
 execute store result entity @n[type=marker,tag=WNDGSpelling] data.SpellWidth double 0.15 run data get entity @n[type=marker,tag=WNDGSpelling] data.Inscribed
