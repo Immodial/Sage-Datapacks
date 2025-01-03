@@ -1,0 +1,19 @@
+{
+    "values": [
+        "#minecraft:base_stone_overworld",
+        "#minecraft:base_stone_nether",
+        "#minecraft:dirt",
+        "#minecraft:sand",
+        "#minecraft:terracotta",
+        "#minecraft:ice",
+        "minecraft:cobblestone",
+        "minecraft:cobbled_deepslate",
+        "minecraft:sandstone",
+        "minecraft:red_sandstone",
+        "minecraft:calcite",
+        "minecraft:gravel",
+        "minecraft:snow",
+        "minecraft:snow_block",
+        "minecraft:end_stone"
+    ]
+}

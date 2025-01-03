@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                    "item_name": "'Winding of The Depths'",
+                    "food": {
+                        "saturation": 0, "nutrition": 0,
+                        "can_always_eat": true,
+                        "eat_seconds": 100000
+                    },
+                    "custom_data": {
+                        "WNUndefined": true,
+                        "WNBookType": "cave"
+                    }
+                }
+              },
+              {
+                "function": "minecraft:reference",
+                "name": "windings:magic_text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}
