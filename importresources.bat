@@ -1,4 +1,11 @@
 @echo off
+if not exist "Sage, Resources" (
+	echo Couldn't find the resource pack!
+	echo If you deleted the file "Sage, Resources" then restart the tutorial on GitHub.
+	echo If you ran the file as administrator, close this window and re-run it!
+	pause
+	exit
+)
 set "datadir=%cd%"
 cd "%appdata%/.minecraft/resourcepacks"
 if exist "Sage, Resources" (

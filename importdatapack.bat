@@ -1,4 +1,11 @@
 @echo off
+if not exist "Sage, Datapack" (
+	echo Couldn't find the datapack!
+	echo If you deleted the file "Sage, Datapack" then restart the tutorial on GitHub.
+	echo If you ran the file as administrator, close this window and re-run it!
+	pause
+	exit
+)
 set "datadir=%cd%"
 cd "%appdata%/.minecraft/saves"
 set "msg=Failed to find an open world to install Sage."
