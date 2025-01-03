@@ -6,14 +6,14 @@
 # Revoke
 advancement revoke @s only frostbite:drinkhorn
 # Fail if not sourcing from water
-execute anchored eyes if block ^ ^ ^ water_cauldron run tag @s add FBWaterCollected
-execute anchored eyes if block ^ ^ ^ water_cauldron run setblock ^ ^ ^ cauldron
-execute anchored eyes if block ^ ^ ^1 water_cauldron run tag @s add FBWaterCollected
-execute anchored eyes if block ^ ^ ^1 water_cauldron run setblock ^ ^ ^1 cauldron
-execute anchored eyes if block ^ ^ ^1.5 water_cauldron run tag @s add FBWaterCollected
-execute anchored eyes if block ^ ^ ^1.5 water_cauldron run setblock ^ ^ ^1.5 cauldron
-execute anchored eyes if block ^ ^ ^2 water_cauldron run tag @s add FBWaterCollected
-execute anchored eyes if block ^ ^ ^2 water_cauldron run setblock ^ ^ ^2 cauldron
+execute anchored eyes if block ^ ^ ^ water_cauldron[level=3] run tag @s add FBWaterCollected
+execute anchored eyes if block ^ ^ ^ water_cauldron[level=3] run setblock ^ ^ ^ cauldron
+execute anchored eyes if block ^ ^ ^1 water_cauldron[level=3] run tag @s add FBWaterCollected
+execute anchored eyes if block ^ ^ ^1 water_cauldron[level=3] run setblock ^ ^ ^1 cauldron
+execute anchored eyes if block ^ ^ ^1.5 water_cauldron[level=3] run tag @s add FBWaterCollected
+execute anchored eyes if block ^ ^ ^1.5 water_cauldron[level=3] run setblock ^ ^ ^1.5 cauldron
+execute anchored eyes if block ^ ^ ^2 water_cauldron[level=3] run tag @s add FBWaterCollected
+execute anchored eyes if block ^ ^ ^2 water_cauldron[level=3] run setblock ^ ^ ^2 cauldron
 execute unless entity @s[tag=FBWaterCollected] anchored eyes unless block ^ ^ ^ water unless block ^ ^ ^1 water unless block ^ ^ ^1.5 water unless block ^ ^ ^2 water run return fail
 tag @s remove FBWaterCollected
 # Particles & sound
