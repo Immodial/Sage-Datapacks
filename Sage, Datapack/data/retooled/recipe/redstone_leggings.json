@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " # ",
+        "R R",
+        "# #"
+    ],
+    "key": {
+        "#": "minecraft:gold_ingot",
+        "R": "minecraft:redstone_block"
+    },
+    "result": {
+        "id": "minecraft:golden_leggings",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": "[{translate:'item.retooled.redstone_leggings'}]",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:redstone_leggings",
+            "minecraft:equippable": {
+                "slot": "legs",
+                "asset_id": "retooled:redstone"
+            },
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:leggings_armor",
+                    "type": "minecraft:armor",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "legs"
+                },
+                {
+                    "id": "retooled:leggings_mining",
+                    "type": "minecraft:mining_efficiency",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "legs"
+                }
+              ]
+            }
+        }
+    }
+}
+  

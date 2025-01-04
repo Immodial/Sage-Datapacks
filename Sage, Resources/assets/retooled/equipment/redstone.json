@@ -1,0 +1,10 @@
+{
+    "layers": {
+        "humanoid": [
+            {"texture": "retooled:redstone"}
+        ],
+        "humanoid_leggings": [
+            {"texture": "retooled:redstone"}
+        ]
+    }
+}
