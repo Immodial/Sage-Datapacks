@@ -23,7 +23,7 @@
             "!food": {},
             "!consumable": {},
             "!max_stack_size": {},
-            "minecraft:max_damage": 120,
+            "minecraft:max_damage": 96,
             "minecraft:damage": 0,
             "minecraft:attribute_modifiers": {
               "modifiers": [
@@ -37,7 +37,7 @@
                 {
                     "id": "retooled:chestplate_mining",
                     "type": "minecraft:mining_efficiency",
-                    "amount": 4,
+                    "amount": 3,
                     "operation": "add_value",
                     "slot": "chest"
                 }

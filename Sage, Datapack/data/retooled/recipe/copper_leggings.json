@@ -23,7 +23,7 @@
             "!food": {},
             "!consumable": {},
             "!max_stack_size": {},
-            "minecraft:max_damage": 112,
+            "minecraft:max_damage": 90,
             "minecraft:damage": 0,
             "minecraft:attribute_modifiers": {
               "modifiers": [
@@ -37,7 +37,7 @@
                 {
                     "id": "retooled:leggings_mining",
                     "type": "minecraft:mining_efficiency",
-                    "amount": 3,
+                    "amount": 2,
                     "operation": "add_value",
                     "slot": "legs"
                 }

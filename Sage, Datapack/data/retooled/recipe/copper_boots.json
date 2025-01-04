@@ -22,7 +22,7 @@
             "!food": {},
             "!consumable": {},
             "!max_stack_size": {},
-            "minecraft:max_damage": 98,
+            "minecraft:max_damage": 78,
             "minecraft:damage": 0,
             "minecraft:attribute_modifiers": {
               "modifiers": [
@@ -36,7 +36,7 @@
                 {
                     "id": "retooled:boots_mining",
                     "type": "minecraft:mining_efficiency",
-                    "amount": 2,
+                    "amount": 1,
                     "operation": "add_value",
                     "slot": "feet"
                 }
