@@ -7,7 +7,7 @@
         "minecraft:string"
     ],
     "result": {
-        "id": "minecraft:cooked_porkchop",
+        "id": "minecraft:poisonous_potato",
         "count": 2,
         "components": {
             "minecraft:item_name": "[{translate:'item.retooled.bandage'}]",

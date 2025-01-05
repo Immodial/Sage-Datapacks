@@ -7,7 +7,7 @@
         "minecraft:iron_nugget"
     ],
     "result": {
-        "id": "minecraft:cooked_porkchop",
+        "id": "minecraft:poisonous_potato",
         "count": 3,
         "components": {
             "item_name": "[{translate:'item.iguns.magnum_bullet'}]",

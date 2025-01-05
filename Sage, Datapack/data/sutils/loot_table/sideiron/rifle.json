@@ -3,7 +3,7 @@
   "pools": [
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
-      "name": "minecraft:cooked_porkchop",
+      "name": "minecraft:poisonous_potato",
       "functions": [{
         "function": "minecraft:set_components",
         "components": {
@@ -35,7 +35,7 @@
     }]},
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
-      "name": "minecraft:cooked_porkchop",
+      "name": "minecraft:poisonous_potato",
       "functions": [{
         "function": "minecraft:set_components",
         "components": {
@@ -67,7 +67,7 @@
     }]},
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
-      "name": "minecraft:cooked_porkchop",
+      "name": "minecraft:poisonous_potato",
       "functions": [{"function": "minecraft:set_count","count":64},{
         "function": "minecraft:set_components",
         "components": {
@@ -84,7 +84,7 @@
     }]},
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
-      "name": "minecraft:cooked_porkchop",
+      "name": "minecraft:poisonous_potato",
       "functions": [{"function": "minecraft:set_count","count":64},{
         "function": "minecraft:set_components",
         "components": {
@@ -101,7 +101,7 @@
     }]},
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
-      "name": "minecraft:cooked_porkchop",
+      "name": "minecraft:poisonous_potato",
       "functions": [{"function": "minecraft:set_count","count":64},{
         "function": "minecraft:set_components",
         "components": {

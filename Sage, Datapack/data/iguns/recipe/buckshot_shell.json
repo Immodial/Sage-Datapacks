@@ -7,7 +7,7 @@
        "minecraft:iron_ingot"
     ],
     "result": {
-        "id": "minecraft:cooked_porkchop",
+        "id": "minecraft:poisonous_potato",
         "count": 5,
         "components": {
             "item_name": "[{translate:'item.iguns.buckshot_shell'}]",
