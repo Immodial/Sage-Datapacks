@@ -3,8 +3,9 @@
 ## >> As: Any player
 ## >> Does: Apply temperature effects
 ## >> Input: None
-# If player is dead, reset
+# If player is dead or immortal, reset
 execute if score @s FBDeath matches 1.. run return run function frostbite:reset
+scoreboard players reset @s[gamemode=!survival,gamemode=!adventure] FBTemperature
 # Reduce temp from drinking
 execute if score @s FBDrink matches 1.. run function frostbite:drink
 # Apply food temp effects
