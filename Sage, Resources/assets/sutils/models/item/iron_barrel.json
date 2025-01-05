@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+      "end": "sutils:item/iron_barrel",
+      "side": "sutils:item/iron_barrel_side"
+    }
+}
