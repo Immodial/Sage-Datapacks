@@ -7,7 +7,7 @@
         "minecraft:iron_ingot"
     ],
     "result": {
-        "id": "minecraft:iron_nugget",
+        "id": "minecraft:cooked_porkchop",
         "count": 5,
         "components": {
             "item_name": "[{translate:'item.iguns.breach_shell'}]",
@@ -15,7 +15,9 @@
             "custom_data": {
                 "IGGunAmmo":"shell",
                 "IGAmmoBonus":"breach"
-            }
+            },
+            "!food":{},
+            "!consumable":{}
         }
     }
 }

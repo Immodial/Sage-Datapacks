@@ -67,7 +67,7 @@
     }]},
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
-      "name": "minecraft:iron_nugget",
+      "name": "minecraft:cooked_porkchop",
       "functions": [{"function": "minecraft:set_count","count":64},{
         "function": "minecraft:set_components",
         "components": {
@@ -76,13 +76,15 @@
             "custom_data": {
                 "IGGunAmmo":"bullet",
                 "IGAmmoBonus":"basic"
-            }
+            },
+            "!food":{},
+            "!consumable":{}
         }
       }]
     }]},
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
-      "name": "minecraft:iron_nugget",
+      "name": "minecraft:cooked_porkchop",
       "functions": [{"function": "minecraft:set_count","count":64},{
         "function": "minecraft:set_components",
         "components": {
@@ -91,7 +93,9 @@
             "custom_data": {
                 "IGGunAmmo":"bullet",
                 "IGAmmoBonus":"magnum"
-            }
+            },
+            "!food":{},
+            "!consumable":{}
         }
       }]
     }]}
