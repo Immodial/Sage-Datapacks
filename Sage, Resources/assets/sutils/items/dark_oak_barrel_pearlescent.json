@@ -1,0 +1,28 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "cases": [
+            {
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "retooled:item/pearlescent_longsword"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "sutils:item/dark_oak_barrel"
+                        }
+                    ]
+                },
+                "when": "gui"
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "sutils:item/dark_oak_barrel"
+        }
+    }
+}

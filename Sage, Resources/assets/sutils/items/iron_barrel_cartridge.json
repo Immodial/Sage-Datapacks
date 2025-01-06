@@ -1,0 +1,28 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "cases": [
+            {
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "iguns:item/piercing_cartridge"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "sutils:item/iron_barrel"
+                        }
+                    ]
+                },
+                "when": "gui"
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "sutils:item/iron_barrel"
+        }
+    }
+}

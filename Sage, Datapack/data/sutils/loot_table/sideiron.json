@@ -4,17 +4,17 @@
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
       "name": "minecraft:barrel",
-      "functions": [{"function": "minecraft:set_components", "components": {"minecraft:custom_name": "'Repeater Crate'","minecraft:container_loot": {"loot_table": "sutils:sideiron/repeater"}}}]
+      "functions": [{"function": "minecraft:set_components", "components": {"minecraft:custom_name": "'Repeater Crate'","minecraft:item_model": "sutils:iron_barrel_bullet","minecraft:container_loot": {"loot_table": "sutils:sideiron/repeater"}}}]
     }]},
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
       "name": "minecraft:barrel",
-      "functions": [{"function": "minecraft:set_components", "components": {"minecraft:custom_name": "'Shotgun Crate'","minecraft:container_loot": {"loot_table": "sutils:sideiron/shotgun"}}}]
+      "functions": [{"function": "minecraft:set_components", "components": {"minecraft:custom_name": "'Shotgun Crate'","minecraft:item_model": "sutils:iron_barrel_shell","minecraft:container_loot": {"loot_table": "sutils:sideiron/shotgun"}}}]
     }]},
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
       "name": "minecraft:barrel",
-      "functions": [{"function": "minecraft:set_components", "components": {"minecraft:custom_name": "'Rifle Crate'","minecraft:container_loot": {"loot_table": "sutils:sideiron/rifle"}}}]
+      "functions": [{"function": "minecraft:set_components", "components": {"minecraft:custom_name": "'Rifle Crate'","minecraft:item_model": "sutils:iron_barrel_cartridge","minecraft:container_loot": {"loot_table": "sutils:sideiron/rifle"}}}]
     }]}
   ]
 }

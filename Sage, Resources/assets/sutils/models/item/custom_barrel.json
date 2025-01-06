@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "#ends",
+    "side": "#sides"
+  },
+  "display": {
+    "gui": {
+      "rotation": [30, 45, 0],
+      "translation": [0, 0, -10],
+      "scale": [0.625, 0.625, 0.625]
+    }
+  }
+}

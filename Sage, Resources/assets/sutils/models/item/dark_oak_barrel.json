@@ -1,7 +1,7 @@
 {
-    "parent": "minecraft:block/cube_column",
-    "textures": {
-      "end": "sutils:item/dark_oak_barrel",
-      "side": "sutils:item/dark_oak_barrel_side"
-    }
+  "parent": "sutils:item/custom_barrel",
+  "textures": {
+    "ends": "sutils:item/dark_oak_barrel",
+    "sides": "sutils:item/dark_oak_barrel_side"
+  }
 }

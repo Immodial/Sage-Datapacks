@@ -1,7 +1,7 @@
 {
-    "parent": "minecraft:block/cube_column",
-    "textures": {
-      "end": "sutils:item/creative_barrel",
-      "side": "sutils:item/creative_barrel_side"
-    }
+  "parent": "sutils:item/custom_barrel",
+  "textures": {
+    "ends": "sutils:item/creative_barrel",
+    "sides": "sutils:item/creative_barrel_side"
+  }
 }
