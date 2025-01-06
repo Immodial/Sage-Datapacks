@@ -3,4 +3,4 @@
 ## >> As: Spell containing the Alternate Redstone Glyph
 ## >> Does: Heal nearby
 ## >> Input: None
-effect give @e[distance=..3] regeneration 5 0
+execute positioned ~-1.5 ~-1.5 ~-1.5 as @e[type=!#windings:ignored,dx=2,dy=2,dz=2] run effect give @s regeneration 5 0
