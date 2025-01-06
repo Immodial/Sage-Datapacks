@@ -9,7 +9,7 @@
         "#": "minecraft:netherite_upgrade_smithing_template"
     },
     "result": {
-        "id": "minecraft:poisonous_potato",
+        "id": "minecraft:diamond_boots",
         "count": 1,
         "components": {
             "minecraft:item_name": "[{translate:'item.retooled.pearlescent_boots'}]",

@@ -10,7 +10,7 @@
         "#": "minecraft:copper_ingot"
     },
     "result": {
-        "id": "minecraft:poisonous_potato",
+        "id": "minecraft:chainmail_leggings",
         "count": 1,
         "components": {
             "minecraft:item_name": "[{translate:'item.retooled.copper_leggings'}]",
@@ -20,6 +20,7 @@
                 "slot": "legs",
                 "asset_id": "retooled:copper"
             },
+            "rarity": "common",
             "!food": {},
             "!consumable": {},
             "!max_stack_size": {},
