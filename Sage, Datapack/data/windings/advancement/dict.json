@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "use_dictionary": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {"custom_data": {"WNDGDictionary":true}}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_dictionary"
+    ]
+  ],
+  "rewards": {
+    "function": "windings:lens/dictionary"
+  }
+}
