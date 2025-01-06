@@ -1,0 +1,10 @@
+{
+    "layers": {
+        "humanoid": [
+            {"texture": "retooled:pearlescent"}
+        ],
+        "humanoid_leggings": [
+            {"texture": "retooled:pearlescent"}
+        ]
+    }
+}

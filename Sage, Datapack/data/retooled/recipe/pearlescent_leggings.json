@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " # ",
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "result": {
+        "id": "minecraft:poisonous_potato",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_leggings'}]",
+            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:pearlescent_leggings",
+            "minecraft:equippable": {
+                "slot": "legs",
+                "asset_id": "retooled:pearlescent"
+            },
+            "!food": {},
+            "!consumable": {},
+            "!max_stack_size": {},
+            "minecraft:max_damage": 585,
+            "minecraft:damage": 0,
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                {
+                    "id": "retooled:leggings_armor",
+                    "type": "minecraft:armor",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "legs"
+                },
+                {
+                    "id": "retooled:leggings_toughness",
+                    "type": "minecraft:armor_toughness",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "legs"
+                }
+              ]
+            }
+        }
+    }
+}
+  

@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_pearlescent_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_upgrade_smithing_template"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "retooled:pearlescent_chestplate"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_pearlescent_ingot"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "retooled:pearlescent_chestplate"
+        ]
+    }
+}
