@@ -7,6 +7,7 @@
 scoreboard objectives add WNDGGlobals dummy "Global Variables"
 scoreboard objectives add WNDGSpellTime dummy "Time Casting Spell"
 scoreboard objectives add WNDGParseTime dummy "Time between Parsing"
+scoreboard objectives add WNDGDictPage dummy "Dictionary Entry Reading"
 # Constants
 scoreboard players set %SpellCost WNDGGlobals 12
 # Loops
