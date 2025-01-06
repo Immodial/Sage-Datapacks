@@ -3,6 +3,8 @@
 ## >> As: Server
 ## >> Does: Run global loops
 ## >> Input: None
+# Loop
+schedule function apoca:tick 1
 # Run mob effects
 execute as @e[type=#apoca:zombie] at @s run function apoca:loop/zombie
 execute as @e[type=#apoca:skeleton] at @s run function apoca:loop/skeleton
@@ -32,5 +34,3 @@ difficulty hard
 gamerule playersSleepingPercentage 200
 gamerule doInsomnia false
 gamerule naturalRegeneration false
-# Loop
-schedule function apoca:tick 1

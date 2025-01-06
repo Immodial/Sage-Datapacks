@@ -3,6 +3,8 @@
 ## >> As: Server
 ## >> Does: Run global loops
 ## >> Input: None
+# Loop
+schedule function apoca:states 20
 # Check for full moon
 execute store result score %MoonPhase APOCGlobals run time query day
 scoreboard players set %MoonCycle APOCGlobals 8
@@ -18,5 +20,3 @@ execute as @e[type=!#apoca:noncramming] at @s run scoreboard players add @e[type
 execute as @e[type=!#apoca:noncramming] if score @s APOCCramming >= %Cramming APOCGlobals unless score %Cramming APOCGlobals matches ..1 at @s unless function apoca:random/16 run summon creeper ~ ~ ~ {CustomName:"'Cramming Explosion'",ExplosionRadius:2b,Fuse:0s,ignited:true}
 scoreboard players remove %Cramming APOCGlobals 6
 execute as @e[type=!#apoca:noncramming] if score @s APOCCramming >= %Cramming APOCGlobals unless score %Cramming APOCGlobals matches ..1 at @s unless function apoca:random/48 run playsound entity.cat.hiss neutral @a ~ ~ ~ 4 0.4
-# Loop
-schedule function apoca:states 20
