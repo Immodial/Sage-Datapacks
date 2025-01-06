@@ -25,8 +25,13 @@
           "minecraft:lore": [
               "{text: ''}",
               "{
-                  text: 'Low Radiation Protection',
-                  color: 'dark_green',
+                  translate: 'item.modifiers.head',
+                  color: 'gray',
+                  italic: false
+              }",
+              "{
+                  text: '+1 Radiation Protection',
+                  color: 'blue',
                   italic: false
               }"
           ],
