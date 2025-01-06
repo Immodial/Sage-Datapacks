@@ -67,6 +67,13 @@
         },
         {
             "type": "bitmap",
+            "file": "windings:font/alternate.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["Y"]
+        },
+        {
+            "type": "bitmap",
             "file": "windings:font/super.png",
             "ascent": 8,
             "height": 9,

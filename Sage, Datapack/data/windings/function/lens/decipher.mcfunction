@@ -14,6 +14,7 @@ execute if data storage windings {parse:{Deciphering:"lapmaj"}} run data modify 
 execute if data storage windings {parse:{Deciphering:"lapsup"}} run data modify storage windings parse.New set value "B<Z"
 execute if data storage windings {parse:{Deciphering:"red"}} run data modify storage windings parse.New set value "C"
 execute if data storage windings {parse:{Deciphering:"redmaj"}} run data modify storage windings parse.New set value "C<X"
+execute if data storage windings {parse:{Deciphering:"redalt"}} run data modify storage windings parse.New set value "C<Y"
 execute if data storage windings {parse:{Deciphering:"redsup"}} run data modify storage windings parse.New set value "C<Z"
 execute if data storage windings {parse:{Deciphering:"ame"}} run data modify storage windings parse.New set value "D "
 execute if data storage windings {parse:{Deciphering:"amemaj"}} run data modify storage windings parse.New set value "D <X"
