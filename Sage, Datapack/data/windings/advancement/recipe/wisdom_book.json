@@ -18,7 +18,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "windings:glasses"
+                "recipe": "windings:wisdom_book"
             }
         }
     },
@@ -30,7 +30,7 @@
     ],
     "rewards": {
         "recipes": [
-            "windings:glasses"
+            "windings:wisdom_book"
         ]
     }
 }

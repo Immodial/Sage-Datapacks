@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:emerald",
+        "minecraft:lapis_lazuli",
+        "minecraft:redstone_block",
+        "minecraft:book"
+    ],
+    "result": {
+        "id": "minecraft:book",
+        "count": 1,
+        "components": {
+            "item_name": "[{translate:'item.windings.wisdom_book'}]",
+            "consumable": {
+                "consume_seconds": 100000,
+                "animation": "brush",
+                "has_consume_particles": false
+            },
+            "custom_data": {
+                "WNDGDictionary":true
+            },
+            "!max_stack_size": {}
+        }
+    }
+}
