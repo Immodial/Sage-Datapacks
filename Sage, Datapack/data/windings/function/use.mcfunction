@@ -12,6 +12,7 @@ scoreboard players add @s WNDGSpellTime 1
 tag @s add WNDGUsing
 # Inscribe
 execute if items entity @s weapon.* #windings:windable run return run function windings:inscribe
+execute if items entity @s weapon.* *[custom_data~{WNDGGlyph:true}] run return run function windings:inscribe
 # Wait for full charge to cast
 execute if score _SpellCharge WNDGGlobals matches 0 run return run scoreboard players reset _SpellCharge WNDGGlobals
 execute if predicate {condition:"random_chance",chance:0.1} run playsound item.book.page_turn player @a ~ ~ ~ 0.5 0.6
