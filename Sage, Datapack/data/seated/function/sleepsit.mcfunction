@@ -3,6 +3,7 @@
 ## >> As: Player who just woke up
 ## >> Does: Sit on bed
 ## >> Input: None
+tag @s remove STDSleeping
 summon item_display ~ ~ ~ {Tags:["STDSeat","STDSeating"]}
 execute store result entity @n[tag=STDSeating] Pos[0] double 1 run scoreboard players get @s STDSleepPosX
 execute store result entity @n[tag=STDSeating] Pos[1] double 1 run scoreboard players get @s STDSleepPosY
