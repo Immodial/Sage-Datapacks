@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_lapis_lazuli": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lapis_lazuli"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "windings:lapis_glyph"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_lapis_lazuli"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "windings:lapis_glyph"
+        ]
+    }
+}
