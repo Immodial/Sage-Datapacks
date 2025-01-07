@@ -1,17 +1,17 @@
 ## >> From: windings:use (advancement)
-## >> At: Player using item
-## >> As: Player using item
+## >> At: Player using winding
+## >> As: Player using winding
 ## >> Does: Fire or load spell
 ## >> Input: None
 # Revoke
 advancement revoke @s only windings:use
 # Charge spell
 execute store result score _SpellCharge WNDGGlobals run data get entity @s SelectedItem.components."minecraft:custom_data".WNDGInscribed
-scoreboard players operation _SpellCharge WNDGGlobals *= %SpellCost WNDGGlobals
+execute unless items entity @s weapon.mainhand *[custom_data~{WNDGFast:true}] run scoreboard players operation _SpellCharge WNDGGlobals *= %SpellCost WNDGGlobals
+execute if items entity @s weapon.mainhand *[custom_data~{WNDGFast:true}] run function windings:speedup
 scoreboard players add @s WNDGSpellTime 1
 tag @s add WNDGUsing
 # Inscribe
-execute if items entity @s weapon.* #windings:windable run return run function windings:inscribe
 execute if items entity @s weapon.* *[custom_data~{WNDGGlyph:true}] run return run function windings:inscribe
 # Wait for full charge to cast
 execute if score _SpellCharge WNDGGlobals matches 0 run return run scoreboard players reset _SpellCharge WNDGGlobals
