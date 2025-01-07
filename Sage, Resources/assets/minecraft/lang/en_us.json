@@ -118,6 +118,14 @@
     "item.windings.practice_winding": "Practice Winding",
     "item.windings.poet_glasses": "Poet's Glasses",
     "item.windings.wisdom_book": "Wisdom Book",
+    "item.windings.golden_eraser": "Golden Abrader",
+    "item.windings.glyph.emerald": "Emerald Glyph",
+    "item.windings.glyph.lapis": "Lapis Glyph",
+    "item.windings.glyph.redstone": "Redstone Glyph",
+    "item.windings.glyph.amethyst": "Amethyst Glyph",
+    "item.windings.glyph.shard": "Shard Glyph",
+    "item.windings.glyph.crystal": "Crystal Glyph",
+    "item.windings.glyph.resin": "Resin Glyph",
     
     "block.minecraft.firefly_bush": "Firefly Grass",
     "sleep.not_possible": "You feel the night pass faster"

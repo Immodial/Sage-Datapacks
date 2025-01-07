@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_gold_nugget": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gold_nugget"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "windings:golden_eraser"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_gold_nugget"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "windings:golden_eraser"
+        ]
+    }
+}
