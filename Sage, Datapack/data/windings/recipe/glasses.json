@@ -13,8 +13,8 @@
         "count": 1,
         "components": {
             "minecraft:item_name": "[{translate:'item.windings.poet_glasses'}]",
-            "minecraft:custom_data": {"WNDGLens":true},
             "minecraft:item_model": "windings:glasses",
+            "minecraft:custom_data": {"WNDGLens":true},
             "minecraft:equippable": {
                 "slot": "head",
                 "asset_id": "windings:glasses"
