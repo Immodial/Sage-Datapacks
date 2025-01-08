@@ -14,7 +14,7 @@
         "id": "minecraft:barrel",
         "count": 1,
         "components": {
-            "minecraft:custom_name": "'Sage Crate'",
+            "minecraft:custom_name": "Sage Crate",
             "minecraft:item_model": "sutils:creative_barrel",
             "minecraft:container_loot": {"loot_table": "sutils:crate"}
         }
