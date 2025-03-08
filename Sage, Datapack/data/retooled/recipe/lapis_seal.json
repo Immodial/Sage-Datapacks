@@ -26,8 +26,8 @@
             },
             "minecraft:lore": [
                 {"text": ""},
-                "{
-                    text: 'Can Fire Levels as Bolts",
+                {
+                    "text": "Can Fire Levels as Bolts",
                     "color": "dark_green",
                     "italic": false
                 }
