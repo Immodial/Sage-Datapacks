@@ -7,7 +7,7 @@
       "functions": [{
         "function": "minecraft:set_components",
         "components": {
-            "item_name":"[{translate:'item.iguns.shotgun'}]",
+            "item_name":[{"translate":"item.iguns.shotgun"}],
             "item_model":"iguns:shotgun",
             "custom_model_data": {"floats":[0]},
             "max_damage":100,
@@ -27,8 +27,8 @@
                 "IGLoadTime":30
             },
             "lore": [
-                "{text:'0/2',color:'dark_green',italic:false}",
-                "{translate:'description.iguns.use_shells',color:'dark_green',italic:false}"
+                {"text":"0/2","color":"dark_green","italic":false},
+                {"translate":"description.iguns.use_shells","color":"dark_green","italic":false}
             ]
         }
       }]
@@ -39,7 +39,7 @@
       "functions": [{"function": "minecraft:set_count","count":64},{
         "function": "minecraft:set_components",
         "components": {
-            "item_name": "[{translate:'item.iguns.buckshot_shell'}]",
+            "item_name": [{"translate":"item.iguns.buckshot_shell"}],
             "item_model": "iguns:buckshot_shell",
             "custom_data": {
                 "IGGunAmmo":"shell",
@@ -56,7 +56,7 @@
       "functions": [{"function": "minecraft:set_count","count":64},{
         "function": "minecraft:set_components",
         "components": {
-            "item_name": "[{translate:'item.iguns.slug_shell'}]",
+            "item_name": [{"translate":"item.iguns.slug_shell"}],
             "item_model": "iguns:slug_shell",
             "custom_data": {
                 "IGGunAmmo":"shell",
@@ -73,7 +73,7 @@
       "functions": [{"function": "minecraft:set_count","count":64},{
         "function": "minecraft:set_components",
         "components": {
-            "item_name": "[{translate:'item.iguns.breach_shell'}]",
+            "item_name": [{"translate":"item.iguns.breach_shell"}],
             "item_model": "iguns:breach_shell",
             "custom_data": {
                 "IGGunAmmo":"shell",
