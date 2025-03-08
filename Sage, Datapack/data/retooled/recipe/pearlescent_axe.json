@@ -14,7 +14,7 @@
         "id": "minecraft:diamond_axe",
         "count": 1,
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_axe'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.pearlescent_axe"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:pearlescent_axe",
             "max_damage": 2621,
@@ -25,32 +25,31 @@
                 ]
             },
             "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 11 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 1 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.medium',
-                    color: 'dark_green',
-                    italic: false
-                }"
+                {"text": ""},
+                {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " 11 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_damage"}]
+                },
+                {
+                    "text": " 1 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_speed"}]
+                },
+                {
+                    "translate": "trait.retooled.length.medium",
+                    "color": "dark_green",
+                    "italic": false
+                }
             ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
@@ -72,8 +71,9 @@
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
-              ],
-              "show_in_tooltip": false
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": ["minecraft:attribute_modifiers"]
             }
         }
     }

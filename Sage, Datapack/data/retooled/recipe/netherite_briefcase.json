@@ -10,7 +10,7 @@
         "id": "minecraft:bundle",
         "count": 1,
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.netherite_briefcase'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.netherite_briefcase"}],
             "minecraft:item_model": "retooled:netherite_briefcase",
             "damage_resistant": {"types": "#minecraft:is_fire"}
         }

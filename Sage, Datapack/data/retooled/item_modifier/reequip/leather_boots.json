@@ -3,8 +3,7 @@
         "function": "minecraft:set_components",
         "components": {
             "minecraft:custom_data": {"RTModified":true},
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:boots_health",
                     "type": "minecraft:max_health",
@@ -12,8 +11,7 @@
                     "operation": "add_value",
                     "slot": "feet"
                 }
-              ]
-            }
+            ]
         }
     }
 ]  
