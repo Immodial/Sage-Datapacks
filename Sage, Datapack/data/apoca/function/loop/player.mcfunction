@@ -32,7 +32,7 @@ execute unless predicate apoca:daytime positioned ~ 164 ~ if entity @s[dy=1000] 
 tag @s remove RestfulSlept
 tag @s[tag=RestfulSleeping] add RestfulSlept
 tag @s remove RestfulSleeping
-execute unless data entity @s SleepingY run return fail
+execute unless data entity @s sleeping_pos run return fail
 # Set blindness, sleep state, and increase time
 tag @s add RestfulSleeping
 time add 1
