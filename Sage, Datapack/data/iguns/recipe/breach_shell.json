@@ -10,7 +10,7 @@
         "id": "minecraft:poisonous_potato",
         "count": 5,
         "components": {
-            "item_name": "[{translate:'item.iguns.breach_shell'}]",
+            "item_name": [{"translate":"item.iguns.breach_shell"}],
             "item_model": "iguns:breach_shell",
             "custom_data": {
                 "IGGunAmmo":"shell",

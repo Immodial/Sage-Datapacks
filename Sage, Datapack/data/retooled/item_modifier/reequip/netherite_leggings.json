@@ -3,8 +3,7 @@
         "function": "minecraft:set_components",
         "components": {
             "minecraft:custom_data": {"RTModified":true},
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:leggings_armor",
                     "type": "minecraft:armor",
@@ -26,8 +25,7 @@
                     "operation": "add_value",
                     "slot": "legs"
                 }
-              ]
-            }
+            ]
         }
     }
 ]  

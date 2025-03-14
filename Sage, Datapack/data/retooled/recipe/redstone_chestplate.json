@@ -14,15 +14,14 @@
         "id": "minecraft:golden_chestplate",
         "count": 1,
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.redstone_chestplate'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.redstone_chestplate"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:redstone_chestplate",
             "minecraft:equippable": {
                 "slot": "chest",
                 "asset_id": "retooled:redstone"
             },
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:chestplate_armor",
                     "type": "minecraft:armor",
@@ -37,8 +36,7 @@
                     "operation": "add_value",
                     "slot": "chest"
                 }
-              ]
-            }
+            ]
         }
     }
 }

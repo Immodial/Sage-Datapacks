@@ -13,15 +13,14 @@
         "id": "minecraft:golden_boots",
         "count": 1,
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.redstone_boots'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.redstone_boots"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:redstone_boots",
             "minecraft:equippable": {
                 "slot": "feet",
                 "asset_id": "retooled:redstone"
             },
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:boots_armor",
                     "type": "minecraft:armor",
@@ -36,8 +35,7 @@
                     "operation": "add_value",
                     "slot": "feet"
                 }
-              ]
-            }
+            ]
         }
     }
 }

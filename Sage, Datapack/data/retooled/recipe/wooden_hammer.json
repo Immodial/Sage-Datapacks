@@ -14,7 +14,7 @@
         "id": "minecraft:wooden_pickaxe",
         "count": 1,
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.wooden_hammer'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.wooden_hammer"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:wooden_hammer",
             "max_damage": 59,
@@ -25,37 +25,36 @@
                 ]
             },
             "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 4 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 0.8 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.medium',
-                    color: 'dark_green',
-                    italic: false
-                }",
-                "{
-                    translate: 'trait.retooled.knockback.strong',
-                    color: 'dark_green',
-                    italic: false
-                }"
+                {"text": ""},
+                {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " 4 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_damage"}]
+                },
+                {
+                    "text": " 0.8 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_speed"}]
+                },
+                {
+                    "translate": "trait.retooled.length.medium",
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "translate": "trait.retooled.knockback.strong",
+                    "color": "dark_green",
+                    "italic": false
+                }
             ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
@@ -84,8 +83,9 @@
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
-              ],
-              "show_in_tooltip": false
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": ["minecraft:attribute_modifiers"]
             }
         }
     }

@@ -15,7 +15,7 @@
         "id": "minecraft:poisonous_potato",
         "count": 1,
         "components": {
-            "item_name":"[{translate:'item.iguns.shotgun'}]",
+            "item_name":"[{translate:'item.iguns.shotgun"}],
             "item_model":"iguns:shotgun",
             "custom_model_data": {"floats":[0]},
             "max_damage":100,
@@ -35,8 +35,8 @@
                 "IGLoadTime":30
             },
             "lore": [
-                "{text:'0/2',color:'dark_green',italic:false}",
-                "{translate:'description.iguns.use_shells',color:'dark_green',italic:false}"
+                {"text":"0/2","color":"dark_green","italic":false},
+                {"translate":"description.iguns.use_shells","color":"dark_green","italic":false}
             ]
         }
     }

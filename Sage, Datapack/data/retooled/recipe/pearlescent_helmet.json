@@ -12,7 +12,7 @@
         "id": "minecraft:diamond_helmet",
         "count": 1,
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_helmet'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.pearlescent_helmet"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:pearlescent_helmet",
             "minecraft:equippable": {
@@ -24,8 +24,7 @@
             "!max_stack_size": {},
             "minecraft:max_damage": 429,
             "minecraft:damage": 0,
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:helmet_armor",
                     "type": "minecraft:armor",
@@ -40,8 +39,7 @@
                     "operation": "add_value",
                     "slot": "head"
                 }
-              ]
-            }
+            ]
         }
     }
 }

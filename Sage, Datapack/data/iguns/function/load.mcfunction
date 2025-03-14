@@ -9,7 +9,7 @@ $execute if data entity @s SelectedItem.components.minecraft:custom_data.IGAmmo[
 # Copy item with new ammo inside
 summon item ~ ~ ~ {Tags:["IGGunUpdate"],Item:{id:"minecraft:stone",count:1}}
 data modify entity @e[tag=IGGunUpdate,limit=1] Item set from entity @s SelectedItem
-data modify entity @e[tag=IGGunUpdate,limit=1] Item.components.minecraft:custom_data.IGAmmo append from entity @s Inventory[{Slot:-106b}].components.minecraft:custom_data
+data modify entity @e[tag=IGGunUpdate,limit=1] Item.components.minecraft:custom_data.IGAmmo append from entity @s equipment.offhand.components.minecraft:custom_data
 # If fully loaded now, mark as such
 $execute if data entity @e[tag=IGGunUpdate,limit=1] Item.components.minecraft:custom_data.IGAmmo[$(IGMaxAmmo)] run data modify entity @e[tag=IGGunUpdate,limit=1] Item.components.minecraft:custom_data.IGLoaded set value true
 # Update lore and appearance

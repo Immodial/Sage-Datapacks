@@ -7,42 +7,41 @@
       "functions": [{
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_longsword'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.pearlescent_longsword"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:pearlescent_longsword",
             "max_damage": 2621,
             "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 8 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 1.8 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.medium',
-                    color: 'dark_green',
-                    italic: false
-                }",
-                "{
-                    text: ' Sweeping',
-                    color: 'dark_green',
-                    italic: false
-                }"
+                {"text": ""},
+                {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " 8 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_damage"}]
+                },
+                {
+                    "text": " 1.8 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_speed"}]
+                },
+                {
+                    "translate": "trait.retooled.length.medium",
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "text": " Sweeping",
+                    "color": "dark_green",
+                    "italic": false
+                }
             ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
@@ -64,19 +63,20 @@
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
-              ],
-              "show_in_tooltip": false
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": ["minecraft:attribute_modifiers"]
             }
         }
       }]
     }]},
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
-      "name": "minecraft:diamond_sword",
+      "name": "minecraft:diamond_pickaxe",
       "functions": [{
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_pickaxe'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.pearlescent_pickaxe"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:pearlescent_pickaxe",
             "max_damage": 2621,
@@ -87,32 +87,31 @@
                 ]
             },
             "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 6 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 1.4 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.medium',
-                    color: 'dark_green',
-                    italic: false
-                }"
+                {"text": ""},
+                {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " 6 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_damage"}]
+                },
+                {
+                    "text": " 1.4 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_speed"}]
+                },
+                {
+                    "translate": "trait.retooled.length.medium",
+                    "color": "dark_green",
+                    "italic": false
+                }
             ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
@@ -134,19 +133,20 @@
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
-              ],
-              "show_in_tooltip": false
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": ["minecraft:attribute_modifiers"]
             }
         }
       }]
     }]},
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
-      "name": "minecraft:diamond_sword",
+      "name": "minecraft:diamond_axe",
       "functions": [{
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_axe'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.pearlescent_axe"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:pearlescent_axe",
             "max_damage": 2621,
@@ -157,32 +157,31 @@
                 ]
             },
             "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 11 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 1 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.medium',
-                    color: 'dark_green',
-                    italic: false
-                }"
+                {"text": ""},
+                {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " 11 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_damage"}]
+                },
+                {
+                    "text": " 1 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_speed"}]
+                },
+                {
+                    "translate": "trait.retooled.length.medium",
+                    "color": "dark_green",
+                    "italic": false
+                }
             ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
@@ -204,19 +203,20 @@
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
-              ],
-              "show_in_tooltip": false
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": ["minecraft:attribute_modifiers"]
             }
         }
       }]
     }]},
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
-      "name": "minecraft:diamond_sword",
+      "name": "minecraft:diamond_shovel",
       "functions": [{
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_shovel'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.pearlescent_shovel"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:pearlescent_shovel",
             "max_damage": 2621,
@@ -227,37 +227,36 @@
                 ]
             },
             "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 5 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 1.2 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.medium',
-                    color: 'dark_green',
-                    italic: false
-                }",
-                "{
-                    translate: 'trait.retooled.knockback.weak',
-                    color: 'dark_green',
-                    italic: false
-                }"
+                {"text": ""},
+                {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " 5 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_damage"}]
+                },
+                {
+                    "text": " 1.2 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_speed"}]
+                },
+                {
+                    "translate": "trait.retooled.length.medium",
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "translate": "trait.retooled.knockback.weak",
+                    "color": "dark_green",
+                    "italic": false
+                }
             ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
@@ -286,19 +285,20 @@
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
-              ],
-              "show_in_tooltip": false
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": ["minecraft:attribute_modifiers"]
             }
         }
       }]
     }]},
     {"rolls": 1,"entries": [{
       "type": "minecraft:item",
-      "name": "minecraft:diamond_sword",
+      "name": "minecraft:diamond_hoe",
       "functions": [{
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_hoe'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.pearlescent_hoe"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:pearlescent_hoe",
             "max_damage": 2621,
@@ -309,37 +309,36 @@
                 ]
             },
             "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 4 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 2 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.long',
-                    color: 'dark_green',
-                    italic: false
-                }",
-                "{
-                    text: ' Sickle',
-                    color: 'dark_green',
-                    italic: false
-                }"
+                {"text": ""},
+                {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " 4 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_damage"}]
+                },
+                {
+                    "text": " 2 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_speed"}]
+                },
+                {
+                    "translate": "trait.retooled.length.long",
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "text": " Sickle",
+                    "color": "dark_green",
+                    "italic": false
+                }
             ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
@@ -361,8 +360,9 @@
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
-              ],
-              "show_in_tooltip": false
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": ["minecraft:attribute_modifiers"]
             }
         }
       }]
@@ -373,7 +373,7 @@
       "functions": [{
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_hammer'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.pearlescent_hammer"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:pearlescent_hammer",
             "max_damage": 2621,
@@ -384,37 +384,36 @@
                 ]
             },
             "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 10 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 1 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.medium',
-                    color: 'dark_green',
-                    italic: false
-                }",
-                "{
-                    translate: 'trait.retooled.knockback.strong',
-                    color: 'dark_green',
-                    italic: false
-                }"
+                {"text": ""},
+                {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " 10 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_damage"}]
+                },
+                {
+                    "text": " 1 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_speed"}]
+                },
+                {
+                    "translate": "trait.retooled.length.medium",
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "translate": "trait.retooled.knockback.strong",
+                    "color": "dark_green",
+                    "italic": false
+                }
             ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
@@ -443,8 +442,9 @@
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
-              ],
-              "show_in_tooltip": false
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": ["minecraft:attribute_modifiers"]
             }
         }
       }]
@@ -455,38 +455,37 @@
       "functions": [{
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.pearlescent_spear'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.pearlescent_spear"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:pearlescent_spear",
             "max_damage": 5242,
             "!tool":{},
             "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 8 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 1.1 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.long',
-                    color: 'dark_green',
-                    italic: false
-                }"
+                {"text": ""},
+                {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " 8 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_damage"}]
+                },
+                {
+                    "text": " 1.1 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_speed"}]
+                },
+                {
+                    "translate": "trait.retooled.length.long",
+                    "color": "dark_green",
+                    "italic": false
+                }
             ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
@@ -508,8 +507,9 @@
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
-              ],
-              "show_in_tooltip": false
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": ["minecraft:attribute_modifiers"]
             }
         }
       }]

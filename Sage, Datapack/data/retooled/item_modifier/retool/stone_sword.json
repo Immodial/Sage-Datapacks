@@ -2,40 +2,39 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.stone_longsword'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.stone_longsword"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:lore": [
-                "{text: ''}",
-                "{
-                    translate: 'item.modifiers.mainhand',
-                    color: 'gray',
-                    italic: false
-                }",
-                "{
-                    text: ' 5 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_damage'}]
-                }",
-                "{
-                    text: ' 1.6 ',
-                    color: 'dark_green',
-                    italic: false,
-                    extra: [{translate: 'attribute.name.attack_speed'}]
-                }",
-                "{
-                    translate: 'trait.retooled.length.medium',
-                    color: 'dark_green',
-                    italic: false
-                }",
-                "{
-                    text: ' Sweeping',
-                    color: 'dark_green',
-                    italic: false
-                }"
+                {"text": ""},
+                {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " 5 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_damage"}]
+                },
+                {
+                    "text": " 1.6 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_speed"}]
+                },
+                {
+                    "translate": "trait.retooled.length.medium",
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "text": " Sweeping",
+                    "color": "dark_green",
+                    "italic": false
+                }
             ],
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
@@ -57,8 +56,9 @@
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
-              ],
-              "show_in_tooltip": false
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": ["minecraft:attribute_modifiers"]
             }
         }
     }

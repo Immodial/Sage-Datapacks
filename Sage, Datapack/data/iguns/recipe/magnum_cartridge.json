@@ -10,7 +10,7 @@
         "id": "minecraft:poisonous_potato",
         "count": 4,
         "components": {
-            "item_name": "[{translate:'item.iguns.magnum_cartridge'}]",
+            "item_name": [{"translate":"item.iguns.magnum_cartridge"}],
             "item_model": "iguns:magnum_cartridge",
             "custom_data": {
                 "IGGunAmmo":"cartridge",

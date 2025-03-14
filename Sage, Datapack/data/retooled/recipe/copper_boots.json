@@ -12,7 +12,7 @@
         "id": "minecraft:chainmail_boots",
         "count": 1,
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.copper_boots'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.copper_boots"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:copper_boots",
             "minecraft:equippable": {
@@ -25,8 +25,7 @@
             "!max_stack_size": {},
             "minecraft:max_damage": 78,
             "minecraft:damage": 0,
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:boots_armor",
                     "type": "minecraft:armor",
@@ -41,8 +40,7 @@
                     "operation": "add_value",
                     "slot": "feet"
                 }
-              ]
-            }
+            ]
         }
     }
 }

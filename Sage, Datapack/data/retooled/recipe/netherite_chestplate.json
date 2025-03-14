@@ -14,8 +14,7 @@
         "count": 1,
         "components": {
             "minecraft:custom_data": {"RTModified":true},
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:chestplate_armor",
                     "type": "minecraft:armor",
@@ -37,8 +36,7 @@
                     "operation": "add_value",
                     "slot": "chest"
                 }
-              ]
-            }
+            ]
         }
     }
 }

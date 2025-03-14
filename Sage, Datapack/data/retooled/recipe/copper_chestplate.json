@@ -13,7 +13,7 @@
         "id": "minecraft:chainmail_chestplate",
         "count": 1,
         "components": {
-            "minecraft:item_name": "[{translate:'item.retooled.copper_chestplate'}]",
+            "minecraft:item_name": [{"translate":"item.retooled.copper_chestplate"}],
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:copper_chestplate",
             "minecraft:equippable": {
@@ -26,8 +26,7 @@
             "!max_stack_size": {},
             "minecraft:max_damage": 96,
             "minecraft:damage": 0,
-            "minecraft:attribute_modifiers": {
-              "modifiers": [
+            "minecraft:attribute_modifiers": [
                 {
                     "id": "retooled:chestplate_armor",
                     "type": "minecraft:armor",
@@ -42,8 +41,7 @@
                     "operation": "add_value",
                     "slot": "chest"
                 }
-              ]
-            }
+            ]
         }
     }
 }
