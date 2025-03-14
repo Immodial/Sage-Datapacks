@@ -12,7 +12,7 @@
         "id": "minecraft:quartz",
         "count": 3,
         "components": {
-            "item_name": "[{translate:'item.indulge.teacup'}]",
+            "item_name": [{"translate":"item.indulge.teacup"}],
             "item_model": "indulge:teacup_empty"
         }
     }
