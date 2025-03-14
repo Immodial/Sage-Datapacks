@@ -9,7 +9,7 @@
         "id": "minecraft:cooked_porkchop",
         "count": 1,
         "components": {
-            "item_name": "[{translate:'item.loremaster.signing_quill'}]",
+            "item_name": [{"translate":"item.loremaster.signing_quill"}],
             "item_model": "lorem:signing_quill",
             "!food": {},
             "consumable": {
