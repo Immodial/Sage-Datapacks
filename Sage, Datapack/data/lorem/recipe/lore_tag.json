@@ -10,7 +10,7 @@
         "id": "minecraft:cooked_porkchop",
         "count": 1,
         "components": {
-            "item_name": "[{translate:'item.loremaster.lore_tag'}]",
+            "item_name": [{"translate":"item.loremaster.lore_tag"}],
             "item_model": "lorem:lore_tag",
             "!food": {},
             "consumable": {
