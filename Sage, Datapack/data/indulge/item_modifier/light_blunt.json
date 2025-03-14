@@ -24,7 +24,7 @@
       "id": "cooked_porkchop",
       "count": 1,
       "components": {
-        "item_name": "[{translate:'item.indulge.wheat_blunt'}]",
+        "item_name": [{"translate":"item.indulge.wheat_blunt"}],
         "item_model": "indulge:blunt",
         "custom_model_data": {"strings": ["lit_1"]},
         "!food": {},
@@ -55,7 +55,7 @@
           "id": "cooked_porkchop",
           "count": 1,
           "components": {
-              "item_name": "[{translate:'item.indulge.wheat_blunt'}]",
+              "item_name": [{"translate":"item.indulge.wheat_blunt"}],
               "item_model": "indulge:blunt",
               "custom_model_data": {"strings": ["lit_2"]},
               "!food": {},
