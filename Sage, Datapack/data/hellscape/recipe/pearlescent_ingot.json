@@ -13,8 +13,7 @@
       "count": 1,
       "id": "minecraft:netherite_upgrade_smithing_template",
       "components": {
-        "minecraft:item_name": "[{translate:'item.hellscape.pearlescent_ingot'}]",
-        "minecraft:hide_additional_tooltip": {},
+        "minecraft:item_name": [{"translate":"item.hellscape.pearlescent_ingot"}],
         "minecraft:custom_data": {"RTModified":true} 
       }
     }
