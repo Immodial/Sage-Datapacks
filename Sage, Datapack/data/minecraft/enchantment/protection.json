@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.minecraft.protection"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:armor_toughness",
+        "id": "minecraft:enchantment.protection",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 4,
+          "per_level_above_first": 3
+        },
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#symbolic:exclusive/defense",
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 10
+}

@@ -1,0 +1,35 @@
+{
+  "exclusive_set": "#symbolic:exclusive/movement",
+  "anvil_cost": 3,
+  "description": {
+    "translate": "enchantment.retooled.velocity"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "retooled:enchantment.velocity",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.02,
+          "per_level_above_first": 0.01
+        },
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 24,
+    "per_level_above_first": 11
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 9
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 5
+}

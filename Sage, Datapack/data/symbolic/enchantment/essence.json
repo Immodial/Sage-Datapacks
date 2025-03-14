@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.retooled.essence"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:max_health",
+        "id": "minecraft:enchantment.essence",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 2,
+          "per_level_above_first": 1
+        },
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#symbolic:exclusive/defense",
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 10
+}
