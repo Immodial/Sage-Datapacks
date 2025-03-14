@@ -16,7 +16,7 @@
         "id": "minecraft:cooked_porkchop",
         "count": 1,
         "components": {
-            "item_name": "[{translate:'item.loremaster.date_stamp'}]",
+            "item_name": [{"translate":"item.loremaster.date_stamp"}],
             "item_model": "lorem:date_stamp",
             "!food": {},
             "consumable": {
