@@ -6,13 +6,13 @@
 # Apply stats
 execute if entity @s[tag=!APOCModified] run function apoca:stats/ghast
 # Dash toward far-away players
-execute if function apoca:special/targeting unless function apoca:random/48 run function apoca:special/ghastdash
+execute if function apoca:special/targeting if predicate {"condition":"random_chance","chance":0.02} run function apoca:special/ghastdash
 # Puff back to previous height
 scoreboard players remove @s APOCChargeTime 1
 execute if score @s APOCChargeTime matches 1 run particle gust ~ ~32 ~ 1.2 10 1.2 0 20 force
 execute if score @s APOCChargeTime matches 1 store result entity @s Pos[1] double 0.01 run scoreboard players get @s APOCSlamHeight
 # Store slam height for when above a player, then slam
-execute positioned ~-2 ~-100 ~-2 if entity @a[dx=3,dy=120,dz=3] unless function apoca:random/16 run tag @s add APOCDropping
+execute positioned ~-2 ~-100 ~-2 if entity @a[dx=3,dy=120,dz=3] if predicate {"condition":"random_chance","chance":0.05} run tag @s add APOCDropping
 execute unless entity @s[tag=APOCDropping] run return run execute unless score @s APOCChargeTime matches 1.. store result score @s APOCSlamHeight run data get entity @s Pos[1] 100
 # Apply resistance and fall while slamming
 effect give @s resistance 1 2

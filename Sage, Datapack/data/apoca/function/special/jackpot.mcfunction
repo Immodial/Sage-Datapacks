@@ -9,14 +9,14 @@ playsound block.note_block.bell player @a ~ ~ ~ 1 1.6
 $summon experience_orb ~ ~ ~ {Value:$(Value)}
 $summon experience_orb ~ ~ ~ {Value:$(Value)}
 $summon experience_orb ~ ~ ~ {Value:$(Value)}
-$execute unless function apoca:random/5 run summon experience_orb ~ ~ ~ {Value:$(Value)}
-$execute unless function apoca:random/5 run summon experience_orb ~ ~ ~ {Value:$(Value)}
-$execute unless function apoca:random/5 run summon experience_orb ~ ~ ~ {Value:$(Value)}
-execute unless function apoca:random/5 run summon experience_orb ~ ~ ~ {Value:1s}
-execute unless function apoca:random/5 run summon experience_orb ~ ~ ~ {Value:1s}
-execute unless function apoca:random/5 run summon experience_orb ~ ~ ~ {Value:1s}
-execute unless function apoca:random/5 run summon experience_orb ~ ~ ~ {Value:1s}
-execute unless function apoca:random/5 run summon experience_orb ~ ~ ~ {Value:1s}
-execute unless function apoca:random/5 run summon experience_orb ~ ~ ~ {Value:1s}
-execute unless function apoca:random/5 run summon experience_orb ~ ~ ~ {Value:1s}
-execute unless function apoca:random/5 run summon experience_orb ~ ~ ~ {Value:1s}
+$execute if predicate {"condition":"random_chance","chance":0.2} run summon experience_orb ~ ~ ~ {Value:$(Value)}
+$execute if predicate {"condition":"random_chance","chance":0.2} run summon experience_orb ~ ~ ~ {Value:$(Value)}
+$execute if predicate {"condition":"random_chance","chance":0.2} run summon experience_orb ~ ~ ~ {Value:$(Value)}
+execute if predicate {"condition":"random_chance","chance":0.2} run summon experience_orb ~ ~ ~ {Value:1s}
+execute if predicate {"condition":"random_chance","chance":0.2} run summon experience_orb ~ ~ ~ {Value:1s}
+execute if predicate {"condition":"random_chance","chance":0.2} run summon experience_orb ~ ~ ~ {Value:1s}
+execute if predicate {"condition":"random_chance","chance":0.2} run summon experience_orb ~ ~ ~ {Value:1s}
+execute if predicate {"condition":"random_chance","chance":0.2} run summon experience_orb ~ ~ ~ {Value:1s}
+execute if predicate {"condition":"random_chance","chance":0.2} run summon experience_orb ~ ~ ~ {Value:1s}
+execute if predicate {"condition":"random_chance","chance":0.2} run summon experience_orb ~ ~ ~ {Value:1s}
+execute if predicate {"condition":"random_chance","chance":0.2} run summon experience_orb ~ ~ ~ {Value:1s}

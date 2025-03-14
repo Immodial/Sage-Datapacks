@@ -6,6 +6,6 @@
 # Give increased follow range
 attribute @s follow_range base set 60
 # Get basic weapon
-execute unless function apoca:random/8 run item replace entity @s weapon.mainhand with stone_sword
+execute if predicate {"condition":"random_chance","chance":0.125} run item replace entity @s weapon.mainhand with stone_sword
 # Mark as given stats
 tag @s add APOCModified
