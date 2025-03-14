@@ -29,8 +29,8 @@
             "!equippable":{},
             "minecraft:lore": [
                 {"text": ""},
-                "{
-                    text: 'Can Glide",
+                {
+                    "text": "Can Glide",
                     "color": "dark_green",
                     "italic": false
                 }
