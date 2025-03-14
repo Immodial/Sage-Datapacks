@@ -1,0 +1,35 @@
+{
+  "exclusive_set": "#symbolic:exclusive/power",
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.minecraft.aqua_affinity"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.4,
+          "per_level_above_first": 0.3
+        },
+        "attribute": "minecraft:submerged_mining_speed",
+        "id": "minecraft:enchantment.aqua_affinity",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 32,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 9,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "head"
+  ],
+  "supported_items": "#minecraft:enchantable/head_armor",
+  "weight": 2
+}
