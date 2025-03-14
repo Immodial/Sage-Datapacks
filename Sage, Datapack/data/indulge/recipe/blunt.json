@@ -11,7 +11,7 @@
         "id": "minecraft:cooked_porkchop",
         "count": 1,
         "components": {
-            "item_name": "[{translate:'item.indulge.wheat_blunt'}]",
+            "item_name": [{"translate":"item.indulge.wheat_blunt"}],
             "item_model": "indulge:blunt",
             "!food": {},
             "consumable": {

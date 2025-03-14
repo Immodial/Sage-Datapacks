@@ -16,7 +16,7 @@
         "id": "minecraft:cooked_porkchop",
         "count": 1,
         "components": {
-            "item_name": "[{translate:'item.indulge.mead'}]",
+            "item_name": [{"translate":"item.indulge.mead"}],
             "item_model": "indulge:mead",
             "food": {
                 "nutrition": 4,
@@ -32,7 +32,7 @@
                 "id": "minecraft:iron_nugget",
                 "count": 1,
                 "components": {
-                    "item_name": "[{translate:'item.indulge.wooden_cup'}]",
+                    "item_name": [{"translate":"item.indulge.wooden_cup"}],
                     "item_model": "indulge:wooden_cup"
                 }
             },
