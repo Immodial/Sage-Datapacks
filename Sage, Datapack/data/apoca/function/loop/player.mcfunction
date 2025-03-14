@@ -26,8 +26,8 @@ scoreboard players reset @s[scores={APOCHunger=17..19,APOCHealTime=400..}] APOCH
 effect give @s[scores={APOCHunger=11..16,APOCHealTime=1000..}] regeneration 1 2 true
 scoreboard players reset @s[scores={APOCHunger=11..16,APOCHealTime=1000..}] APOCHealTime
 # Spawn phantoms
-execute unless predicate apoca:daytime positioned ~ 164 ~ if entity @s[dy=1000] unless entity @e[type=phantom,distance=..100] unless function apoca:random/48 run playsound entity.phantom.flap hostile @a ~ ~48 ~ 100 0.4
-execute unless predicate apoca:daytime positioned ~ 164 ~ if entity @s[dy=1000] unless entity @e[type=phantom,distance=..100] unless function apoca:random/2400 run function apoca:special/haunt
+execute unless predicate apoca:daytime positioned ~ 164 ~ if entity @s[dy=1000] unless entity @e[type=phantom,distance=..100] if predicate {"condition":"random_chance","chance":0.02} run playsound entity.phantom.flap hostile @a ~ ~48 ~ 100 0.4
+execute unless predicate apoca:daytime positioned ~ 164 ~ if entity @s[dy=1000] unless entity @e[type=phantom,distance=..100] if predicate {"condition":"random_chance","chance":0.0004} run function apoca:special/haunt
 # Track sleeping state
 tag @s remove RestfulSlept
 tag @s[tag=RestfulSleeping] add RestfulSlept
