@@ -3,4 +3,4 @@
 ## >> As: Player above y=196
 ## >> Does: Create horde of phantoms
 ## >> Input: None
-summon phantom ~ ~48 ~ {Size:14}
+summon phantom ~ ~48 ~ {size:14}

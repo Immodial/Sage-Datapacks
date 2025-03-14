@@ -4,7 +4,7 @@
 ## >> Does: Give phantom special stats
 ## >> Input: None
 # Increase size and set
-data modify entity @s Size set value 14
+data modify entity @s size set value 14
 attribute @s attack_damage base set 12
 attribute @s max_health base set 80
 data modify entity @s Health set value 80
