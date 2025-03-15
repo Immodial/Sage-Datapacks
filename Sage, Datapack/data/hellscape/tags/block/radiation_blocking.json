@@ -8,6 +8,7 @@
       "#hellscape:copper/slabs",
       "#hellscape:copper/stairs",
       "#hellscape:copper/doors",
-      "#hellscape:copper/trapdoors"
+      "#hellscape:copper/trapdoors",
+      "#hellscape:netherite"
     ]
 }  
