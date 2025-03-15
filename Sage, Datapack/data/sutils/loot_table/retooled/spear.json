@@ -11,7 +11,8 @@
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:wooden_spear",
             "max_damage": 118,
-            "!tool":{},
+            "weapon": {},
+            "tool": {"can_destroy_blocks_in_creative":false,"rules":[]},
             "minecraft:lore": [
                 {"text": ""},
                 {
@@ -76,7 +77,8 @@
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:stone_spear",
             "max_damage": 262,
-            "!tool":{},
+            "weapon": {},
+            "tool": {"can_destroy_blocks_in_creative":false,"rules":[]},
             "minecraft:lore": [
                 {"text": ""},
                 {
@@ -141,7 +143,8 @@
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:iron_spear",
             "max_damage": 500,
-            "!tool":{},
+            "weapon": {},
+            "tool": {"can_destroy_blocks_in_creative":false,"rules":[]},
             "minecraft:lore": [
                 {"text": ""},
                 {
@@ -206,7 +209,8 @@
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:golden_spear",
             "max_damage": 64,
-            "!tool":{},
+            "weapon": {},
+            "tool": {"can_destroy_blocks_in_creative":false,"rules":[]},
             "minecraft:lore": [
                 {"text": ""},
                 {
@@ -271,7 +275,8 @@
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:netherite_spear",
             "max_damage": 4062,
-            "!tool":{},
+            "weapon": {},
+            "tool": {"can_destroy_blocks_in_creative":false,"rules":[]},
             "minecraft:lore": [
                 {"text": ""},
                 {
@@ -336,7 +341,8 @@
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:pearlescent_spear",
             "max_damage": 5242,
-            "!tool":{},
+            "weapon": {},
+            "tool": {"can_destroy_blocks_in_creative":false,"rules":[]},
             "minecraft:lore": [
                 {"text": ""},
                 {

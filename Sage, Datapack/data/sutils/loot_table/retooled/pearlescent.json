@@ -459,7 +459,8 @@
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:pearlescent_spear",
             "max_damage": 5242,
-            "!tool":{},
+            "weapon": {},
+            "tool": {"can_destroy_blocks_in_creative":false,"rules":[]},
             "minecraft:lore": [
                 {"text": ""},
                 {

@@ -18,7 +18,8 @@
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:diamond_spear",
             "max_damage": 3122,
-            "!tool":{},
+            "weapon": {},
+            "tool": {"can_destroy_blocks_in_creative":false,"rules":[]},
             "minecraft:lore": [
                 {"text": ""},
                 {

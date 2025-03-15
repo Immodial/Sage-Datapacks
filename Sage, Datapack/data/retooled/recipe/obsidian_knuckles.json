@@ -15,8 +15,9 @@
             "minecraft:item_name": [{"translate":"item.retooled.obsidian_knuckles"}],
             "minecraft:custom_data": {"RTModified":true,"RTKnuckles":true,"RTObsidian":true},
             "minecraft:item_model": "retooled:obsidian_knuckles",
-            "max_damage":3122,
-            "!tool":{},
+            "max_damage":1561,
+            "weapon": {},
+            "tool": {"can_destroy_blocks_in_creative":false,"rules":[]},
             "minecraft:lore": [
                 {"text": ""},
                 {

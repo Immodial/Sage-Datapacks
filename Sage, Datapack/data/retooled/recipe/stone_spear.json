@@ -18,7 +18,8 @@
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:item_model": "retooled:stone_spear",
             "max_damage": 262,
-            "!tool":{},
+            "weapon": {},
+            "tool": {"can_destroy_blocks_in_creative":false,"rules":[]},
             "minecraft:lore": [
                 {"text": ""},
                 {
