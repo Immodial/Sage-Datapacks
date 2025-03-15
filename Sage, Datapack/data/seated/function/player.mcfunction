@@ -4,11 +4,11 @@
 ## >> Does: Allow players to sit
 ## >> Input: None
 # Sit on beds when waking up
-execute if entity @s[tag=STDSleeping] unless data entity @s SleepingY run function seated:sleepsit
-execute if data entity @s SleepingY run tag @s add STDSleeping
-execute store result score @s STDSleepPosX run data get entity @s SleepingX 1
-execute store result score @s STDSleepPosY run data get entity @s SleepingY 1
-execute store result score @s STDSleepPosZ run data get entity @s SleepingZ 1
+execute if entity @s[tag=STDSleeping] unless data entity @s sleeping_pos run function seated:sleepsit
+execute if data entity @s sleeping_pos run tag @s add STDSleeping
+execute store result score @s STDSleepPosX run data get entity @s sleeping_pos[0] 1
+execute store result score @s STDSleepPosY run data get entity @s sleeping_pos[1] 1
+execute store result score @s STDSleepPosZ run data get entity @s sleeping_pos[2] 1
 # Sit on beds when dying
 execute if entity @s[tag=STDDead] if data entity @s {DeathTime:0s} run function seated:deathsit
 execute unless data entity @s {DeathTime:0s} run return run tag @s add STDDead
