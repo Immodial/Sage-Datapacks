@@ -11,9 +11,9 @@ execute if entity @n[tag=RTKnuckleHit] run item modify entity @s weapon.offhand 
 execute at @n[tag=RTKnuckleHit] run playsound entity.player.attack.crit player @a ~ ~ ~ 1 1.5
 execute at @n[tag=RTKnuckleHit] run playsound entity.player.attack.knockback player @a ~ ~ ~ 1 1.5
 execute if entity @n[tag=RTKnuckleHit] anchored eyes run particle gust ^ ^ ^1
-damage @n[tag=RTKnuckleHit] 0.01 retooled:uppercut by @p[tag=RTAttackMarked]
-damage @n[tag=RTKnuckleHit] 0.01 retooled:uppercut by @p[tag=RTAttackMarked]
-damage @n[tag=RTKnuckleHit] 0.01 retooled:uppercut by @p[tag=RTAttackMarked]
+damage @n[tag=RTKnuckleHit] 0 retooled:uppercut by @p[tag=RTAttackMarked]
+damage @n[tag=RTKnuckleHit] 0 retooled:uppercut by @p[tag=RTAttackMarked]
+damage @n[tag=RTKnuckleHit] 0 retooled:uppercut by @p[tag=RTAttackMarked]
 damage @n[tag=RTKnuckleHit] 7 retooled:uppercut by @p[tag=RTAttackMarked]
 tag @e remove RTKnuckleHit
 tag @a remove RTKnuckleHit
