@@ -4,5 +4,6 @@
 ## >> Does: Trace path to find radiation
 ## >> Input: None
 scoreboard players remove _RadDistance HSGlobals 1
+execute if block ~ ~ ~ #hellscape:radiation_blocking run return run execute unless score _RadMax HSGlobals matches 2.. run scoreboard players set _RadMax HSGlobals -2
 execute if block ~ ~ ~ #hellscape:irradiated run function hellscape:radadd
-execute if score _RadDistance HSGlobals matches 1.. unless block ~ ~ ~ #hellscape:radiation_blocking positioned ^ ^ ^0.5 run function hellscape:radcast
+execute if score _RadDistance HSGlobals matches 1.. positioned ^ ^ ^0.5 run function hellscape:radcast
