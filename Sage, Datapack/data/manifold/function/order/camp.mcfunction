@@ -3,7 +3,8 @@
 ## >> As: Illager patrol leader
 ## >> Does: Mark nearby patrol members for camping
 ## >> Input: None
-playsound entity.pillager.celebrate hostile @a ~ ~ ~ 0.5 0.8
+playsound entity.villager.work_fletcher hostile @a ~ ~ ~ 0.5 0.4
+playsound entity.pillager.celebrate hostile @a ~ ~ ~ 0.5 1.6
 execute unless entity @e[type=vindicator,tag=!MNFGoaled,distance=..20,nbt={Patrolling:true}] run return fail
 execute unless entity @e[type=pillager,tag=!MNFGoaled,distance=..20,nbt={Patrolling:true}] run return fail
 tag @s add MNFCamping

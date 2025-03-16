@@ -3,7 +3,7 @@
 ## >> As: Illager who's goals expired
 ## >> Does: Remove all goals
 ## >> Input: None
-playsound entity.pillager.celebrate hostile @a ~ ~ ~ 0.5 0.2
+playsound entity.pillager.death hostile @a ~ ~ ~ 0.5 1.6
 tag @s remove MNFGoaled
 tag @s remove MNFCamping
 tag @s remove MNFWoodChopping
