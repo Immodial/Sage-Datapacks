@@ -1,6 +1,7 @@
 {
   "values": [
     "retooled:uppercut",
-    "retooled:magic_bolt"
+    "retooled:magic_bolt",
+        "manifold:agro"
   ]
 }

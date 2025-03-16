@@ -5,6 +5,7 @@
         "hellscape:init",
         "iguns:init",
         "retooled:init",
-        "sutils:init"
+        "sutils:init",
+        "manifold:init"
     ]
 }
