@@ -14,6 +14,7 @@ execute as @e[type=enderman] at @s run function apoca:loop/enderman
 execute as @e[type=iron_golem] at @s run function apoca:loop/golem
 execute as @e[type=ghast] at @s run function apoca:loop/ghast
 execute as @e[type=phantom] at @s run function apoca:loop/phantom
+execute as @e[type=pillager] at @s run function apoca:loop/pillager
 execute as @e[type=creaking] at @s run function apoca:loop/creaking
 execute as @e[type=fireball] at @s run function apoca:loop/fireball
 execute as @e[type=experience_orb] at @s run function apoca:loop/xporb
