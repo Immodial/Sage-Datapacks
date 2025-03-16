@@ -2,6 +2,7 @@
     "values": [
         "frostbite:hyperthermia",
         "frostbite:hypothermia",
-        "hellscape:radiation"
+        "hellscape:radiation",
+        "manifold:agro"
     ]
 }

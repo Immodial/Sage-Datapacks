@@ -1,0 +1,19 @@
+{
+  "values": [
+    "#minecraft:pale_oak_logs",
+    "#minecraft:oak_logs",
+    "#minecraft:acacia_logs",
+    "minecraft:birch_log",
+    "minecraft:birch_wood",
+    "#minecraft:jungle_logs",
+    "#minecraft:spruce_logs",
+    "#minecraft:mangrove_logs",
+    "#minecraft:cherry_logs",
+    "minecraft:oak_planks",
+    "minecraft:spruce_planks",
+    "minecraft:jungle_planks",
+    "minecraft:acacia_planks",
+    "minecraft:pale_oak_planks",
+    "#minecraft:leaves"
+  ]
+}
