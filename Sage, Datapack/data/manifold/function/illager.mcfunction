@@ -23,5 +23,5 @@ tag @s remove MNFGoalExecuting
 execute if entity @s[tag=MNFGoaled] run return fail
 execute if entity @s[nbt={PatrolLeader:true}] if predicate {"condition":"random_chance","chance":0.002} run function manifold:order/camp
 execute if entity @s[nbt={PatrolLeader:true}] if predicate {"condition":"random_chance","chance":0.002} run function manifold:order/assemble
-execute if entity @s[type=pillager,nbt={PatrolLeader:true}] if predicate {"condition":"random_chance","chance":0.002} run function manifold:order/collect
+execute if entity @s[type=pillager,nbt={PatrolLeader:true}] if predicate {"condition":"random_chance","chance":0.004} run function manifold:order/collect
 #execute if entity @s[tag=MNFColonist] if predicate {"condition":"random_chance","chance":0.1}
