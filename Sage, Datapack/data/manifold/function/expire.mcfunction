@@ -8,5 +8,7 @@ tag @s remove MNFGoaled
 tag @s remove MNFCamping
 tag @s remove MNFWoodChopping
 tag @s remove MNFWoodGathering
+tag @s remove MNFCollectedFrom
+tag @s remove MNFCollector
 scoreboard players set @s[tag=MNFGoaled] MNFGoalProgress 0
 function manifold:idled
