@@ -1,7 +1,7 @@
 ## >> From: manifold:illager
 ## >> At: Illager patrol leader
 ## >> As: Illager patrol leader
-## >> Does: Mark nearby patrol members for camping
+## >> Does: Mark nearby patrol members for getting wood
 ## >> Input: None
 execute unless entity @e[type=vindicator,tag=!MNFGoaled,distance=..20,nbt={Patrolling:true}] run return fail
 execute unless entity @e[type=pillager,tag=!MNFGoaled,distance=..20,nbt={Patrolling:true}] run return fail
