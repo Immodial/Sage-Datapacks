@@ -8,7 +8,7 @@ execute anchored eyes positioned ^ ^ ^ on target facing entity @s feet if functi
 scoreboard players set _BreakDistance MNFGlobals 6
 execute if score @s MNFGoalProgress matches 10.. anchored eyes positioned ^ ^ ^ on target facing entity @s feet run function manifold:goal/chop/break
 execute on target if entity @s[tag=MNFTargettedWood] run return fail
-tag @e[type=bat] remove MNFtargeting
+tag @e[type=bat] remove MNFTargeting
 scoreboard players set _FindDistance MNFGlobals 10
 execute store result storage manifold ResourceFinder.Yaw int 1 run random value 0..359
 execute store result storage manifold ResourceFinder.Pitch int 1 run random value -40..40
