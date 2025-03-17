@@ -11,3 +11,6 @@ execute as @e[type=#illager] at @s unless entity @a[gamemode=!spectator,distance
 execute as @e[type=bat,tag=MNFTarget] at @s run function manifold:target
 execute as @e[type=marker,tag=MNFSleepingBag] at @s run function manifold:built/sleepingbag
 execute as @e[type=marker,tag=MNFRangeDummy] at @s run function manifold:built/rangedummy
+execute as @e[type=marker,tag=MNFCookingPot] at @s run function manifold:built/cookingpot
+execute as @e[type=marker,tag=MNFTowerSpawn] at @s run function manifold:built/towerspawn
+execute as @e[type=marker,tag=MNFArmorySpawn] at @s run function manifold:built/armoryspawn
