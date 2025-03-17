@@ -3,7 +3,9 @@
 ## >> As: Illager patrol leader
 ## >> Does: Create structure based on resources spent
 ## >> Input: None
+execute store result score _TentCount MNFGlobals run execute if entity @e[tag=MNFSleepingBag,distance=..80]
 execute unless score @s MNFResources matches 12.. run return fail
+execute if score _TentCount MNFGlobals matches 3.. unless score @s MNFResources matches 15.. run return fail
 playsound block.scaffolding.place hostile @a ~ ~ ~ 0.5 0
 playsound entity.warden.dig hostile @a ~ ~ ~ 0.5 2
 playsound block.wood.place hostile @a ~ ~ ~ 0.5 0
