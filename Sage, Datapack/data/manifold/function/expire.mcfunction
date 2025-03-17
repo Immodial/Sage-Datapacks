@@ -10,5 +10,6 @@ tag @s remove MNFWoodChopping
 tag @s remove MNFWoodGathering
 tag @s remove MNFCollectedFrom
 tag @s remove MNFCollector
+tag @s remove MNFHunting
 scoreboard players set @s[tag=MNFGoaled] MNFGoalProgress 0
 function manifold:idled
