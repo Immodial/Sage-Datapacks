@@ -18,6 +18,7 @@ execute if entity @s[tag=MNFWoodChopping] run function manifold:goal/chop/main
 execute if entity @s[tag=MNFWoodGathering] run function manifold:goal/gather/main
 execute if entity @s[tag=MNFCollector] run function manifold:goal/collect/main
 execute if entity @s[tag=MNFCollectedFrom] run function manifold:goal/drop/main
+execute if entity @s[tag=MNFHunting] run function manifold:goal/hunt/main
 tag @s remove MNFGoalExecuting
 # Find goals
 execute if entity @s[tag=MNFGoaled] run return fail
@@ -27,3 +28,4 @@ execute if entity @s[nbt={PatrolLeader:true}] if predicate {"condition":"random_
 execute if entity @s[type=pillager,nbt={PatrolLeader:true}] if predicate {"condition":"random_chance","chance":0.004} run function manifold:order/collect
 execute if entity @s[type=pillager,nbt={PatrolLeader:true}] if predicate {"condition":"random_chance","chance":0.001} run function manifold:order/build
 execute if entity @s[type=pillager,nbt={PatrolLeader:false,Patrolling:false}] if predicate {"condition":"random_chance","chance":0.001} run function manifold:order/build
+execute if entity @s[type=pillager] if predicate {"condition":"random_chance","chance":0.004} run function manifold:order/hunt
