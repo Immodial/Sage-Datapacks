@@ -10,3 +10,4 @@ scoreboard players add @s MNFTargetExpiry 1
 scoreboard players add @s MNFTargetIgnored 1
 execute if score @s MNFTargetExpiry matches 200.. at @s run tp @s ~ -1000 ~
 execute if score @s MNFTargetIgnored matches 20.. at @s run tp @s ~ -1000 ~
+execute positioned ~ -1001 ~ if entity @s[dy=1] run kill @s
