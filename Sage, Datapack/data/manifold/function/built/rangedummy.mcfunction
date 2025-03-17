@@ -14,7 +14,7 @@ execute unless predicate {"condition":"random_chance","chance":0.003} run return
 execute unless entity @e[type=#illager,tag=!MNFGoaled,distance=..20] run return fail
 playsound entity.creaking.death hostile @a ~ ~ ~ 0.5 1.6
 playsound entity.creaking.ambient hostile @a ~ ~ ~ 0.5 0.8
-execute facing entity @n[type=#illager,tag=!MNFGoaled,distance=..20] eyes rotated ~ 0 run summon bat ^ ^-1 ^0.5 {Tags:["MNFTarget","MNFTargetedDummy","MNFTargeting"],PersistenceRequired:true,Health:1f,NoAI:true,Silent:true,active_effects:[{id:"minecraft:invisibility",duration:-1,show_particles:false},{id:"minecraft:resistance",duration:-1,amplifier:9,show_particles:false}]}
+execute facing entity @n[type=#illager,tag=!MNFGoaled,distance=..20] eyes rotated ~ 0 run summon bat ^ ^-1.2 ^0.49 {Tags:["MNFTarget","MNFTargetedDummy","MNFTargeting"],PersistenceRequired:true,Health:1f,NoAI:true,Silent:true,active_effects:[{id:"minecraft:invisibility",duration:-1,show_particles:false},{id:"minecraft:resistance",duration:-1,amplifier:9,show_particles:false}]}
 damage @n[type=#illager,tag=!MNFGoaled,distance=..20] 0 manifold:agro by @n[type=bat,tag=MNFTargeting]
 tag @e[type=bat] remove MNFTargeting
 scoreboard players set @n[type=#illager,tag=!MNFGoaled,distance=..20] MNFGoalExpiry 300
