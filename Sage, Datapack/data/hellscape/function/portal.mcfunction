@@ -7,9 +7,12 @@
 particle ash ~ ~ ~ 0.25 0.25 0.25 0 8
 # Clear players of nausea in portal
 effect clear @a[distance=..1] nausea
-# Delete if no portal remains
+# Delete if no portal remains, or overlapping
 execute unless block ~ ~ ~ nether_portal if loaded ~ ~ ~ run playsound block.respawn_anchor.deplete block @a ~ ~ ~ 3 0.4
 execute unless block ~ ~ ~ nether_portal if loaded ~ ~ ~ run return run kill @s
+tag @s add HSOverlapChecking
+kill @e[type=marker,tag=!HSOverlapChecking,distance=..0.1]
+tag @s remove HSOverlapChecking
 # Play sound
 execute unless entity @s[tag=HSNewPortal] run return fail
 playsound block.respawn_anchor.set_spawn block @a ~ ~ ~ 3 1.4
