@@ -7,8 +7,8 @@ particle enchanted_hit ~ ~0.5 ~ 0.3 0.5 0.3 0 12
 execute unless block ~ ~1 ~ carved_pumpkin run kill @s
 execute unless block ~ ~ ~ hay_block run kill @s
 execute unless block ~ ~-1 ~ #fences run kill @s
-execute positioned ~ ~-1 ~ as @e[tag=MNFTargetedDummy,distance=..1] on attacker run effect give @s strength 1200 0 false
-execute positioned ~ ~-1 ~ as @e[tag=MNFTargetedDummy,distance=..1] on attacker run effect give @s resistance 1200 0 false
+execute positioned ~ ~-1 ~ as @e[tag=MNFTargetedDummy,distance=..1] on attacker run effect give @s[type=#illager] strength 1200 0 false
+execute positioned ~ ~-1 ~ as @e[tag=MNFTargetedDummy,distance=..1] on attacker run effect give @s[type=#illager] resistance 1200 0 false
 execute if entity @a[gamemode=!spectator,distance=..30] run return fail
 execute unless predicate {"condition":"random_chance","chance":0.003} run return fail
 execute unless entity @e[type=#illager,tag=!MNFGoaled,distance=..20] run return fail
