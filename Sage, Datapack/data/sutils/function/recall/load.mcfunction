@@ -3,7 +3,7 @@
 ## >> As: Player using recall book
 ## >> Does: Go to recall point
 ## >> Input: PosX (double), PosY (double), PosZ (double), Xp (int), Gamemode (int)
-execute unless predicate sutils:crouch run function sutils:recall/store
+execute unless predicate sutils:crouch unless data storage sageutils ReviveRecall run function sutils:recall/store
 $execute in $(Dimension) run tp $(PosX) $(PosY) $(PosZ)
 $xp set @s $(Xp) levels
 $scoreboard players set %Gamemode SUGlobals $(Gamemode)
