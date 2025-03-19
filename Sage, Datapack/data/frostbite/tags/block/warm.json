@@ -1,6 +1,7 @@
 {
   "values": [
       "#minecraft:sand",
+      "minecraft:campfire",
       "minecraft:redstone_block",
       "minecraft:netherrack",
       "minecraft:basalt"
