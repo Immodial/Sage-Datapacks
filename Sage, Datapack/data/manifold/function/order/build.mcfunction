@@ -26,7 +26,7 @@ execute if entity @s[tag=MNFCampsiteBuilding] run setblock ~ ~ ~ minecraft:struc
 execute if entity @s[tag=MNFCampsiteBuilding] align xyz run summon marker ~0.5 ~2.5 ~0.5 {Tags:["MNFCookingPot"]}
 execute if entity @s[tag=MNFTowerBuilding] run setblock ~ ~ ~ minecraft:structure_block[mode=load]{integrity:1f,mode:"LOAD",name:"manifold:tower",posX:-4,posY:-1,posZ:-4,showboundingbox:false,sizeX:9,sizeY:13,sizeZ:9}
 execute if entity @s[tag=MNFTowerBuilding] align xyz run summon marker ~1.5 ~1.5 ~-0.5 {Tags:["MNFTowerSpawn"]}
-execute if entity @s[tag=MNFTowerBuilding] run tp @e[type=#illager,distance=..12] ~ ~ ~
+execute if entity @s[tag=MNFTowerBuilding] run tp @e[type=#illager,distance=..12] ~ ~1 ~
 execute if entity @s[tag=MNFArmoryBuilding] run setblock ~ ~ ~ minecraft:structure_block[mode=load]{integrity:1f,mode:"LOAD",name:"manifold:armory",posX:-4,posY:-1,posZ:-3,showboundingbox:false,sizeX:9,sizeY:9,sizeZ:7}
 execute if entity @s[tag=MNFArmoryBuilding] align xyz run summon marker ~1.5 ~1.5 ~-0.5 {Tags:["MNFArmorySpawn"]}
 execute if entity @s[tag=MNFArmoryBuilding] run tp @e[type=#illager,distance=..12] ~ ~ ~

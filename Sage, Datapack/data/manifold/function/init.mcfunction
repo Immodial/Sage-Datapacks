@@ -11,6 +11,8 @@ scoreboard objectives add MNFTargetExpiry dummy "Target Expiration Time"
 scoreboard objectives add MNFTargetIgnored dummy "Target Ignore Time"
 scoreboard objectives add MNFIdleTime dummy "Time being Idle"
 scoreboard objectives add MNFResources dummy "Resource Points"
+# Static variables
+scoreboard players set %ResourceMultiplier MNFGlobals 2
 # Loops
 schedule clear manifold:loop
 schedule function manifold:loop 1
