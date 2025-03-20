@@ -1,6 +1,7 @@
 {
   "values": [
       "minecraft:fire",
+      "minecraft:soul_campfire",
       "minecraft:magma_block"
   ]
 }

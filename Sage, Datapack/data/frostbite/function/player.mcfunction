@@ -44,19 +44,19 @@ execute if score @s FBTemperature matches -2499..-2200 if score @s FBBreath matc
 execute if score @s FBTemperature matches ..-2500 if score @s FBBreath matches 0 anchored eyes run playsound entity.player.breath player @a ^ ^ ^1.2 0.2 0.75
 execute if score @s FBTemperature matches ..-2500 if score @s FBBreath matches 0 run damage @s 1 frostbite:hypothermia
 # Get cold from nearby soul fire
-execute if block ~ ~ ~ #frostbite:soul unless block ~ ~ ~ #frostbite:soul[lit=false] run scoreboard players remove @s FBTemperature 2
-execute if block ~1 ~ ~ #frostbite:soul unless block ~1 ~ ~ #frostbite:soul[lit=false] run scoreboard players remove @s FBTemperature 2
-execute if block ~-1 ~ ~ #frostbite:soul unless block ~-1 ~ ~ #frostbite:soul[lit=false] run scoreboard players remove @s FBTemperature 2
-execute if block ~ ~ ~1 #frostbite:soul unless block ~ ~ ~1 #frostbite:soul[lit=false] run scoreboard players remove @s FBTemperature 2
-execute if block ~ ~ ~-1 #frostbite:soul unless block ~ ~ ~-1 #frostbite:soul[lit=false] run scoreboard players remove @s FBTemperature 2
-execute if block ~1 ~ ~1 #frostbite:soul unless block ~1 ~ ~1 #frostbite:soul[lit=false] run scoreboard players remove @s FBTemperature 2
-execute if block ~-1 ~ ~1 #frostbite:soul unless block ~-1 ~ ~1 #frostbite:soul[lit=false] run scoreboard players remove @s FBTemperature 2
-execute if block ~-1 ~ ~-1 #frostbite:soul unless block ~-1 ~ ~-1 #frostbite:soul[lit=false] run scoreboard players remove @s FBTemperature 2
-execute if block ~1 ~ ~-1 #frostbite:soul unless block ~1 ~ ~-1 #frostbite:soul[lit=false] run scoreboard players remove @s FBTemperature 2
-execute if block ~2 ~ ~ #frostbite:soul unless block ~2 ~ ~ #frostbite:soul[lit=false] run scoreboard players remove @s FBTemperature 2
-execute if block ~-2 ~ ~ #frostbite:soul unless block ~-2 ~ ~ #frostbite:soul[lit=false] run scoreboard players remove @s FBTemperature 2
-execute if block ~ ~ ~2 #frostbite:soul unless block ~ ~ ~2 #frostbite:soul[lit=false] run scoreboard players remove @s FBTemperature 2
-execute if block ~ ~ ~-2 #frostbite:soul unless block ~ ~ ~-2 #frostbite:soul[lit=false] run scoreboard players remove @s FBTemperature 2
+execute if block ~ ~ ~ #frostbite:soul_hearth unless block ~ ~ ~ #frostbite:soul_hearth[lit=false] run scoreboard players remove @s FBTemperature 2
+execute if block ~1 ~ ~ #frostbite:soul_hearth unless block ~1 ~ ~ #frostbite:soul_hearth[lit=false] run scoreboard players remove @s FBTemperature 2
+execute if block ~-1 ~ ~ #frostbite:soul_hearth unless block ~-1 ~ ~ #frostbite:soul_hearth[lit=false] run scoreboard players remove @s FBTemperature 2
+execute if block ~ ~ ~1 #frostbite:soul_hearth unless block ~ ~ ~1 #frostbite:soul_hearth[lit=false] run scoreboard players remove @s FBTemperature 2
+execute if block ~ ~ ~-1 #frostbite:soul_hearth unless block ~ ~ ~-1 #frostbite:soul_hearth[lit=false] run scoreboard players remove @s FBTemperature 2
+execute if block ~1 ~ ~1 #frostbite:soul_hearth unless block ~1 ~ ~1 #frostbite:soul_hearth[lit=false] run scoreboard players remove @s FBTemperature 2
+execute if block ~-1 ~ ~1 #frostbite:soul_hearth unless block ~-1 ~ ~1 #frostbite:soul_hearth[lit=false] run scoreboard players remove @s FBTemperature 2
+execute if block ~-1 ~ ~-1 #frostbite:soul_hearth unless block ~-1 ~ ~-1 #frostbite:soul_hearth[lit=false] run scoreboard players remove @s FBTemperature 2
+execute if block ~1 ~ ~-1 #frostbite:soul_hearth unless block ~1 ~ ~-1 #frostbite:soul_hearth[lit=false] run scoreboard players remove @s FBTemperature 2
+execute if block ~2 ~ ~ #frostbite:soul_hearth unless block ~2 ~ ~ #frostbite:soul_hearth[lit=false] run scoreboard players remove @s FBTemperature 2
+execute if block ~-2 ~ ~ #frostbite:soul_hearth unless block ~-2 ~ ~ #frostbite:soul_hearth[lit=false] run scoreboard players remove @s FBTemperature 2
+execute if block ~ ~ ~2 #frostbite:soul_hearth unless block ~ ~ ~2 #frostbite:soul_hearth[lit=false] run scoreboard players remove @s FBTemperature 2
+execute if block ~ ~ ~-2 #frostbite:soul_hearth unless block ~ ~ ~-2 #frostbite:soul_hearth[lit=false] run scoreboard players remove @s FBTemperature 2
 # End if warm enough
 execute if score @s FBTemperature matches 800.. run return fail
 # Get warm from nearby fire
