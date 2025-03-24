@@ -2,7 +2,7 @@
   "exclusive_set": "#symbolic:exclusive/movement",
   "anvil_cost": 3,
   "description": {
-    "translate": "enchantment.retooled.might"
+    "translate": "enchantment.symbolic.might"
   },
   "effects": {
     "minecraft:attributes": [

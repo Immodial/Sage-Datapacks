@@ -1,7 +1,7 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.retooled.physical_protection"
+    "translate": "enchantment.symbolic.physical_protection"
   },
   "effects": {
     "minecraft:damage_protection": [

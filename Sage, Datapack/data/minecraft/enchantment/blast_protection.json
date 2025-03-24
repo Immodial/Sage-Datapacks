@@ -1,6 +1,6 @@
 {
     "anvil_cost": 0,
-    "description": {"translate": "enchantment.retooled.useless"},
+    "description": {"translate": "enchantment.symbolic.useless"},
     "effects": {},
     "max_cost": {
       "base": 0,

@@ -1,7 +1,7 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.retooled.vitality"
+    "translate": "enchantment.symbolic.vitality"
   },
   "effects": {
     "minecraft:attributes": [

@@ -2,7 +2,7 @@
   "exclusive_set": "#symbolic:exclusive/movement",
   "anvil_cost": 3,
   "description": {
-    "translate": "enchantment.retooled.velocity"
+    "translate": "enchantment.symbolic.velocity"
   },
   "effects": {
     "minecraft:attributes": [
