@@ -1,13 +1,13 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.retooled.essence"
+    "translate": "enchantment.retooled.vitality"
   },
   "effects": {
     "minecraft:attributes": [
       {
         "attribute": "minecraft:max_health",
-        "id": "minecraft:enchantment.essence",
+        "id": "minecraft:enchantment.vitality",
         "amount": {
           "type": "minecraft:linear",
           "base": 2,
@@ -19,13 +19,13 @@
   },
   "exclusive_set": "#symbolic:exclusive/defense",
   "max_cost": {
-    "base": 12,
+    "base": 9,
     "per_level_above_first": 11
   },
-  "max_level": 4,
+  "max_level": 3,
   "min_cost": {
-    "base": 1,
-    "per_level_above_first": 11
+    "base": 6,
+    "per_level_above_first": 9
   },
   "slots": [
     "chest"

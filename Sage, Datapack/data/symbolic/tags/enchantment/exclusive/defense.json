@@ -1,6 +1,11 @@
 {
   "values": [
-    "minecraft:protection",
-    "symbolic:essence"
+    "symbolic:absolute_protection",
+    "symbolic:vitality",
+    "symbolic:physical_protection",
+    "symbolic:projectile_protection",
+    "symbolic:magic_protection",
+    "symbolic:blast_protection",
+    "symbolic:vitality"
   ]
 }
