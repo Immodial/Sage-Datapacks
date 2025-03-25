@@ -1,0 +1,8 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+          "!blocks_attacks": {}
+        }
+    }
+]  

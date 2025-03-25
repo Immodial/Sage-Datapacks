@@ -1,0 +1,95 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "II",
+        "II",
+        "II"
+    ],
+    "key": {
+        "I": "minecraft:iron_ingot"
+    },
+    "result": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": [{"translate":"item.retooled.gauntlet"}],
+            "minecraft:custom_data": {"RTModified":true,"RTGauntlet":true},
+            "minecraft:item_model": "retooled:gauntlet",
+            "max_damage":175,
+            "weapon": {},
+            "tool": {"can_destroy_blocks_in_creative":false,"rules":[]},
+            "blocks_attacks": {
+                "disable_cooldown_scale": 0.5
+            },
+            "minecraft:lore": [
+                {"text": ""},
+                {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " 4 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_damage"}]
+                },
+                {
+                    "text": " 3 ",
+                    "color": "dark_green",
+                    "italic": false,
+                    "extra": [{"translate": "attribute.name.attack_speed"}]
+                },
+                {
+                    "translate": "trait.retooled.length.short",
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "translate": "trait.retooled.knockback.weak",
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {"text": ""},
+                {
+                    "translate": "item.modifiers.hand",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": " Can Parry",
+                    "color": "dark_green",
+                    "italic": false
+                }
+            ],
+            "minecraft:attribute_modifiers": [
+                {
+                    "id": "retooled:weapon_attack",
+                    "type": "minecraft:attack_damage",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": -1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "retooled:weapon_knockback",
+                    "type": "minecraft:attack_knockback",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": ["minecraft:attribute_modifiers"]
+            }
+        }
+    }
+}
+  

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "block_attack": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": { "blocked": true }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "block_attack"
+    ]
+  ],
+  "rewards": {
+    "function": "retooled:block"
+  }
+}

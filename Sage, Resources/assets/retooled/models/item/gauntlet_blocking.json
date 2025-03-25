@@ -1,0 +1,13 @@
+{
+	"parent": "retooled:item/gauntlet",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [20, -45, 30],
+			"translation": [-1, 7, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [20, -45, 30],
+			"translation": [-1, 7, 0]
+		}
+	}
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+          "blocks_attacks": {
+            "disable_cooldown_scale": 0.5,
+            "damage_reductions": [{
+              "base": 0,
+              "factor": 1,
+              "horizontal_blocking_angle": 25
+            }],
+            "item_damage": {
+              "base": 1,
+              "factor": 0,
+              "threshold": 2
+            }
+          }
+        }
+    }
+]  
