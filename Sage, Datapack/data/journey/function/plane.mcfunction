@@ -35,7 +35,7 @@ execute at @s[scores={JNYFlightTime=180..}] run tp @s ^ ^ ^0.2
 execute at @s[scores={JNYFlightTime=240..}] run tp @s ^ ^ ^0.5
 # Destroy if block is destroyed
 execute at @s if block ~ ~-0.5 ~ #air run return fail
-summon item ~ ~ ~ {Item:{id:"minecraft:cod_spawn_egg",count:1,components:{"minecraft:item_name":"[{translate:'item.journey.plane'}]","minecraft:item_model":"journey:plane_item","!max_stack_size":{},"minecraft:entity_data":{id:"minecraft:marker",Tags:["JNYPlaneSpawn"]}}}}
+summon item ~ ~ ~ {Item:{id:"minecraft:cod_spawn_egg",count:1,components:{"minecraft:item_name":[{"translate":"item.journey.plane"}],"minecraft:item_model":"journey:plane_item","!max_stack_size":{},"minecraft:entity_data":{id:"minecraft:marker",Tags:["JNYPlaneSpawn"]}}}}
 execute on passengers run kill @s[tag=JNYPropeller]
 execute on passengers run kill @s[tag=JNYSeatInteraction]
 kill @s

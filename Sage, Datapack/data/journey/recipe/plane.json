@@ -15,7 +15,7 @@
       "id": "minecraft:cod_spawn_egg",
       "count": 1,
       "components": {
-          "minecraft:item_name": "[{translate:'item.journey.plane'}]",
+          "minecraft:item_name": [{"translate":"item.journey.plane"}],
           "minecraft:item_model": "journey:plane_item",
           "!max_stack_size": {},
           "entity_data": {
