@@ -16,11 +16,21 @@
             "minecraft:item_name": [{"translate":"item.retooled.gauntlet"}],
             "minecraft:custom_data": {"RTModified":true,"RTGauntlet":true},
             "minecraft:item_model": "retooled:gauntlet",
-            "max_damage":175,
+            "max_damage":240,
             "weapon": {},
             "tool": {"can_destroy_blocks_in_creative":false,"rules":[]},
             "blocks_attacks": {
-                "disable_cooldown_scale": 0.5
+                "disable_cooldown_scale": 0.5,
+                "damage_reductions": [{
+                    "base": 0,
+                    "factor": 1,
+                    "horizontal_blocking_angle": 40
+                }],
+                "item_damage": {
+                    "base": 1,
+                    "factor": 0.5,
+                    "threshold": 2
+                }
             },
             "minecraft:lore": [
                 {"text": ""},
