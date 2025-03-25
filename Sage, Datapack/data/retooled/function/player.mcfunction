@@ -22,7 +22,8 @@ execute if items entity @s weapon.mainhand *[custom_data~{RTKnuckles:true},consu
 execute unless entity @s[tag=RTUsed] if items entity @s weapon.mainhand *[custom_data~{RTGlider:true},glider] run item modify entity @s weapon.mainhand retooled:functionality/glider_disable
 execute unless entity @s[tag=RTUsed] if items entity @s weapon.offhand *[custom_data~{RTGlider:true},glider] run item modify entity @s weapon.offhand retooled:functionality/glider_disable
 # Reenable gauntlets
-execute if score @s RTGauntletTime matches ..29 if items entity @s weapon.mainhand *[custom_data~{RTGauntlet:true},!blocks_attacks] run item modify entity @s weapon.mainhand retooled:functionality/gauntlet_enable
+execute if score @s RTGauntletTime matches ..29 if items entity @s weapon.mainhand *[custom_data~{RTGauntlet:true},!blocks_attacks] unless items entity @s weapon.offhand *[custom_data~{RTGauntlet:true}] run item modify entity @s weapon.mainhand retooled:functionality/gauntlet_enable
+execute if score @s RTGauntletTime matches ..29 if items entity @s weapon.mainhand *[custom_data~{RTGauntlet:true},blocks_attacks] if items entity @s weapon.offhand *[custom_data~{RTGauntlet:true}] run item modify entity @s weapon.mainhand retooled:functionality/gauntlet_disable
 execute if score @s RTGauntletTime matches ..29 if items entity @s weapon.offhand *[custom_data~{RTGauntlet:true},!blocks_attacks] run item modify entity @s weapon.offhand retooled:functionality/gauntlet_enable
 # Remove poison if wearing ring
 execute if items entity @s weapon.offhand *[custom_data~{RTVenomRing:true}] run effect clear @s poison
