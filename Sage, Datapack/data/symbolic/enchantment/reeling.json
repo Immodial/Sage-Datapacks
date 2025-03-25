@@ -1,0 +1,39 @@
+{
+  "exclusive_set": "#symbolic:exclusive/durability",
+  "anvil_cost": 3,
+  "description": {
+    "translate": "enchantment.symbolic.reeling"
+  },
+  "effects": {
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": 0.2
+        }
+      }
+    ],
+    "minecraft:fishing_time_reduction": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 60
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 42,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 16,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/fishing",
+  "weight": 2
+}
