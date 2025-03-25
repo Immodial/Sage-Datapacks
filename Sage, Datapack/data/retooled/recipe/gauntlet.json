@@ -3,11 +3,12 @@
     "category": "equipment",
     "pattern": [
         "II",
-        "II",
-        "II"
+        "In",
+        "In"
     ],
     "key": {
-        "I": "minecraft:iron_ingot"
+        "I": "minecraft:iron_ingot",
+        "n": "minecraft:iron_nugget"
     },
     "result": {
         "id": "minecraft:shield",
