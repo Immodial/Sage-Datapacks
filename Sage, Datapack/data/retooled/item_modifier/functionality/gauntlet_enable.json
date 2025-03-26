@@ -11,7 +11,7 @@
             }],
             "item_damage": {
               "base": 1,
-              "factor": 0.5,
+              "factor": 0.2,
               "threshold": 2
             }
           }
