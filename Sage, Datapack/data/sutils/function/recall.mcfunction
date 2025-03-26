@@ -4,7 +4,7 @@
 ## >> Does: Set new home
 ## >> Input: Name
 execute unless data entity @s SelectedItem.components.minecraft:custom_name run return run tellraw @s {"text":"Name the Item to set a Recall!"}
-data modify storage sageutils CreatingRecall.Name set from entity @s SelectedItem.components.minecraft:custom_name
+data modify storage sageutils CreatingRecall.Name set from entity @s SelectedItem.components."minecraft:custom_name"
 data modify storage sageutils CreatingRecall.Gamemode set from entity @s playerGameType
 data modify storage sageutils CreatingRecall.Xp set from entity @s XpLevel
 data modify storage sageutils CreatingRecall.Dimension set from entity @s Dimension
