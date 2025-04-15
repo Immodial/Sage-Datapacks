@@ -13,7 +13,7 @@
         "id": "minecraft:poisonous_potato",
         "count": 3,
         "components": {
-            "item_name": "[{translate:'item.windings.glyph.lapis'}]",
+            "item_name": [{"translate":"item.windings.glyph.lapis"}],
             "item_model": "windings:lapis_glyph",
             "custom_data": {
                 "WNDGGlyph":true,
