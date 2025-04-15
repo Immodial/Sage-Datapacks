@@ -3,4 +3,4 @@
 ## >> As: Spell containing the Emerald Major Glyph
 ## >> Does: Create small explosion
 ## >> Input: None
-summon creeper ~ ~ ~ {CustomName:"'Emerald Major Glyph'",Fuse:0s,ignited:1b,ExplosionRadius:1b,attributes:[{id:"minecraft:scale",base:0d}]}
+summon creeper ~ ~ ~ {CustomName:"Emerald Major Glyph",Fuse:0s,ignited:1b,ExplosionRadius:1b,attributes:[{id:"minecraft:scale",base:0d}]}

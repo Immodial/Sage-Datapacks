@@ -12,7 +12,7 @@
         "id": "minecraft:cooked_porkchop",
         "count": 1,
         "components": {
-            "minecraft:item_name": "[{translate:'item.windings.poet_glasses'}]",
+            "minecraft:item_name": [{"translate":"item.windings.poet_glasses"}],
             "minecraft:item_model": "windings:glasses",
             "minecraft:custom_data": {"WNDGLens":true},
             "minecraft:equippable": {
