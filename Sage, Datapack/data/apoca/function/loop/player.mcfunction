@@ -5,7 +5,7 @@
 ## >> Input: None
 # Detect dead player
 execute if entity @s[nbt=!{DeathTime:0s}] unless entity @s[tag=APOCDead] run tag @s add APOCDying
-execute if entity @s[tag=APOCDying] run function apoca:special/grave
+execute if entity @s[tag=APOCDying] anchored eyes positioned ^ ^ ^ run function apoca:special/grave
 execute if entity @s[tag=APOCDying] on attacker if entity @s[type=#apoca:champion] run function apoca:special/champion
 tag @s remove APOCDying
 execute if entity @s[nbt=!{DeathTime:0s}] run return run tag @s add APOCDead

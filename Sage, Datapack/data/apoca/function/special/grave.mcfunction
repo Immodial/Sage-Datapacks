@@ -3,8 +3,8 @@
 ## >> As: Dead player
 ## >> Does: Create grave
 ## >> Input: None
-summon marker ~ ~1 ~ {Tags:["APOCGrave","APOCGraveSpawning"],data:{GraveMarker:true,GraveItems:[]}}
-summon text_display ~ ~1 ~ {Tags:["APOCGraveName","APOCGraveNaming"],alignment:"center",billboard:"center"}
+summon marker ~ ~ ~ {Tags:["APOCGrave","APOCGraveSpawning"],data:{GraveMarker:true,GraveItems:[]}}
+summon text_display ~ ~ ~ {Tags:["APOCGraveName","APOCGraveNaming"],alignment:"center",billboard:"center"}
 tag @s add APOCDeadNaming
 data modify entity @n[type=text_display,tag=APOCGraveNaming] text set value {"selector":"@p[tag=APOCDeadNaming]"}
 tag @s remove APOCDeadNaming
