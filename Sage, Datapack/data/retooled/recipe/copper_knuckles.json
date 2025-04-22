@@ -15,7 +15,7 @@
             "minecraft:item_name": [{"translate":"item.retooled.copper_knuckles"}],
             "minecraft:custom_data": {"RTModified":true,"RTKnuckles":true,"RTCopper":true},
             "minecraft:item_model": "retooled:copper_knuckles",
-            "max_damage":175,
+            "max_damage": 175,
             "weapon": {},
             "tool": {"can_destroy_blocks_in_creative":false,"rules":[]},
             "minecraft:lore": [
