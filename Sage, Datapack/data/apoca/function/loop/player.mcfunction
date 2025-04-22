@@ -5,13 +5,13 @@
 ## >> Input: None
 # Detect dead player
 execute if entity @s[nbt=!{DeathTime:0s}] unless entity @s[tag=APOCDead] run tag @s add APOCDying
-execute if entity @s[tag=APOCDying] anchored eyes positioned ^ ^ ^ run function apoca:special/grave
+execute if entity @s[tag=APOCDying] run function apoca:special/grave
 execute if entity @s[tag=APOCDying] on attacker if entity @s[type=#apoca:champion] run function apoca:special/champion
 tag @s remove APOCDying
 execute if entity @s[nbt=!{DeathTime:0s}] run return run tag @s add APOCDead
 tag @s remove APOCDead
 # Gather from gravestones
-execute as @e[type=marker,tag=APOCGrave,distance=..2,scores={APOCGraveTime=100..}] at @s run function apoca:special/gravedrop
+execute as @e[type=marker,tag=APOCGrave,distance=..2,scores={APOCGraveTime=100..}] run function apoca:special/gravedrop
 kill @e[type=text_display,tag=APOCGraveName,distance=..2,scores={APOCGraveTime=100..}]
 # Heal over time
 scoreboard players add @s APOCHealTime 1
