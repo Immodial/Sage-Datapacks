@@ -8,6 +8,7 @@ summon text_display ~ ~1 ~ {Tags:["APOCGraveName","APOCGraveNaming"],alignment:"
 tag @s add APOCDeadNaming
 data modify entity @n[type=text_display,tag=APOCGraveNaming] text set value {"selector":"@p[tag=APOCDeadNaming]"}
 tag @s remove APOCDeadNaming
+execute anchored eyes positioned ^ ^ ^ run tag @n[type=item,distance=..3,nbt={Age:0s}] add APOCCollecting
 execute anchored eyes positioned ^ ^ ^ run tag @n[type=item,distance=..3,nbt={Age:1s}] add APOCCollecting
 execute as @n[type=marker,tag=APOCGraveSpawning] at @s if entity @n[type=item,tag=APOCCollecting] run function apoca:special/graveadd
 execute as @n[type=marker,tag=APOCGraveSpawning] unless data entity @s data.GraveItems[0] run kill @n[type=text_display,tag=APOCGraveNaming]
