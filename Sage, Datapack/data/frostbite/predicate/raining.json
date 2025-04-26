@@ -8,6 +8,15 @@
       }
     },
     {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biomes": "#frostbite:dry"
+        }
+      }
+    },
+    {
       "condition": "minecraft:weather_check",
       "raining": true
     }
