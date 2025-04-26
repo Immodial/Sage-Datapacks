@@ -3,5 +3,5 @@
 ## >> As: Player being in the sun
 ## >> Does: Update player temperature
 ## >> Input: None
-execute unless score @s FBWetness matches 1.. if predicate frostbite:day run scoreboard players add @s FBTemperature 1
+execute unless score @s FBWetness matches 1.. if predicate frostbite:day if predicate frostbite:under_sky run scoreboard players add @s FBTemperature 1
 advancement revoke @s only frostbite:touch/sunlit
