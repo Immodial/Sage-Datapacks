@@ -25,6 +25,7 @@ execute if score @s FBWetness matches 1.. run scoreboard players remove @s FBTem
 scoreboard players add @s FBBreath 1
 scoreboard players set @s[scores={FBTemperature=..0,FBBreath=15..}] FBBreath 0
 scoreboard players set @s[scores={FBTemperature=1..,FBBreath=5..}] FBBreath 0
+execute if data entity @s active_effects[{id:"minecraft:fire_resistance"}] run scoreboard players set @s[scores={FBTemperature=1750..}] FBTemperature 1750
 # Apply sweltering
 attribute @s[scores={FBTemperature=1800..}] movement_speed modifier add frostbite:heat_slow_minor -0.15 add_multiplied_base
 attribute @s[scores={FBTemperature=..1799}] movement_speed modifier remove frostbite:heat_slow_minor
