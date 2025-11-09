@@ -1,16 +1,6 @@
-{
-    "type": "minecraft:crafting_shaped",
-    "category": "equipment",
-    "pattern": [
-        "# #",
-        "# #"
-    ],
-    "key": {
-        "#": "minecraft:copper_ingot"
-    },
-    "result": {
-        "id": "minecraft:chainmail_boots",
-        "count": 1,
+[
+    {
+        "function": "minecraft:set_components",
         "components": {
             "minecraft:custom_data": {"RTModified":true},
             "minecraft:max_damage": 78,
@@ -33,4 +23,4 @@
             ]
         }
     }
-}
+]  

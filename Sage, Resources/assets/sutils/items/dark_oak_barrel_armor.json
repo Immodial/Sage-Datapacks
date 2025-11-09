@@ -9,7 +9,7 @@
                     "models": [
                         {
                             "type": "minecraft:model",
-                            "model": "retooled:item/copper_chestplate"
+                            "model": "retooled:item/redstone_chestplate"
                         },
                         {
                             "type": "minecraft:model",
