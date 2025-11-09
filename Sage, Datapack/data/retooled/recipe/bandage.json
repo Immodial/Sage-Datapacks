@@ -18,7 +18,7 @@
                 "animation": "block",
                 "consume_seconds": 1.2,
                 "has_consume_particles": false,
-                "sound": "entity.leash_knot.break",
+                "sound": "item.lead.tied",
                 "on_consume_effects": [
                     {
                         "type": "minecraft:apply_effects",
@@ -32,7 +32,7 @@
                     },
                     {
                         "type": "minecraft:play_sound",
-                        "sound": "entity.leash_knot.place"
+                        "sound": "item.lead.tied"
                     }
                 ]
             }
