@@ -6,6 +6,7 @@
 # Remove match
 function windings:lens/decipher
 function windings:lens/decipher
-data modify entity @s data.Inscribed append value "cry"
+function windings:lens/decipher
+data modify entity @s data.Inscribed append value "shar"
 # Prevent future matches
 data remove storage windings parse.match
