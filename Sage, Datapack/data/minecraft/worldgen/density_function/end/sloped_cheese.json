@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:max",
+  "argument1": "minecraft:end/large_cheese",
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "cache_2d",
+        "argument": "minecraft:end/small_cheese"
+      },
+      "argument2": "minecraft:end/small_cheese"
+    },
+    "argument2": 0.5
+  }
+}

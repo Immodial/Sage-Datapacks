@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:weird_scaled_sampler",
+          "rarity_value_mapper": "type_1",
+          "noise": "minecraft:end/tendrils",
+          "input": 1
+        },
+        "argument2": -1
+      },
+      "argument2": "minecraft:end/base_3d_noise"
+    },
+    "argument2": 0.2
+  },
+  "argument2": 2
+}

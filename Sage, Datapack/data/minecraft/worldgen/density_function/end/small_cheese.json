@@ -1,0 +1,29 @@
+{
+  "type": "cache_once",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:weird_scaled_sampler",
+            "rarity_value_mapper": "type_1",
+            "noise": "minecraft:end/paths",
+            "input": 1
+          },
+          "argument2": -1
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": "minecraft:end/base_3d_noise",
+          "argument2": 0.4
+        }
+      },
+      "argument2": 0.15
+    },
+    "argument2": 4
+  }
+}
