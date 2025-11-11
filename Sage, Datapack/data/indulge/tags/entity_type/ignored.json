@@ -13,7 +13,6 @@
     "minecraft:chest_minecart",
     "minecraft:spawner_minecart",
     "minecraft:command_block_minecart",
-    "minecraft:boat",
-    "minecraft:chest_boat"
+    "#indulge:all_boats"
   ]
 }
