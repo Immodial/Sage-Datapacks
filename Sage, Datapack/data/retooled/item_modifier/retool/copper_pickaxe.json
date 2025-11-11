@@ -17,18 +17,13 @@
                     "extra": [{"translate": "attribute.name.attack_damage"}]
                 },
                 {
-                    "text": " 1.1 ",
+                    "text": " 1.2 ",
                     "color": "dark_green",
                     "italic": false,
                     "extra": [{"translate": "attribute.name.attack_speed"}]
                 },
                 {
                     "translate": "trait.retooled.length.medium",
-                    "color": "dark_green",
-                    "italic": false
-                },
-                {
-                    "translate": "trait.retooled.knockback.weak",
                     "color": "dark_green",
                     "italic": false
                 }
@@ -51,14 +46,7 @@
                 {
                     "id": "retooled:weapon_speed",
                     "type": "minecraft:attack_speed",
-                    "amount": -2.9,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                },
-                {
-                    "id": "retooled:weapon_knockback",
-                    "type": "minecraft:attack_knockback",
-                    "amount": 1,
+                    "amount": -2.8,
                     "operation": "add_value",
                     "slot": "mainhand"
                 }

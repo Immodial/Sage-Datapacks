@@ -13,6 +13,11 @@ execute if items entity @s contents stone_axe[!custom_data] run item modify enti
 execute if items entity @s contents stone_pickaxe[!custom_data] run item modify entity @s contents retooled:retool/stone_pickaxe
 execute if items entity @s contents stone_shovel[!custom_data] run item modify entity @s contents retooled:retool/stone_shovel
 execute if items entity @s contents stone_hoe[!custom_data] run item modify entity @s contents retooled:retool/stone_hoe
+execute if items entity @s contents copper_sword[!custom_data] run item replace entity @s contents with minecraft:copper_axe
+execute if items entity @s contents copper_axe[!custom_data] run item modify entity @s contents retooled:retool/copper_axe
+execute if items entity @s contents copper_pickaxe[!custom_data] run item modify entity @s contents retooled:retool/copper_pickaxe
+execute if items entity @s contents copper_shovel[!custom_data] run item modify entity @s contents retooled:retool/copper_shovel
+execute if items entity @s contents copper_hoe[!custom_data] run item modify entity @s contents retooled:retool/copper_hoe
 execute if items entity @s contents iron_sword[!custom_data] run item modify entity @s contents retooled:retool/iron_sword
 execute if items entity @s contents iron_axe[!custom_data] run item modify entity @s contents retooled:retool/iron_axe
 execute if items entity @s contents iron_pickaxe[!custom_data] run item modify entity @s contents retooled:retool/iron_pickaxe

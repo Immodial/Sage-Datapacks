@@ -2,6 +2,7 @@
     "values": [
       "#retooled:custom/tools/wooden",
       "#retooled:custom/tools/stone",
+      "#retooled:custom/tools/copper",
       "#retooled:custom/tools/iron",
       "#retooled:custom/tools/golden",
       "#retooled:custom/tools/diamond",
@@ -10,6 +11,7 @@
       "minecraft:trident",
       "minecraft:mace",
       "#retooled:custom/armor/leather",
+      "#retooled:custom/armor/copper",
       "#retooled:custom/armor/iron",
       "#retooled:custom/armor/diamond",
       "#retooled:custom/armor/netherite"

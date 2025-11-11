@@ -23,6 +23,16 @@ execute if items entity @s weapon.mainhand stone_shovel[!custom_data] run item m
 execute if items entity @s weapon.offhand stone_shovel[!custom_data] run item modify entity @s weapon.offhand retooled:retool/stone_shovel
 execute if items entity @s weapon.mainhand stone_hoe[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/stone_hoe
 execute if items entity @s weapon.offhand stone_hoe[!custom_data] run item modify entity @s weapon.offhand retooled:retool/stone_hoe
+execute if items entity @s weapon.mainhand copper_sword[!custom_data] run item replace entity @s weapon.mainhand with minecraft:copper_axe
+execute if items entity @s weapon.offhand copper_sword[!custom_data] run item replace entity @s weapon.offhand with minecraft:copper_axe
+execute if items entity @s weapon.mainhand copper_axe[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/copper_axe
+execute if items entity @s weapon.offhand copper_axe[!custom_data] run item modify entity @s weapon.offhand retooled:retool/copper_axe
+execute if items entity @s weapon.mainhand copper_pickaxe[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/copper_pickaxe
+execute if items entity @s weapon.offhand copper_pickaxe[!custom_data] run item modify entity @s weapon.offhand retooled:retool/copper_pickaxe
+execute if items entity @s weapon.mainhand copper_shovel[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/copper_shovel
+execute if items entity @s weapon.offhand copper_shovel[!custom_data] run item modify entity @s weapon.offhand retooled:retool/copper_shovel
+execute if items entity @s weapon.mainhand copper_hoe[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/copper_hoe
+execute if items entity @s weapon.offhand copper_hoe[!custom_data] run item modify entity @s weapon.offhand retooled:retool/copper_hoe
 execute if items entity @s weapon.mainhand iron_sword[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/iron_sword
 execute if items entity @s weapon.offhand iron_sword[!custom_data] run item modify entity @s weapon.offhand retooled:retool/iron_sword
 execute if items entity @s weapon.mainhand iron_axe[!custom_data] run item modify entity @s weapon.mainhand retooled:retool/iron_axe

@@ -11,7 +11,7 @@
                     "italic": false
                 },
                 {
-                    "text": " 4 ",
+                    "text": " 5 ",
                     "color": "dark_green",
                     "italic": false,
                     "extra": [{"translate": "attribute.name.attack_damage"}]

@@ -1,8 +1,29 @@
-[
-    {
-        "function": "minecraft:set_components",
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "XXX",
+        "X#X",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:stick",
+        "X": "minecraft:copper_ingot"
+    },
+    "result": {
+        "id": "minecraft:copper_pickaxe",
+        "count": 1,
         "components": {
+            "minecraft:item_name": [{"translate":"item.retooled.copper_hammer"}],
             "minecraft:custom_data": {"RTModified":true},
+            "minecraft:item_model": "retooled:copper_hammer",
+            "max_damage": 190,
+            "tool": {
+                "rules": [
+                    {"blocks": "#retooled:mineable/hammer", "speed": 10, "correct_for_drops": true},
+                    {"blocks": "#minecraft:incorrect_for_copper_tool", "correct_for_drops": false}
+                ]
+            },
             "minecraft:lore": [
                 {"text": ""},
                 {
@@ -11,13 +32,13 @@
                     "italic": false
                 },
                 {
-                    "text": " 4 ",
+                    "text": " 7 ",
                     "color": "dark_green",
                     "italic": false,
                     "extra": [{"translate": "attribute.name.attack_damage"}]
                 },
                 {
-                    "text": " 1.1 ",
+                    "text": " 0.8 ",
                     "color": "dark_green",
                     "italic": false,
                     "extra": [{"translate": "attribute.name.attack_speed"}]
@@ -28,7 +49,7 @@
                     "italic": false
                 },
                 {
-                    "translate": "trait.retooled.knockback.weak",
+                    "translate": "trait.retooled.knockback.strong",
                     "color": "dark_green",
                     "italic": false
                 }
@@ -37,7 +58,7 @@
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
-                    "amount": 3,
+                    "amount": 6,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
@@ -51,14 +72,14 @@
                 {
                     "id": "retooled:weapon_speed",
                     "type": "minecraft:attack_speed",
-                    "amount": -2.9,
+                    "amount": -3.2,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
                 {
                     "id": "retooled:weapon_knockback",
                     "type": "minecraft:attack_knockback",
-                    "amount": 1,
+                    "amount": 1.5,
                     "operation": "add_value",
                     "slot": "mainhand"
                 }
@@ -68,4 +89,5 @@
             }
         }
     }
-]
+}
+  

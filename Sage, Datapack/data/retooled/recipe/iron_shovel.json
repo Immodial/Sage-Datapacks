@@ -29,7 +29,7 @@
                     "extra": [{"translate": "attribute.name.attack_damage"}]
                 },
                 {
-                    "text": " 1 ",
+                    "text": " 1.1 ",
                     "color": "dark_green",
                     "italic": false,
                     "extra": [{"translate": "attribute.name.attack_speed"}]
@@ -63,7 +63,7 @@
                 {
                     "id": "retooled:weapon_speed",
                     "type": "minecraft:attack_speed",
-                    "amount": -3,
+                    "amount": -2.9,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
