@@ -9,7 +9,7 @@
         "#": "minecraft:copper_ingot"
     },
     "result": {
-        "id": "minecraft:chainmail_boots",
+        "id": "minecraft:copper_boots",
         "count": 1,
         "components": {
             "minecraft:custom_data": {"RTModified":true},
