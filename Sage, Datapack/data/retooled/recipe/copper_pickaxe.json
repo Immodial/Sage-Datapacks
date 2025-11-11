@@ -44,7 +44,7 @@
                 {
                     "id": "retooled:weapon_attack",
                     "type": "minecraft:attack_damage",
-                    "amount": 3,
+                    "amount": 2,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },

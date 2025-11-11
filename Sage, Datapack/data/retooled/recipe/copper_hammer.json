@@ -20,7 +20,7 @@
             "max_damage": 190,
             "tool": {
                 "rules": [
-                    {"blocks": "#retooled:mineable/hammer", "speed": 10, "correct_for_drops": true},
+                    {"blocks": "#retooled:mineable/hammer", "speed": 8, "correct_for_drops": true},
                     {"blocks": "#minecraft:incorrect_for_copper_tool", "correct_for_drops": false}
                 ]
             },
