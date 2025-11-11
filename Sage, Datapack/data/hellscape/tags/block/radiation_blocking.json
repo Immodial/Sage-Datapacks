@@ -9,6 +9,10 @@
       "#hellscape:copper/stairs",
       "#hellscape:copper/doors",
       "#hellscape:copper/trapdoors",
+      "#hellscape:copper/chests",
+      "#hellscape:copper/bars",
+      "#hellscape:copper/chains",
+      "#hellscape:copper/lanterns",
       "#hellscape:netherite"
     ]
 }  
