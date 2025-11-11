@@ -4,7 +4,7 @@
 ## >> Does: Set path to find radiation
 ## >> Input: Yaw (int), Pitch (int)
 scoreboard players set _RadDistance HSGlobals 20
-scoreboard players set _RadMax HSGlobals 1
+scoreboard players set _RadMax HSGlobals 0
 $execute rotated $(Yaw) $(Pitch) run function hellscape:radcast
 scoreboard players operation @s HSRadiation += _RadMax HSGlobals
 scoreboard players reset _RadDistance
