@@ -20,7 +20,7 @@ for /d %%d in (*) do (
 				echo Close this window if you do not want it overwritten!
 			)
 			pause
-			rmdir "%%d/datapacks/Sage, Datapack"
+			rmdir /s /q "%%d/datapacks/Sage, Datapack"
 			mkdir "%%d/datapacks/Sage, Datapack"
 			robocopy "%datadir%/Sage, Datapack" "%%d/datapacks/Sage, Datapack" /E
 			set "msg='Installed, leave and reenter the world to play Sage!'"
