@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "has_tool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"predicates": {
+            "custom_data": {
+              "RTModified":true
+            }
+          }}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_tool"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "study:tools"
+    ]
+  }
+}

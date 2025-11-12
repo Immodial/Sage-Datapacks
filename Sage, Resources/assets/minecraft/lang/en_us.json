@@ -100,5 +100,7 @@
     "death.attack.radiation": "%1$s succumbed to radiation",
     "death.attack.radiation.player": "%1$s's skin flaked off while trying to escape %2$s",
     
+    "item.study.study": "Study",
+    
     "block.minecraft.firefly_bush": "Firefly Grass"
 }

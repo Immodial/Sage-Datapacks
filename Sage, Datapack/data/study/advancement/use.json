@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "use_study": {
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "requirements": [
+    [
+      "use_study"
+    ]
+  ],
+  "rewards": {
+    "function": "study:use"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "every_tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "every_tick"
+    ]
+  ],
+  "rewards": {
+    "function": "study:tick"
+  }
+}

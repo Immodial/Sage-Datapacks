@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "is_hot": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "FBTemperature": {
+                "min": 1800
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "is_hot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "study:hot"
+    ]
+  }
+}

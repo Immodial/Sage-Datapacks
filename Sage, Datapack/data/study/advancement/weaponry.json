@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "hit_mob": {
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "requirements": [
+    [
+      "hit_mob"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "study:weapons"
+    ]
+  }
+}

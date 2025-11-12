@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "has_died": {
+      "trigger": "minecraft:entity_killed_player"
+    }
+  },
+  "requirements": [
+    [
+      "has_died"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "study:dying"
+    ]
+  }
+}

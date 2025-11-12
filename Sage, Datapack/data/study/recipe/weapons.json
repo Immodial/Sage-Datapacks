@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:paper",
+        ["minecraft:wooden_sword"]
+    ],
+    "result": {
+        "id": "minecraft:paper",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": [{"translate": "item.study.study"}],
+            "minecraft:lore": [{"text":"Weaponry","italic":false,"color": "dark_green"}],
+            "minecraft:item_model": "study:study",
+            "minecraft:custom_data": {"SDYStudy": "weapons"},
+            "minecraft:consumable": {
+                "consume_seconds": 100000,
+                "animation": "block",
+                "has_consume_particles": false
+            },
+            "!minecraft:max_stack_size": {} 
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "hit_by_zombie": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "#apoca:zombie"
+          }
+        }
+      }
+    },
+    "hit_zombie": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "#apoca:zombie"
+        }
+      }
+    },
+    "has_rotten_flesh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+                "items": "minecraft:rotten_flesh"
+            }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hit_zombie",
+      "hit_by_zombie",
+      "has_rotten_flesh"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "study:zombies"
+    ]
+  }
+}

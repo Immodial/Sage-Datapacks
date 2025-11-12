@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "is_irradiated": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "HSRadiation": {
+                "min": 80
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "is_irradiated"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "study:radiation"
+    ]
+  }
+}
