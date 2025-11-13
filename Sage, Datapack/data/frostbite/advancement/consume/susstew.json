@@ -1,0 +1,21 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "ate_suspicious_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:suspicious_stew"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate_suspicious_stew"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:consume/susstew"
+  }
+}

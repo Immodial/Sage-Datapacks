@@ -1,0 +1,21 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "ate_baked_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:baked_potato"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate_baked_potato"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:consume/bakedpotato"
+  }
+}

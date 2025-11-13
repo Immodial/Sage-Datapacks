@@ -1,0 +1,21 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "ate_rabbit_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:rabbit_stew"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate_rabbit_stew"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:consume/rabbitstew"
+  }
+}

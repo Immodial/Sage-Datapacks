@@ -1,0 +1,21 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "ate_pumpkin_pie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:pumpkin_pie"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate_pumpkin_pie"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:consume/pie"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "ate_mushroom_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:mushroom_stew"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate_mushroom_stew"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:consume/mushstew"
+  }
+}

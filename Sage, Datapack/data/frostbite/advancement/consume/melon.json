@@ -1,0 +1,21 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "ate_melon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:melon_slice"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate_melon"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:consume/melon"
+  }
+}

@@ -1,0 +1,10 @@
+## >> From: frostbite:consume/beetsoup (advancement)
+## >> At: Player who ate a beetroot soup
+## >> As: Player who ate a beetroot soup
+## >> Does: Reduce temperature
+## >> Input: None
+# Reset drink
+advancement revoke @s only frostbite:consume/beetsoup
+execute if score @s FBTemperature matches 1.. run scoreboard players remove @s FBTemperature 200
+execute as @s[gamemode=!creative,gamemode=!spectator,level=1..] run function frostbite:tempmeter
+execute as @s[gamemode=!creative,gamemode=!spectator,level=0] run function frostbite:tempmeterlow

@@ -1,0 +1,21 @@
+{
+  "parent": "frostbite:trigger",
+  "criteria": {
+    "drank": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "drank"
+    ]
+  ],
+  "rewards": {
+    "function": "frostbite:consume/drink"
+  }
+}
