@@ -1,4 +1,4 @@
-## >> From: frostbite:longloop
+## >> From: frostbite:meterloop, frostbite:consume/
 ## >> At: None
 ## >> As: Any player not in creative or spectator
 ## >> Does: Refresh UI

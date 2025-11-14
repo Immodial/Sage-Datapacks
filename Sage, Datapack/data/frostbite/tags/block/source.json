@@ -1,0 +1,10 @@
+{
+  "values": [
+      "minecraft:fire",
+      "minecraft:magma_block",
+      "#frostbite:source/safe_fire",
+      "#frostbite:source/lava",
+      "#frostbite:source/snowy",
+      "#frostbite:source/soul"
+  ]
+}

@@ -7,7 +7,7 @@
         "player": {
           "stepping_on": {
             "block": {
-              "blocks": "#frostbite:frozen"
+              "blocks": "#frostbite:temperature/frozen"
             }
           }
         }
@@ -19,7 +19,7 @@
         "player": {
           "location": {
             "block": {
-              "blocks": "#frostbite:frozen"
+              "blocks": "#frostbite:temperature/frozen"
             }
           }
         }

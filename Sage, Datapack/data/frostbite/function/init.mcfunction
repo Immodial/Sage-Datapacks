@@ -15,5 +15,7 @@ scoreboard players set WaterModifier FBGlobals 4
 # Loops
 schedule clear frostbite:loop
 schedule function frostbite:loop 1
-schedule clear frostbite:longloop
-schedule function frostbite:longloop 1
+schedule clear frostbite:sourceloop
+schedule function frostbite:sourceloop 1
+schedule clear frostbite:meterloop
+schedule function frostbite:meterloop 1
