@@ -72,7 +72,7 @@ tellraw @s[scores={WNDGDictPage=6}] [{"text":"   Can be crafted; made with ","fo
 
 tellraw @s[scores={WNDGDictPage=7}] [{"text":"G","font":"windings:winding"},{"text":" Resin","font":"minecraft:default"}]
 tellraw @s[scores={WNDGDictPage=7}] [{"text":"   Secondary Glyph: Pain - May thine enemies suffer","font":"minecraft:default"}]
-tellraw @s[scores={WNDGDictPage=7}] [{"text":"   Can be crafted; made with ","font":"minecraft:default"},{"text":"[A<XR<X ]","font":"windings:winding"}]
+tellraw @s[scores={WNDGDictPage=7}] [{"text":"   Can be crafted; made with ","font":"minecraft:default"},{"text":"[A<XC<X ]","font":"windings:winding"}]
 tellraw @s[scores={WNDGDictPage=7}] [{"text":"G<X","font":"windings:winding"},{"text":" Resin Major","font":"minecraft:default"}]
 tellraw @s[scores={WNDGDictPage=7}] [{"text":"   May thine raiders die quickly","font":"minecraft:default"}]
 tellraw @s[scores={WNDGDictPage=7}] [{"text":"   Made with ","font":"minecraft:default"},{"text":"[GC<X ]","font":"windings:winding"}]
