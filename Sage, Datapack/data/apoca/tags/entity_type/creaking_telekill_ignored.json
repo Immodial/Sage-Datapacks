@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:player",
+    "#apoca:nonphysical",
+    "minecraft:item",
+    "minecraft:armor_stand",
+    "minecraft:item_frame",
+    "minecraft:glow_item_frame",
+    "minecraft:painting",
+    "minecraft:pale_oak_boat",
+    "minecraft:pale_oak_chest_boat"
+  ]
+}
