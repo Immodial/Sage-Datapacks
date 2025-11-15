@@ -5,28 +5,19 @@
 ## >> Input: None
 # Apply stats
 execute if entity @s[tag=!APOCModified] run function apoca:stats/zombie
-# Apply bonuses if in a crowd
-execute if score @s APOCZombieDensity matches 3.. run attribute @s armor modifier add apoca:small_crowd_armor 4 add_value
-execute if score @s APOCZombieDensity matches 6.. run attribute @s armor modifier add apoca:medium_crowd_armor 2 add_value
-execute if score @s APOCZombieDensity matches 6.. run attribute @s attack_damage modifier add apoca:medium_crowd_damage 1 add_value
-execute if score @s APOCZombieDensity matches 6.. run attribute @s knockback_resistance modifier add apoca:medium_crowd_resilience 0.3 add_value
-execute if score @s APOCZombieDensity matches 10.. run attribute @s armor modifier add apoca:large_crowd_armor 3 add_value
-execute if score @s APOCZombieDensity matches 10.. run attribute @s attack_damage modifier add apoca:large_crowd_damage 2 add_value
-execute if score @s APOCZombieDensity matches 10.. run attribute @s attack_knockback modifier add apoca:large_crowd_knockback 2 add_value
-execute if score @s APOCZombieDensity matches 10.. run attribute @s knockback_resistance modifier add apoca:large_crowd_resilience 0.5 add_value
-# Remove those bonuses otherwise
-execute unless score @s APOCZombieDensity matches 3.. run attribute @s armor modifier remove apoca:small_crowd_armor
-execute unless score @s APOCZombieDensity matches 6.. run attribute @s armor modifier remove apoca:medium_crowd_armor
-execute unless score @s APOCZombieDensity matches 6.. run attribute @s attack_damage modifier remove apoca:medium_crowd_damage
-execute unless score @s APOCZombieDensity matches 6.. run attribute @s knockback_resistance modifier remove apoca:medium_crowd_resilience
-execute unless score @s APOCZombieDensity matches 10.. run attribute @s armor modifier remove apoca:large_crowd_armor
-execute unless score @s APOCZombieDensity matches 10.. run attribute @s attack_damage modifier remove apoca:large_crowd_damage
-execute unless score @s APOCZombieDensity matches 10.. run attribute @s attack_knockback modifier remove apoca:large_crowd_knockback
-execute unless score @s APOCZombieDensity matches 10.. run attribute @s knockback_resistance modifier remove apoca:large_crowd_resilience
-# Spawn zombies randomly
-execute if predicate {"condition":"random_chance","chance":0.02} unless predicate apoca:daytime_lenient if dimension overworld run function apoca:special/horde
+# Reset horde call ability when not angry
+scoreboard players remove @s APOCHordeCooldown 1
+tag @s add APOCAngerChecking
+execute on target if entity @s[type=#apoca:horde_target] run tag @n[tag=APOCAngerChecking] add APOCAngerChecked
+tag @s remove APOCAngerChecking
+scoreboard players set @s[tag=!APOCHordeCharging,tag=!APOCAngerChecked] APOCHordeCooldown 200
+scoreboard players set @s[tag=!APOCHordeCharging,scores={APOCZombieDensity=5..}] APOCHordeCooldown 200
+# When horde summon is charged, randomly decide to do it
+execute unless entity @e[tag=APOCHordeCharging,distance=..30] unless entity @e[type=zombie,scores={APOCZombieDensity=6..},distance=..40] if score @s APOCHordeCooldown matches ..0 if predicate {"condition":"random_chance","chance":0.02} unless predicate apoca:daytime_lenient if dimension overworld run function apoca:special/hordecharge
+execute if entity @s[tag=APOCHordeCharging] if score @s APOCHordeCooldown matches ..0 if dimension overworld run function apoca:special/horde
 # Randomly dissapear during day
-execute if predicate {"condition":"random_chance","chance":0.001} if predicate apoca:daytime_lenient unless entity @e[type=#apoca:avoided,distance=..30] if dimension overworld run tp @s ~ -1000 ~
+execute if predicate {"condition":"random_chance","chance":0.001} if predicate apoca:daytime_lenient unless entity @p[distance=..30] if dimension overworld run tp @s ~ -1000 ~
+tag @s remove APOCAngerChecked
 # Die quickly if in fire
 execute if block ~ ~ ~ #apoca:melting run attribute @s burning_time modifier add apoca:stepped_in_fire 1000 add_value
 execute if block ~ ~ ~ #apoca:melting run tag @s add APOCMelting

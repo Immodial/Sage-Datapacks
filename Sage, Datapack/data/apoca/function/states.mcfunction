@@ -11,7 +11,8 @@ scoreboard players set %MoonCycle APOCGlobals 8
 scoreboard players operation %MoonPhase APOCGlobals %= %MoonCycle APOCGlobals
 # Find horde density
 scoreboard players reset * APOCZombieDensity
-execute as @e[type=#apoca:zombie] at @s run scoreboard players add @e[type=#apoca:zombie,distance=..6] APOCZombieDensity 1
+execute as @e[type=#apoca:zombie] at @s run scoreboard players add @e[type=#apoca:zombie,distance=..12] APOCZombieDensity 1
+execute as @e[type=#apoca:zombie] run function apoca:special/hordebuffs
 # Find cramming limit
 scoreboard players reset * APOCCramming
 execute store result score %Cramming APOCGlobals run gamerule maxEntityCramming
