@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:apple"}
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "indulge:apple_pie"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_apple"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "indulge:apple_pie"
+    ]
+  }
+}
