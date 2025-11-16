@@ -3,5 +3,6 @@
 ## >> As: Player being in water
 ## >> Does: Update player temperature
 ## >> Input: None
-scoreboard players set @s FBWetness 120
 advancement revoke @s only frostbite:touch/wet
+execute on vehicle if entity @s[type=#frostbite:water_blocking] run return fail
+scoreboard players set @s FBWetness 120
