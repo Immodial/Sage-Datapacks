@@ -56,12 +56,15 @@ tellraw @s[scores={WNDGDictPage=4}] [{"text":"C<Z","font":"windings:winding"},{"
 tellraw @s[scores={WNDGDictPage=4}] [{"text":"   May thine rapidity exceed the winds","font":"minecraft:default"}]
 tellraw @s[scores={WNDGDictPage=4}] [{"text":"   Made with ","font":"minecraft:default"},{"text":"[C<XC<X ]","font":"windings:winding"}]
 
-tellraw @s[scores={WNDGDictPage=5}] [{"text":"D","font":"windings:winding"},{"text":" Amethyst","font":"minecraft:default"}]
+tellraw @s[scores={WNDGDictPage=5}] [{"text":"D ","font":"windings:winding"},{"text":" Amethyst","font":"minecraft:default"}]
 tellraw @s[scores={WNDGDictPage=5}] [{"text":"   Secondary Glyph: Projection - May thine spells be cast afar","font":"minecraft:default"}]
 tellraw @s[scores={WNDGDictPage=5}] [{"text":"   Can be crafted; made with ","font":"minecraft:default"},{"text":"[B<XC<X ]","font":"windings:winding"}]
 tellraw @s[scores={WNDGDictPage=5}] [{"text":"D <X","font":"windings:winding"},{"text":" Amethyst Major","font":"minecraft:default"}]
 tellraw @s[scores={WNDGDictPage=5}] [{"text":"   May thine gaze cast such spells","font":"minecraft:default"}]
-tellraw @s[scores={WNDGDictPage=5}] [{"text":"   Made with ","font":"minecraft:default"},{"text":"[DC<X ]","font":"windings:winding"}]
+tellraw @s[scores={WNDGDictPage=5}] [{"text":"   Made with ","font":"minecraft:default"},{"text":"[D C<X ]","font":"windings:winding"}]
+tellraw @s[scores={WNDGDictPage=5}] [{"text":"D <Y","font":"windings:winding"},{"text":" Amethyst Alt","font":"minecraft:default"}]
+tellraw @s[scores={WNDGDictPage=5}] [{"text":"   May thine course run wild","font":"minecraft:default"}]
+tellraw @s[scores={WNDGDictPage=5}] [{"text":"   Made with ","font":"minecraft:default"},{"text":"[D C<Y ]","font":"windings:winding"}]
 
 tellraw @s[scores={WNDGDictPage=6}] [{"text":"E","font":"windings:winding"},{"text":" Prismarine Shard","font":"minecraft:default"}]
 tellraw @s[scores={WNDGDictPage=6}] [{"text":"   Secondary Glyph: Teleport Players - May thine peoples be brought together","font":"minecraft:default"}]

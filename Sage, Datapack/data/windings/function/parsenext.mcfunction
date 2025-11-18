@@ -56,8 +56,8 @@ execute if data storage windings {parse:{match:{1:"redmaj",2:"lapmaj"}}} run fun
 execute if data storage windings {parse:{match:{1:"lapmaj",2:"redmaj"}}} run function windings:pattern/2ame
 execute if data storage windings {parse:{match:{1:"ame",2:"redmaj"}}} run function windings:pattern/2amemaj
 execute if data storage windings {parse:{match:{1:"redmaj",2:"ame"}}} run function windings:pattern/2amemaj
-#execute if data storage windings {parse:{match:{1:"ame",2:"lapmaj"}}} run function windings:pattern/2amealt
-#execute if data storage windings {parse:{match:{1:"lapmaj",2:"ame"}}} run function windings:pattern/2amealt
+execute if data storage windings {parse:{match:{1:"ame",2:"lapmaj"}}} run function windings:pattern/2amealt
+execute if data storage windings {parse:{match:{1:"lapmaj",2:"ame"}}} run function windings:pattern/2amealt
 #execute if data storage windings {parse:{match:{1:"cry",2:"lapmaj"}}} run function windings:pattern/2cryalt
 #execute if data storage windings {parse:{match:{1:"lapmaj",2:"cry"}}} run function windings:pattern/2cryalt
 #execute if data storage windings {parse:{match:{1:"shar",2:"lapmaj"}}} run function windings:pattern/2sharalt
