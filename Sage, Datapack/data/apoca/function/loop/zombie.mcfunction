@@ -5,6 +5,8 @@
 ## >> Input: None
 # Apply stats
 execute if entity @s[tag=!APOCModified] run function apoca:stats/zombie
+# When lacking a helmet, wear use "scalp" to prevent burning
+execute unless items entity @s armor.head * run item replace entity @s armor.head with rotten_flesh[custom_data={"APOCScalp":true},item_model="air"]
 # Reset horde call ability when not angry
 scoreboard players remove @s APOCHordeCooldown 1
 tag @s add APOCAngerChecking
@@ -19,8 +21,8 @@ execute if entity @s[tag=APOCHordeCharging] if score @s APOCHordeCooldown matche
 execute if predicate {"condition":"random_chance","chance":0.001} if predicate apoca:daytime_lenient unless entity @p[distance=..30] if dimension overworld run tp @s ~ -1000 ~
 tag @s remove APOCAngerChecked
 # Die quickly if in fire
-execute if block ~ ~ ~ #apoca:melting run attribute @s burning_time modifier add apoca:stepped_in_fire 1000 add_value
-execute if block ~ ~ ~ #apoca:melting run tag @s add APOCMelting
+execute unless data entity @s {Fire:0s} run tag @s add APOCMelting
+execute if block ~ ~ ~ water run tag @s remove APOCMelting
 execute if entity @s[tag=APOCMelting] run data modify entity @s Fire set value 10s
 execute if entity @s[tag=APOCMelting] if block ~ ~ ~ #minecraft:replaceable run setblock ~ ~0.1 ~ fire
 # Only break blocks if in high density crowd, near player, and in front of blocks

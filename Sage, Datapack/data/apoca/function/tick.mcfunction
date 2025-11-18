@@ -18,8 +18,10 @@ execute as @e[type=creaking] at @s run function apoca:loop/creaking
 execute as @e[type=fireball] at @s run function apoca:loop/fireball
 execute as @e[type=experience_orb] at @s run function apoca:loop/xporb
 execute as @e[type=#apoca:champion,tag=APOCChampion] at @s run function apoca:loop/champion
-# Remove excess hats
+# Remove excess hats and scalps
 execute as @e[type=item_display,tag=APOCEnderHat] unless function apoca:special/seated run kill @s
+execute as @e[type=item] if items entity @s contents rotten_flesh[custom_data~{"APOCScalp":true}] run kill @s
+clear @a rotten_flesh[custom_data~{"APOCScalp":true}]
 # Update graves
 execute as @e[type=marker,tag=APOCGrave] at @s run particle sculk_soul ~ ~0.5 ~ 0.4 0.4 0.4 0 1 force
 scoreboard players add @e[type=marker,tag=APOCGrave] APOCGraveTime 1
