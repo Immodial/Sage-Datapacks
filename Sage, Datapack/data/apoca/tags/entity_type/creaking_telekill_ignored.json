@@ -2,6 +2,7 @@
   "values": [
     "minecraft:player",
     "#apoca:nonphysical",
+    "#minecraft:impact_projectiles",
     "minecraft:item",
     "minecraft:armor_stand",
     "minecraft:item_frame",

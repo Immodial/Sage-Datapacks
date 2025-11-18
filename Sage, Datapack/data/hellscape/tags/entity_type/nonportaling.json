@@ -4,6 +4,7 @@
       "minecraft:interaction",
       "minecraft:block_display",
       "minecraft:item_display",
-      "minecraft:text_display"
+      "minecraft:text_display",
+      "minecraft:area_effect_cloud"
   ]
 }
