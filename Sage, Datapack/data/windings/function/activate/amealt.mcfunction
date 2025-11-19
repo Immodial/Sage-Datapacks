@@ -20,5 +20,6 @@ tag @s[tag=WNDGAmeAltThird] add WNDGAmeAltFourth
 tag @s[tag=WNDGAmeAltSecond] add WNDGAmeAltThird
 tag @s[tag=WNDGAmeAltFirst] add WNDGAmeAltSecond
 tag @s add WNDGAmeAltFirst
-execute if entity @s[tag=!WNDGAmeAltFourth] at @s run return run function windings:activate/amealt
-execute if predicate {"condition":"random_chance","chance":0.85} at @s run function windings:activate/amealt
+execute unless entity @s[tag=!WNDGAmeAltFourth] if predicate {"condition":"random_chance","chance":0.85} at @s run function windings:activate/amealt
+execute if entity @s[tag=!WNDGAmeAltFourth] at @s run function windings:activate/amealt
+rotate @s ~ ~

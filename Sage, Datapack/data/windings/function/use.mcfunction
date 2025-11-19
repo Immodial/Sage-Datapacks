@@ -7,19 +7,24 @@
 advancement revoke @s only windings:use
 # Charge spell
 execute store result score _SpellCharge WNDGGlobals run data get entity @s SelectedItem.components."minecraft:custom_data".WNDGInscribed
-execute unless items entity @s weapon.mainhand *[custom_data~{WNDGFast:true}] run scoreboard players operation _SpellCharge WNDGGlobals *= %SpellCost WNDGGlobals
-execute if items entity @s weapon.mainhand *[custom_data~{WNDGFast:true}] run function windings:speedup
+execute unless items entity @s weapon.mainhand *[custom_data~{WNDGHeavy:true}] run scoreboard players operation _SpellCharge WNDGGlobals *= %SpellCost WNDGGlobals
+execute if items entity @s weapon.mainhand *[custom_data~{WNDGHeavy:true}] run function windings:heavycharge
 scoreboard players add @s WNDGSpellTime 1
 tag @s add WNDGUsing
 # Inscribe
 execute if items entity @s weapon.* *[custom_data~{WNDGGlyph:true}] run return run function windings:inscribe
-# Wait for full charge to cast
+# Don't try to cast empty windings or ones newly charged
 execute if score _SpellCharge WNDGGlobals matches 0 run return run scoreboard players reset _SpellCharge WNDGGlobals
+execute if items entity @s weapon.mainhand *[custom_data~{WNDGCharged:true}] if score @s WNDGSpellTime matches 3.. run scoreboard players set @s WNDGSpellTime 3
+execute if items entity @s weapon.mainhand *[custom_data~{WNDGCharged:true}] if score @s WNDGSpellTime matches 3.. run return run scoreboard players reset _SpellCharge WNDGGlobals
+# Play sounds and wait till charged
 execute if predicate {condition:"random_chance",chance:0.1} run playsound item.book.page_turn player @a ~ ~ ~ 0.5 0.6
 execute if predicate {condition:"random_chance",chance:0.1} run playsound item.book.page_turn player @a ~ ~ ~ 0.5 0.9
 execute if predicate {condition:"random_chance",chance:0.1} run playsound item.book.page_turn player @a ~ ~ ~ 0.5 1.2
 execute if predicate {condition:"random_chance",chance:0.05} run playsound entity.breeze.idle_ground player @a ~ ~ ~ 0.2 0.8
 execute unless score @s WNDGSpellTime >= _SpellCharge WNDGGlobals run return run scoreboard players reset _SpellCharge WNDGGlobals
+# If using a heavy spellbook, store charge like a crossbow
+execute if items entity @s weapon.mainhand *[custom_data~{WNDGHeavy:true}] if score @s WNDGSpellTime matches 3.. run return run item modify entity @s weapon.mainhand windings:heavy_charged
 # Make spell
 summon marker ~ ~ ~ {Tags:["WNDGSpell","WNDGSpelling"],data:{Inscribed:[]}}
 execute anchored eyes run tp @n[type=marker,tag=WNDGSpelling] ^ ^ ^0.6 ~ ~
