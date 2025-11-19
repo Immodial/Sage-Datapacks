@@ -9,5 +9,6 @@ tag @a[tag=!WNDGUsing] remove WNDGDicting
 tag @a remove WNDGUsing
 # Render spells
 execute as @e[type=marker,tag=WNDGSpell] at @s run function windings:spell
+execute as @e[type=marker,tag=WNDGProjectile] at @s run function windings:corporeal with entity @s data
 # Loop
 schedule function windings:loop 2
