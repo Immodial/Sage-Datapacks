@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "placed_block": {
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "requirements": [
+    [
+      "placed_block"
+    ]
+  ],
+  "rewards": {
+    "function": "glue:merge"
+  }
+}
