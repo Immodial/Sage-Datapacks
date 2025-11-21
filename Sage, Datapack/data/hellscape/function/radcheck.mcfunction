@@ -7,5 +7,6 @@ scoreboard players set _RadDistance HSGlobals 20
 scoreboard players set _RadMax HSGlobals 0
 $execute rotated $(Yaw) $(Pitch) run function hellscape:radcast
 scoreboard players operation @s HSRadiation += _RadMax HSGlobals
+scoreboard players set @s[scores={HSRadiation=..0}] HSRadiation 1
 scoreboard players reset _RadDistance
 scoreboard players reset _RadMax

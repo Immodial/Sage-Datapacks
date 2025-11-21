@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "always": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "periodic_tick": 2,
+          "type_specific": {
+            "type": "minecraft:player",
+            "gamemode": ["survival","adventure"]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "always"
+    ]
+  ],
+  "rewards": {
+    "function": "hellscape:playerfx"
+  }
+}

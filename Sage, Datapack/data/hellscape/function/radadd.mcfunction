@@ -3,7 +3,7 @@
 ## >> As: Any player
 ## >> Does: Cause effects
 ## >> Input: None
-execute if block ~ ~ ~ #hellscape:netherrack_based unless score _RadMax HSGlobals matches 2.. run scoreboard players set _RadMax HSGlobals 2
+execute if block ~ ~ ~ #hellscape:netherrack_based unless score _RadMax HSGlobals matches 3.. run scoreboard players set _RadMax HSGlobals 3
 execute if block ~ ~ ~ #hellscape:blackstone unless score _RadMax HSGlobals matches 2.. run scoreboard players set _RadMax HSGlobals 2
 execute if block ~ ~ ~ basalt unless score _RadMax HSGlobals matches 5.. run scoreboard players set _RadMax HSGlobals 5
 execute if block ~ ~ ~ soul_soil unless score _RadMax HSGlobals matches 6.. run scoreboard players set _RadMax HSGlobals 6
