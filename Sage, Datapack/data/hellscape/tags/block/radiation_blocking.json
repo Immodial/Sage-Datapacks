@@ -13,6 +13,7 @@
       "#hellscape:copper/bars",
       "#hellscape:copper/chains",
       "#hellscape:copper/lanterns",
-      "#hellscape:netherite"
+      "#hellscape:netherite",
+      "minecraft:water"
     ]
 }  
