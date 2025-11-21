@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "always": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "periodic_tick": 3
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "always"
+    ]
+  ],
+  "rewards": {
+    "function": "journey:player"
+  }
+}
