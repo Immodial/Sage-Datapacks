@@ -3,6 +3,7 @@
 ## >> As: Any Player
 ## >> Does: Merge nearby slabs together
 ## >> Input: None
+advancement revoke @s only glue:place_block
 # Wood slabs
 fill ~8 ~8 ~8 ~-8 ~-8 ~-8 oak_planks replace oak_slab[type=double]
 fill ~8 ~8 ~8 ~-8 ~-8 ~-8 birch_planks replace birch_slab[type=double]
