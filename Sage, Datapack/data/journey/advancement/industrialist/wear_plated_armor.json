@@ -1,0 +1,71 @@
+{
+  "parent": "journey:industrialist/wear_redstone_armor",
+  "criteria": {
+    "wear_plated_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:netherite_helmet"
+            }
+          }
+        }
+      }
+    },
+    "wear_plated_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:netherite_chestplate"
+            }
+          }
+        }
+      }
+    },
+    "wear_plated_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:netherite_leggings"
+            }
+          }
+        }
+      }
+    },
+    "wear_plated_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:netherite_boots"
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.industrialist.wear_plated_armor.title"},
+    "description": {"translate": "advancements.industrialist.wear_plated_armor.description"},
+    "icon": {
+      "id": "minecraft:netherite_chestplate",
+      "components": {
+        "item_model": "retooled:plated_chestplate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wear_plated_helmet",
+      "wear_plated_chestplate",
+      "wear_plated_leggings",
+      "wear_plated_boots"
+    ]
+  ]
+}

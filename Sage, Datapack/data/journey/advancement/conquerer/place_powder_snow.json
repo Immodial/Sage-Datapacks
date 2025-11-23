@@ -1,0 +1,111 @@
+{
+  "parent": "journey:conquerer/root",
+  "criteria": {
+    "placed_powder_snow_in_blazing": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:powder_snow"
+              },
+              "biomes": "#frostbite:blazing"
+            }
+          }
+        ]
+      }
+    },
+    "placed_powder_snow_in_tropical": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:powder_snow"
+              },
+              "biomes": "#frostbite:tropical"
+            }
+          }
+        ]
+      }
+    },
+    "placed_powder_snow_in_barren_at_day": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:powder_snow"
+              },
+              "biomes": "#frostbite:barren"
+            }
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "frostbite:day"
+          }
+        ]
+      }
+    },
+    "placed_powder_snow_in_semibarren_at_day": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:powder_snow"
+              },
+              "biomes": "#frostbite:semibarren"
+            }
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "frostbite:day"
+          }
+        ]
+      }
+    },
+    "placed_powder_snow_in_heated_at_day": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:powder_snow"
+              },
+              "biomes": "#frostbite:heated"
+            }
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "frostbite:day"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.conquerer.place_powder_snow.title"},
+    "description": {"translate": "advancements.conquerer.place_powder_snow.description"},
+    "icon": {"id": "minecraft:powder_snow_bucket"}
+  },
+  "requirements": [
+    [
+      "placed_powder_snow_in_blazing",
+      "placed_powder_snow_in_tropical",
+      "placed_powder_snow_in_barren_at_day",
+      "placed_powder_snow_in_semibarren_at_day",
+      "placed_powder_snow_in_heated_at_day"
+    ]
+  ]
+}

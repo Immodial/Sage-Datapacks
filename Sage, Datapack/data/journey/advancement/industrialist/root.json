@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "has_copper_tool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#journey:copper_tools"
+          }
+        ]
+      }
+    },
+    "has_hammer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "RTHammer": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.industrialist.root.title"},
+    "description": {"translate": "advancements.industrialist.root.description"},
+    "icon": {
+      "id": "minecraft:copper_pickaxe",
+      "components": {
+        "item_model": "retooled:copper_hammer"
+      }
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "journey:gui/advancements/backgrounds/copper"
+  },
+  "requirements": [
+    ["has_copper_tool","has_hammer"]
+  ]
+}

@@ -374,7 +374,7 @@
         "function": "minecraft:set_components",
         "components": {
             "minecraft:item_name": [{"translate":"item.retooled.pearlescent_hammer"}],
-            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:custom_data": {"RTModified":true,"RTHammer":true},
             "minecraft:item_model": "retooled:pearlescent_hammer",
             "max_damage": 2621,
             "tool": {

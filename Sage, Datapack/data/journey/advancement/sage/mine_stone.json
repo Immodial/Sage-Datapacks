@@ -1,0 +1,25 @@
+{
+  "parent": "journey:sage/mine_stone",
+  "criteria": {
+    "get_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:stone_tool_materials"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.sage.mine_stone.title"},
+    "description": {"translate": "advancements.sage.mine_stone.description"},
+    "icon": {"id": "minecraft:wooden_pickaxe"}
+  },
+  "requirements": [
+    [
+      "get_stone"
+    ]
+  ]
+}

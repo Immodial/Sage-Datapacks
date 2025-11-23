@@ -1,0 +1,25 @@
+{
+  "parent": "journey:sage/get_iron",
+  "criteria": {
+    "has_iron_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "iron_pickaxe"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.sage.craft_iron_pickaxe.title"},
+    "description": {"translate": "advancements.sage.craft_iron_pickaxe.description"},
+    "icon": {"id": "minecraft:iron_pickaxe"}
+  },
+  "requirements": [
+    [
+      "has_iron_pickaxe"
+    ]
+  ]
+}

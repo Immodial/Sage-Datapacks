@@ -1,0 +1,71 @@
+{
+  "parent": "journey:industrialist/wear_copper_armor",
+  "criteria": {
+    "wear_redstone_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:golden_helmet"
+            }
+          }
+        }
+      }
+    },
+    "wear_redstone_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:golden_chestplate"
+            }
+          }
+        }
+      }
+    },
+    "wear_redstone_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:golden_leggings"
+            }
+          }
+        }
+      }
+    },
+    "wear_redstone_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:golden_boots"
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.industrialist.wear_redstone_armor.title"},
+    "description": {"translate": "advancements.industrialist.wear_redstone_armor.description"},
+    "icon": {
+      "id": "minecraft:golden_chestplate",
+      "components": {
+        "item_model": "retooled:redstone_chestplate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wear_redstone_helmet",
+      "wear_redstone_chestplate",
+      "wear_redstone_leggings",
+      "wear_redstone_boots"
+    ]
+  ]
+}

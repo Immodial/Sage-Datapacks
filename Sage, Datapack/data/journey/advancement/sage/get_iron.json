@@ -1,0 +1,25 @@
+{
+  "parent": "journey:sage/craft_stone_pickaxe",
+  "criteria": {
+    "has_iron_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.sage.get_iron.title"},
+    "description": {"translate": "advancements.sage.get_iron.description"},
+    "icon": {"id": "minecraft:iron_ingot"}
+  },
+  "requirements": [
+    [
+      "has_iron_ingot"
+    ]
+  ]
+}

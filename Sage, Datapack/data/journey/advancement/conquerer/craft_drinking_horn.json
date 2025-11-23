@@ -1,0 +1,24 @@
+{
+  "parent": "journey:conquerer/root",
+  "criteria": {
+    "craft_drinking_horn": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "frostbite:drinking_horn"
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.conquerer.craft_drinking_horn.title"},
+    "description": {"translate": "advancements.conquerer.craft_drinking_horn.description"},
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "item_model": "frostbite:drinking_horn"
+      }
+    }
+  },
+  "requirements": [
+    ["craft_drinking_horn"]
+  ]
+}
