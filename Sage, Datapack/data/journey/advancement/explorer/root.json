@@ -1,0 +1,56 @@
+{
+  "criteria": {
+    "sprint_50_blocks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:sprint_one_cm",
+                "value": {
+                  "min": 5000
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "walk_50_blocks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:walk_one_cm",
+                "value": {
+                  "min": 5000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.explorer.root.title"},
+    "description": {"translate": "advancements.explorer.root.description"},
+    "icon": {"id": "minecraft:filled_map"},
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "journey:gui/advancements/backgrounds/map"
+  },
+  "requirements": [
+    [
+      "sprint_50_blocks",
+      "walk_50_blocks"
+    ]
+  ]
+}

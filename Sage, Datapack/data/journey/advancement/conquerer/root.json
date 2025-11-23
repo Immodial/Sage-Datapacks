@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "bad_temperature": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "FBTemperature": {
+                  "min": -1800,
+                  "max": 1800
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "fought_mob": {
+      "trigger": "minecraft:player_hurt_entity"
+    },
+    "fought_by_mob": {
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.conquerer.root.title"},
+    "description": {"translate": "advancements.conquerer.root.description"},
+    "icon": {"id": "minecraft:iron_axe"},
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "journey:gui/advancements/backgrounds/frozen"
+  },
+  "requirements": [
+    [
+      "bad_temperature",
+      "fought_mob",
+      "fought_by_mob"
+    ]
+  ]
+}

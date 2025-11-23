@@ -1,0 +1,21 @@
+{
+  "parent": "journey:sage/root",
+  "criteria": {
+    "craft_stone_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "retooled:iron_pickaxe"
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.sage.craft_stone_pickaxe.title"},
+    "description": {"translate": "advancements.sage.craft_stone_pickaxe.description"},
+    "icon": {"id": "minecraft:stone_pickaxe"}
+  },
+  "requirements": [
+    [
+      "craft_stone_pickaxe"
+    ]
+  ]
+}

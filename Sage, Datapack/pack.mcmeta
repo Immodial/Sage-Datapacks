@@ -61,7 +61,13 @@
       {"namespace": "^minecraft$", "path": "^recipe/netherite_chestplate_smithing.json$"},
       {"namespace": "^minecraft$", "path": "^recipe/netherite_leggings_smithing.json$"},
       {"namespace": "^minecraft$", "path": "^recipe/netherite_boots_smithing.json$"},
-      {"namespace": "^minecraft$", "path": "^recipe/repair_item.json$"}
+      {"namespace": "^minecraft$", "path": "^recipe/repair_item.json$"},
+
+      {"namespace": "^minecraft$", "path": "^advancement/story"},
+      {"namespace": "^minecraft$", "path": "^advancement/adventure"},
+      {"namespace": "^minecraft$", "path": "^advancement/husbandry"},
+      {"namespace": "^minecraft$", "path": "^advancement/nether"},
+      {"namespace": "^minecraft$", "path": "^advancement/end"}
     ]
   }
 }

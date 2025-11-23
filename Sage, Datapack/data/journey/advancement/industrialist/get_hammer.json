@@ -1,0 +1,34 @@
+{
+  "parent": "journey:industrialist/root",
+  "criteria": {
+    "has_hammer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "RTHammer": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.industrialist.get_hammer.title"},
+    "description": {"translate": "advancements.industrialist.get_hammer.description"},
+    "icon": {
+      "id": "minecraft:iron_pickaxe",
+      "components": {
+        "item_model": "retooled:iron_hammer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_hammer"
+    ]
+  ]
+}

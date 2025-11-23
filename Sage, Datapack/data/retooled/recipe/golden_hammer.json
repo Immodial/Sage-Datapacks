@@ -15,7 +15,7 @@
         "count": 1,
         "components": {
             "minecraft:item_name": [{"translate":"item.retooled.golden_hammer"}],
-            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:custom_data": {"RTModified":true,"RTHammer":true},
             "minecraft:item_model": "retooled:golden_hammer",
             "max_damage": 32,
             "tool": {

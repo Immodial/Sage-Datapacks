@@ -8,7 +8,7 @@
         "function": "minecraft:set_components",
         "components": {
             "minecraft:item_name": [{"translate":"item.retooled.wooden_hammer"}],
-            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:custom_data": {"RTModified":true,"RTHammer":true},
             "minecraft:item_model": "retooled:wooden_hammer",
             "max_damage": 59,
             "tool": {
@@ -90,7 +90,7 @@
         "function": "minecraft:set_components",
         "components": {
             "minecraft:item_name": [{"translate":"item.retooled.stone_hammer"}],
-            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:custom_data": {"RTModified":true,"RTHammer":true},
             "minecraft:item_model": "retooled:stone_hammer",
             "max_damage": 131,
             "tool": {
@@ -172,7 +172,7 @@
         "function": "minecraft:set_components",
         "components": {
             "minecraft:item_name": [{"translate":"item.retooled.copper_hammer"}],
-            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:custom_data": {"RTModified":true,"RTHammer":true},
             "minecraft:item_model": "retooled:copper_hammer",
             "max_damage": 190,
             "tool": {
@@ -254,7 +254,7 @@
         "function": "minecraft:set_components",
         "components": {
             "minecraft:item_name": [{"translate":"item.retooled.iron_hammer"}],
-            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:custom_data": {"RTModified":true,"RTHammer":true},
             "minecraft:item_model": "retooled:iron_hammer",
             "max_damage": 250,
             "tool": {
@@ -336,7 +336,7 @@
         "function": "minecraft:set_components",
         "components": {
             "minecraft:item_name": [{"translate":"item.retooled.diamond_hammer"}],
-            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:custom_data": {"RTModified":true,"RTHammer":true},
             "minecraft:item_model": "retooled:diamond_hammer",
             "max_damage": 1561,
             "tool": {
@@ -418,7 +418,7 @@
         "function": "minecraft:set_components",
         "components": {
             "minecraft:item_name": [{"translate":"item.retooled.netherite_hammer"}],
-            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:custom_data": {"RTModified":true,"RTHammer":true},
             "minecraft:item_model": "retooled:netherite_hammer",
             "max_damage": 2031,
             "tool": {
@@ -500,7 +500,7 @@
         "function": "minecraft:set_components",
         "components": {
             "minecraft:item_name": [{"translate":"item.retooled.pearlescent_hammer"}],
-            "minecraft:custom_data": {"RTModified":true},
+            "minecraft:custom_data": {"RTModified":true,"RTHammer":true},
             "minecraft:item_model": "retooled:pearlescent_hammer",
             "max_damage": 2621,
             "tool": {

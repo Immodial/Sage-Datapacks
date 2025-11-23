@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.sage.root.title"},
+    "description": {"translate": "advancements.sage.root.description"},
+    "icon": {"id": "minecraft:grass_block"},
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/stone"
+  },
+  "requirements": [
+    ["crafting_table"]
+  ]
+}

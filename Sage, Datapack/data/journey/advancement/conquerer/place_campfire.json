@@ -1,0 +1,120 @@
+{
+  "parent": "journey:conquerer/root",
+  "criteria": {
+    "placed_campfire_in_frozen": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:campfire"
+              },
+              "biomes": "#frostbite:brisk"
+            }
+          }
+        ]
+      }
+    },
+    "placed_campfire_in_brisk": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:campfire"
+              },
+              "biomes": "#frostbite:brisk"
+            }
+          }
+        ]
+      }
+    },
+    "placed_campfire_in_barren_at_night": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:campfire"
+              },
+              "biomes": "#frostbite:barren"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "frostbite:day"
+            }
+          }
+        ]
+      }
+    },
+    "placed_campfire_in_semibarren_at_night": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:campfire"
+              },
+              "biomes": "#frostbite:semibarren"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "frostbite:day"
+            }
+          }
+        ]
+      }
+    },
+    "placed_campfire_in_heated_at_night": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:campfire"
+              },
+              "biomes": "#frostbite:heated"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "frostbite:day"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.conquerer.place_campfire.title"},
+    "description": {"translate": "advancements.conquerer.place_campfire.description"},
+    "icon": {"id": "minecraft:campfire"}
+  },
+  "requirements": [
+    [
+      "placed_campfire_in_frozen",
+      "placed_campfire_in_brisk",
+      "placed_campfire_in_barren_at_night",
+      "placed_campfire_in_semibarren_at_night",
+      "placed_campfire_in_heated_at_night"
+    ]
+  ]
+}

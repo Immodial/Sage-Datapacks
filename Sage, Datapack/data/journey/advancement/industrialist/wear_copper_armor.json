@@ -1,0 +1,66 @@
+{
+  "parent": "journey:industrialist/root",
+  "criteria": {
+    "wear_copper_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:copper_helmet"
+            }
+          }
+        }
+      }
+    },
+    "wear_copper_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:copper_chestplate"
+            }
+          }
+        }
+      }
+    },
+    "wear_copper_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:copper_leggings"
+            }
+          }
+        }
+      }
+    },
+    "wear_copper_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:copper_boots"
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.industrialist.wear_copper_armor.title"},
+    "description": {"translate": "advancements.industrialist.wear_copper_armor.description"},
+    "icon": {"id": "minecraft:copper_helmet"}
+  },
+  "requirements": [
+    [
+      "wear_copper_helmet",
+      "wear_copper_chestplate",
+      "wear_copper_leggings",
+      "wear_copper_boots"
+    ]
+  ]
+}
