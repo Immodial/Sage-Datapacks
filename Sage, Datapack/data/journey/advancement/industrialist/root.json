@@ -1,27 +1,22 @@
 {
   "criteria": {
-    "has_copper_tool": {
-      "trigger": "minecraft:inventory_changed",
+    "use_crafting_table_15_times": {
+      "trigger": "minecraft:location",
       "conditions": {
-        "items": [
-          {
-            "items": "#journey:copper_tools"
-          }
-        ]
-      }
-    },
-    "has_hammer": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "custom_data": {
-                "RTHammer": true
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:interact_with_crafting_table",
+                "value": {
+                  "min": 15
+                }
               }
-            }
+            ]
           }
-        ]
+        }
       }
     }
   },
@@ -39,6 +34,6 @@
     "background": "journey:gui/advancements/backgrounds/copper"
   },
   "requirements": [
-    ["has_copper_tool","has_hammer"]
+    ["use_crafting_table_15_times"]
   ]
 }
