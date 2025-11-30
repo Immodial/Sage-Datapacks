@@ -1,7 +1,16 @@
 {
   "criteria": {
     "use_study": {
-      "trigger": "minecraft:using_item"
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": {
+              "SDYStudy": true
+            }
+          }
+        }
+      }
     }
   },
   "requirements": [

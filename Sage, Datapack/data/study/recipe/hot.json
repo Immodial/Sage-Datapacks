@@ -12,7 +12,10 @@
             "minecraft:item_name": [{"translate": "item.study.study"}],
             "minecraft:lore": [{"text":"The Hot","italic":false,"color": "dark_green"}],
             "minecraft:item_model": "study:study",
-            "minecraft:custom_data": {"SDYStudy": "hot"},
+            "minecraft:custom_data": {
+                "SDYStudy": true,
+                "SDYTopic": "hot"
+            },
             "minecraft:consumable": {
                 "consume_seconds": 100000,
                 "animation": "block",

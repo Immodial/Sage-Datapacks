@@ -8,5 +8,5 @@ tag @s add SDYUsing
 advancement revoke @s only study:use
 # Run correct function as long as you're not holding down
 execute if entity @s[tag=SDYUsed] run return fail
-execute if data entity @s SelectedItem.components."minecraft:custom_data".SDYStudy run function study:read with entity @s SelectedItem.components."minecraft:custom_data"
-execute if data entity @s equipment.offhand.components."minecraft:custom_data".SDYStudy run function study:read with entity @s equipment.offhand.components."minecraft:custom_data"
+execute if data entity @s SelectedItem.components."minecraft:custom_data".SDYTopic run function study:read with entity @s SelectedItem.components."minecraft:custom_data"
+execute if data entity @s equipment.offhand.components."minecraft:custom_data".SDYTopic run function study:read with entity @s equipment.offhand.components."minecraft:custom_data"
