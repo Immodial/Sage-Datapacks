@@ -1,0 +1,32 @@
+{
+  "parent": "journey:conquerer/drink_water",
+  "criteria": {
+    "get_drinking_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "FBDrinkHorn": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.conquerer.get_drinking_horn.title"},
+    "description": {"translate": "advancements.conquerer.get_drinking_horn.description"},
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "item_model": "frostbite:drinking_horn"
+      }
+    }
+  },
+  "requirements": [
+    ["get_drinking_horn"]
+  ]
+}
