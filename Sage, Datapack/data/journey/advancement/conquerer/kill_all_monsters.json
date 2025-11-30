@@ -1,0 +1,346 @@
+{
+  "parent": "journey:conquerer/kill_monster",
+  "criteria": {
+    "kill_blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:blaze"
+        }
+      }
+    },
+    "kill_bogged": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:bogged"
+        }
+      }
+    },
+    "kill_breeze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:breeze"
+        }
+      }
+    },
+    "kill_cave_spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cave_spider"
+        }
+      }
+    },
+    "kill_creaking": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creaking"
+        }
+      }
+    },
+    "kill_creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creeper"
+        }
+      }
+    },
+    "kill_drowned": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:drowned"
+        }
+      }
+    },
+    "kill_elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:elder_guardian"
+        }
+      }
+    },
+    "kill_ender_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    },
+    "kill_enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:enderman"
+        }
+      }
+    },
+    "kill_endermite": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:endermite"
+        }
+      }
+    },
+    "kill_evoker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:evoker"
+        }
+      }
+    },
+    "kill_ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ghast"
+        }
+      }
+    },
+    "kill_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:guardian"
+        }
+      }
+    },
+    "kill_hoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:hoglin"
+        }
+      }
+    },
+    "kill_husk": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:husk"
+        }
+      }
+    },
+    "kill_magma_cube": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:magma_cube"
+        }
+      }
+    },
+    "kill_phantom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:phantom"
+        }
+      }
+    },
+    "kill_piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        }
+      }
+    },
+    "kill_piglin_brute": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin_brute"
+        }
+      }
+    },
+    "kill_pillager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:pillager"
+        }
+      }
+    },
+    "kill_ravager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ravager"
+        }
+      }
+    },
+    "kill_shulker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:shulker"
+        }
+      }
+    },
+    "kill_silverfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:silverfish"
+        }
+      }
+    },
+    "kill_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton"
+        }
+      }
+    },
+    "kill_slime": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:slime"
+        }
+      }
+    },
+    "kill_spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:spider"
+        }
+      }
+    },
+    "kill_stray": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:stray"
+        }
+      }
+    },
+    "kill_vex": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vex"
+        }
+      }
+    },
+    "kill_vindicator": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator"
+        }
+      }
+    },
+    "kill_witch": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:witch"
+        }
+      }
+    },
+    "kill_wither_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton"
+        }
+      }
+    },
+    "kill_wither": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither"
+        }
+      }
+    },
+    "kill_zoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zoglin"
+        }
+      }
+    },
+    "kill_zombie_villager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager"
+        }
+      }
+    },
+    "kill_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie"
+        }
+      }
+    },
+    "kill_zombified_piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombified_piglin"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.conquerer.kill_all_monsters.title"},
+    "description": {"translate": "advancements.conquerer.kill_all_monsters.description"},
+    "icon": { "id": "minecraft:diamond_sword" },
+    "frame": "challenge"
+  },
+  "requirements": [
+    ["kill_blaze"],
+    ["kill_bogged"],
+    ["kill_breeze"],
+    ["kill_cave_spider"],
+    ["kill_creaking"],
+    ["kill_creeper"],
+    ["kill_drowned"],
+    ["kill_elder_guardian"],
+    ["kill_ender_dragon"],
+    ["kill_enderman"],
+    ["kill_endermite"],
+    ["kill_evoker"],
+    ["kill_ghast"],
+    ["kill_guardian"],
+    ["kill_hoglin"],
+    ["kill_husk"],
+    ["kill_magma_cube"],
+    ["kill_phantom"],
+    ["kill_piglin"],
+    ["kill_piglin_brute"],
+    ["kill_pillager"],
+    ["kill_ravager"],
+    ["kill_shulker"],
+    ["kill_silverfish"],
+    ["kill_skeleton"],
+    ["kill_slime"],
+    ["kill_spider"],
+    ["kill_stray"],
+    ["kill_vex"],
+    ["kill_vindicator"],
+    ["kill_witch"],
+    ["kill_wither_skeleton"],
+    ["kill_wither"],
+    ["kill_zoglin"],
+    ["kill_zombie_villager"],
+    ["kill_zombie"],
+    ["kill_zombified_piglin"]
+  ]
+}

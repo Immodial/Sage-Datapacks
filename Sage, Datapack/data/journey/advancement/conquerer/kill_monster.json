@@ -1,0 +1,21 @@
+{
+  "parent": "journey:conquerer/root",
+  "criteria": {
+    "kill_monster": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#journey:monster"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": {"translate": "advancements.conquerer.kill_monster.title"},
+    "description": {"translate": "advancements.conquerer.kill_monster.description"},
+    "icon": {"id": "minecraft:iron_sword"}
+  },
+  "requirements": [
+    ["kill_monster"]
+  ]
+}
